@@ -16,7 +16,7 @@ function build_manifest($pid) {
   $doc_url = "$base_url/fedora/repository/$pid";
   //xml datastreams used by Shared Canvas must be echoed though ajax.
   $doc_path_url = "$base_url/emic/serve/$pid";
-  $dimensions = get_height_and_width($doc_url . '/JPEG/');
+  $dimensions = get_height_and_width($pid);
 
   $height = $dimensions['height'];
   $width = $dimensions['width'];
@@ -286,8 +286,10 @@ function get_annotationList($doc_url, $doc_path_url) {
  * @return array
  * Array has two values - height and width
  */
-function get_height_and_width($file_path) {
-  $jpeg = file_get_contents($file_path);
+function get_height_and_width($pid) {
+  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
+  $item = new Fedora_Item($pid);
+  $jpeg = $item->get_datastream_dissemination('JPEG');
   $file = file_directory_path() . '/tmpJPG1.jpg';
   file_put_contents($file, $jpeg);
   exec("exiftool -X $file", $output);
