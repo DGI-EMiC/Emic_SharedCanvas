@@ -1,0 +1,1477 @@
+@prefix cnt: <http://www.w3.org/2008/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix oac: <http://www.openannotation.org/ns/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://localhost/EmicShared/impl/demo1/res/Transcriptions-f6r.n3> a <http://www.openarchives.org/ore/terms/ResourceMap>;
+    dc:format "n3";
+    dcterms:creator <urn:uuid:7942e820-c2f5-4f99-bcae-5f9b2197d26d>;
+    dcterms:modified "2011-08-24T19:10:48Z";
+    ore:describes <http://localhost/EmicShared/impl/demo1/res/Transcriptions-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=169,1079,419,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=172,1045,409,45> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=61,1042,121,91> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=61,1740,522,52> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=61,1812,499,52> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=63,1708,516,54> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=63,1781,514,44> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=659,1723,581,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=659,1816,563,60> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=66,1012,329,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=66,1378,507,44> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=66,1478,517,48> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=66,573,507,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=663,1082,154,32> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=663,1755,596,46> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=664,1138,121,89> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=664,1788,615,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1513,584,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1552,604,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1588,563,46> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1649,576,50> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1684,559,50> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=668,1617,543,52> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=670,1381,567,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=672,1352,598,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=672,1484,591,35> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=674,1214,577,37> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=674,1450,600,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=676,1110,542,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=676,1281,570,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=676,1315,581,40> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=676,1417,581,42> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=677,1012,571,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=679,1045,589,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=68,1248,511,44> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=68,1409,524,50> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=68,1543,528,50> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=68,1610,531,52> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=681,1244,583,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=683,943,537,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=683,978,537,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=685,910,531,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=689,570,542,46> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=689,609,535,37> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=692,640,528,36> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=692,676,530,37> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=692,744,535,28> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=692,884,537,28> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=694,538,522,37> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=694,774,552,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=694,808,528,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=694,845,550,33> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=696,432,529,47> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=698,226,527,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=698,399,522,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=698,503,531,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=698,709,526,35> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1313,513,44> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1342,502,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1448,498,45> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1512,513,46> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1575,503,48> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1640,526,55> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1679,518,48> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,475,541,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,611,535,42> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,743,528,46> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,845,490,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,878,533,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,910,518,44> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,975,509,48> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=700,150,572,48> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=700,295,522,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=700,466,511,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=702,193,536,33> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=702,258,520,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=702,326,538,45> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=702,365,522,38> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,644,500,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,679,540,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,780,503,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,815,524,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,945,501,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=74,1179,520,41> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=74,1212,507,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=74,1279,498,47> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=74,711,520,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,1118,494,33> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,1140,544,48> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,343,523,34> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,378,529,32> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,406,546,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,508,510,36> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,540,516,43> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=778,1146,451,37> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=78,169,510,42> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=78,442,525,37> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=782,1183,477,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=79,308,496,33> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=808,1081,416,39> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=81,209,515,32> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=81,243,530,33> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=87,274,520,36> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-0> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "Edouart et la royne mais dieu ne le voult" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-1> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "mie consentir si les fist ainsi que par droit" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-10> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "de vivres en deschargant leurs chevaux" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-100> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "venir a paix, ne sauver leurs biens et leurs" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-101> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "vies au destroit, ilz s'i accorderent et ouvrirent" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-102> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "les portes si que madame la royne, mesire Jehan" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-11> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "et leur harnois et si ne savoient en quel" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-12> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "endroit  d'Engleterre ilz estoient arrivez" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-13> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "ou en povoir d'amis ou en povoir d'ennemis." .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-14> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "Au quart jour ilz se mistrent a voie a" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-15> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "l'aventure de dieu et de Saint George comme" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-16> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "ceulz qui avoient ey toutes mesaises de" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-17> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "fain et de froit par nuis avec les grans" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-18> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "paours qu'ilz avoient eues et avoient" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-19> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "encores si chevaucierent tant et amont" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-2> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "miracle destourner comme vous avez oy. Or" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-20> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "et aval et d'une part et d'autre qu'ilz" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-21> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "trouverent aucuns hamelez et puis apres" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-22> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "trouverent une grant abbaie de moines" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-23> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "noirs que on claime Saint Aymon. Si se" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-24> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "herbergierent et rafreschirent en celle" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-25> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "abbaie par trois jours." .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-26> a <http://dms.stanford.edu/ns/InitialBody>,
+        <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "A" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-27> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "dont s'espandirent nouvelles par" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-28> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "le pays tant que elles parvinrent" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-29> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "a ceulz par qui seurte et mandement" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-3> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "avint que au chief de 2 jours ce torment" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-30> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "la dicte dame estoit rappellee si s'appareillient" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-31> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "du plus tost qu'ilz peuvent de venir vers" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-32> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "son filz qu'ilz vouloient avoir a seignr." .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-33> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "Et le premier qui vint encontre lui et qui" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-34> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "plus grant confort donna a ceulz qui" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-35> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "estoient venuz avec lui ce fu le conte Henri" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-36> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "de Lencastre au tort col qui fu frere au" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-37> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "conte Thomas de Lencastre, qui fu decole" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-38> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "sicomme vous avez oy cy dessus, et fu pere" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-39> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "au duc de Lencastre qui fu si bon chevalier et" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-4> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "cessa et apparceurent les mariniers" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-40> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "si recommandez sicomme vous pouvez oir" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-41> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "en ceste histoire, ains que vous venrez a" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-42> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "la conclusion. Cil conte Henry de Lencastre" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-43> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "dessus dit vint a grant compaignie de" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-44> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "gens d'armes. Apres tant d'uns et d'autres" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-45> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "vindrent contes, barons, chevaliers et escuiers" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-46> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "a tout gens d'armes qu'il leur sembla un" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-47> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "qu'ilz fussent hors de tous perils et tous" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-48> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "les jours leur croissoient gens d'armes" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-49> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "ainsi qu'ilz aloient avant. Sy eurent" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-5> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "terre en Engleterre. Si se trairent celle part" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-50> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "conseil entr'eulz ma dame la royne et" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-51> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "des barons, chevaliers et escuiers qui venuz estoient" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-52> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "encontre lui qu'ilz yroient droit a Brisco a" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-53> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "tout leur povoir la ou le roy se tenoit" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-54> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "adont et le despensier qui estoit bonne" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-55> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "ville et grosse et riche seans sus un bon" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-56> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "port de mer et sy y a un chastel trop dure-" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-57> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "ment fort seant sur mer si que la mer" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-58> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "flote tout autour. La endroit se tenoit" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-59> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "le roy messire Hues le Despensier le pere," .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-6> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "moult joieux et pristrent terre sus le sa-" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-60> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "qui estoit pres en l'aage de 24 et 10 ans," .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-61> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "messire Hue le Despensier le filz et le maistre" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-62> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "conseillier le roy qui tous les mauvais" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-63> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "fais lui conseilloit le conte d'Arondel qui" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-64> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "avoit a femme la fille Hue le Despensier le" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-65> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "joenne et aussi pluseurs autres chevaliers et" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-66> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "escuiers qui repairoient entour la court" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-67> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "ainsi que gens d'estat repairent voulentiers" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-68> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "entour leurs seigneurs. Si se mistrent ma-" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-69> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "dame la royne et toute sa compaignie mesire" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-7> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "blon et sur le droit rivage de la mer sans" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-70> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "Jehan de Hainau, ces contes et ces barons" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-71> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "d'Engleterre et leurs routes au droit chemin" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-72> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "pour aler celle part. Et par toutes les villes" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-73> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "la ou ilz entroient, on leur faisoit feste et" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-74> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "honneur et toudis leur venoient gens a" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-75> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "destre et a senestre de tous costez et tant" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-76> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "firent par leurs journees qu'ilz parvindrent" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-77> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "devant la ville de Brisco si l'assegierent a droit" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-78> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "siege fait." .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-79> a <http://dms.stanford.edu/ns/RubricBody>,
+        <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "Comment la royne prist le conte" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-8> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "havene et sans droit port si demourerent" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-80> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "d'Arondel et mesire Hue le Despensier le pere." .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-81> a <http://dms.stanford.edu/ns/InitialBody>,
+        <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "L" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-82> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "e roy et mesire Hue le Despensier le" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-83> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "filz se tenoient voulentiers on chas-" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-84> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "tel le vieulx mesire Hue le pere et le conte d'A-" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-85> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "rondel se tenoient en la ville de Brisco et pluseurs" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-86> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "autres qui estoient de leur accort. Quant" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-87> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "ceulz de la ville virent le povoir de la dame si" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-88> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "grant et si enforcie et pres que toute Engleterre" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-89> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "estoit de leur accort et veoient le peril et le" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-9> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "sus ce sablon 3 jours a petite pourveance" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-90> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "dommage si apparant, ilz orent conseil qu'ilz" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-91> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "se rendroient et la ville avec sauve leurs vies," .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-92> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "leurs membres et leur avoir. Si envoierent" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-93> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "traittier et parlementer devers la royne" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-94> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "et son conseil qui ne se vouldrent mie accorder" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-95> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "ainsi se la dessus dicte royne ne povoit faire" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-96> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "du dit mesire Hue et du conte d'Arondel sa" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-97> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "voulente. Car pour eulz destruire estoit elle" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-98> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "la venue. Quant les hommes de la ville de" .
+
+<http://localhost/EmicShared/impl/demo1/res/Line-f6r-99> a <http://purl.org/dc/dcmitype/Text>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "Brisco vuent que autrement ilz ne povoient" .
+
+<http://localhost/EmicShared/impl/demo1/res/Transcriptions-f6r> a <http://dms.stanford.edu/ns/TextAnnotationList>,
+        <http://www.openarchives.org/ore/terms/Aggregation>,
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#List>;
+    dms:forCanvas <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r>;
+    ore:aggregates <urn:uuid:048e621c-ebd5-42c9-8285-cae3e51d32e3>,
+        <urn:uuid:08d5f4c5-154e-4910-8bce-f8c09a034242>,
+        <urn:uuid:0af38051-29a1-454e-8596-ed01b6247510>,
+        <urn:uuid:0b009166-e07d-4d7f-a6e2-9ad3841358e5>,
+        <urn:uuid:0c84a69a-e3b8-47f1-b361-1293c4c08523>,
+        <urn:uuid:0ee2c4da-9d8e-4ab5-806e-fc6493d5e01f>,
+        <urn:uuid:12d9ed83-4170-4844-9531-abfa2eae9cb7>,
+        <urn:uuid:13610dd4-daf0-46f9-b89c-6d97ba17e05d>,
+        <urn:uuid:1517d23b-adac-45f4-bbfc-287e90ebd222>,
+        <urn:uuid:1993a4bc-af16-4a1c-8015-124f47ec61ed>,
+        <urn:uuid:19fb1109-b60e-4474-a30c-f832020e6308>,
+        <urn:uuid:26638ac4-bdfc-4721-bfc6-75c3005ace67>,
+        <urn:uuid:2ea359cc-ad12-45c4-a738-f54fb0df044c>,
+        <urn:uuid:306b2dfd-a64f-4d19-99cb-c1f313cca9c1>,
+        <urn:uuid:3251411e-3002-40a5-a6f9-f70fefd0f2cc>,
+        <urn:uuid:32ef5926-f257-4832-9c80-29cd4fc1398c>,
+        <urn:uuid:3348739a-f695-4ef7-9ed9-f2af2a4e7a01>,
+        <urn:uuid:33b5832e-8284-4b8b-bf1f-8afd6e62450f>,
+        <urn:uuid:37562ba1-8564-4dfb-86ad-ecb5f12f21c4>,
+        <urn:uuid:38346eee-d090-4fbc-8dd0-e7f55e2df27f>,
+        <urn:uuid:3aa231e5-8a8b-4646-8b1a-25be789e34eb>,
+        <urn:uuid:3b3f1994-e86d-4ea1-943d-addb669d8c94>,
+        <urn:uuid:3e6c3ed7-c523-45b4-bb70-11d9b6c21528>,
+        <urn:uuid:41a5ac05-5d51-4107-8b87-a2f832de098e>,
+        <urn:uuid:4464659d-7239-4d8d-bed6-67d9f4508eab>,
+        <urn:uuid:46d5b971-3e6f-4d1d-979d-4cc1db8b9ff4>,
+        <urn:uuid:48302504-cbc4-44aa-89e2-54808a0ca927>,
+        <urn:uuid:4a5ac702-612d-4d70-a61e-7f0dfaf4723d>,
+        <urn:uuid:4a652a9f-4685-424f-8c89-a46bb6042bc6>,
+        <urn:uuid:4a8b76e8-b927-4b4e-8760-d28e0b04094a>,
+        <urn:uuid:4b67308f-097c-445a-8524-80f025b42523>,
+        <urn:uuid:575b5ee8-c5dc-4189-b040-b8d829edf8ff>,
+        <urn:uuid:5839fce5-432b-486c-bdbf-e6b57aec7f7f>,
+        <urn:uuid:585d0dac-f439-4062-8d85-ef2d864163c4>,
+        <urn:uuid:5905fe07-a45d-4e2f-a5c7-74a489d195f4>,
+        <urn:uuid:5e152339-1609-4c87-8483-0e8d64630f63>,
+        <urn:uuid:609e300c-412d-4dbc-9457-cac078b8ed19>,
+        <urn:uuid:6192edd1-3fb1-472c-a806-38ac1b8355aa>,
+        <urn:uuid:6263ebff-f26e-4766-b304-8cafb66103ae>,
+        <urn:uuid:67688831-d16e-4310-a8f2-4ba48c9c6003>,
+        <urn:uuid:6ab3f09e-3949-46f2-ae8a-c9453f37bcdb>,
+        <urn:uuid:6d636c34-bd9b-476c-9722-73c3d4243f1a>,
+        <urn:uuid:6e95a267-42b1-4ab5-9339-1d2d2bad6381>,
+        <urn:uuid:714ad989-2b6b-4139-a75e-4712b878c62d>,
+        <urn:uuid:74fa3b6c-43f9-41a9-b04b-3c01e3aeebae>,
+        <urn:uuid:7b70eaff-46a1-4dca-9413-261971ffe59c>,
+        <urn:uuid:8153a628-89e0-4e64-bc35-9f1efc2aa75f>,
+        <urn:uuid:85ef8b4e-5967-479a-a359-e2f809322f26>,
+        <urn:uuid:87e18e58-d739-49a5-ad9d-f2213f788082>,
+        <urn:uuid:8c7259a2-a2bd-41eb-99a9-03084065e804>,
+        <urn:uuid:8d96863f-6177-4d7b-ad08-d2a90036527e>,
+        <urn:uuid:91ea8c30-63fe-44e0-8fbe-3dc961a8d676>,
+        <urn:uuid:93181269-63e6-424d-b475-6ab52afede59>,
+        <urn:uuid:9323feb1-ff57-45ee-8b01-1815c91d98d8>,
+        <urn:uuid:9548b132-7954-4f09-9f50-1893cd898055>,
+        <urn:uuid:95dadbe0-c607-4e0c-8418-c184087d7b11>,
+        <urn:uuid:97cf5365-9363-4d40-a6f9-f88d8dc424da>,
+        <urn:uuid:98b50cf5-fdc5-46d5-989a-a0e6526fb4f6>,
+        <urn:uuid:9e40858c-7fa4-4823-84b0-ab76b214e95b>,
+        <urn:uuid:a08aec3d-588a-4c2b-8741-f3b1c5efdc4d>,
+        <urn:uuid:a1aebce5-fe20-4b09-9933-1aea8ea4ee1c>,
+        <urn:uuid:a26a2917-1928-4010-bbc2-0bc3362ae16d>,
+        <urn:uuid:a2fdfa45-8a7d-4b69-bb3b-2a474e00a2ee>,
+        <urn:uuid:a3720bb8-3366-40ee-883b-a42fff8a6aa9>,
+        <urn:uuid:ab209d0c-a42f-42e4-bfb0-6ceface435a2>,
+        <urn:uuid:ac2121e4-6910-46a7-af41-a3170eaa5bc1>,
+        <urn:uuid:ac3ebc7d-fc2f-4534-b1c8-851e2af06ee3>,
+        <urn:uuid:ae84a4bc-c314-4b4a-b45b-becc0f8d21a7>,
+        <urn:uuid:afc18753-ea59-4d5f-ba3d-1a183f6c2b7a>,
+        <urn:uuid:b14ddeb0-bc9d-486a-a822-7c2982e51f2f>,
+        <urn:uuid:b58046d1-8e8e-40e0-a537-294b80ecb24f>,
+        <urn:uuid:bb26a71c-e7a9-4f11-b3a8-d3f51e2754f2>,
+        <urn:uuid:bb34da89-2827-4629-a51c-cf3f7131b5ec>,
+        <urn:uuid:bc7ff982-96a6-4afc-ad5a-5a037f5d8916>,
+        <urn:uuid:bd292eed-226d-4c13-9ee3-c579425ce182>,
+        <urn:uuid:bd44a344-8148-48eb-8a15-897698550ffb>,
+        <urn:uuid:bed625cb-cfe9-4627-a1e8-acac50f49ff5>,
+        <urn:uuid:c5e8f948-5da5-4ba8-b9e4-42d0abfdb9a1>,
+        <urn:uuid:c6502e09-b993-44d8-a86d-fcde491302da>,
+        <urn:uuid:c6a420a5-5de9-48d7-884c-20e4101796b0>,
+        <urn:uuid:c7641978-be12-4062-b4a9-34c7d924ca9a>,
+        <urn:uuid:c90ba79a-8610-490a-90be-56db2a54f89a>,
+        <urn:uuid:cfab4a28-5748-4f89-8c79-73506772337a>,
+        <urn:uuid:d06d6fbc-a72e-4d79-b5fd-65f26fc2aee2>,
+        <urn:uuid:d26d0fd1-7016-4002-b03a-d8a25bd0cc3e>,
+        <urn:uuid:d94368fc-f6c1-46b3-9e93-bc44b432c25a>,
+        <urn:uuid:d9838ac2-fcd5-40e6-ad34-eeb494b3edf4>,
+        <urn:uuid:dac8491d-52b8-43fc-9394-5b6d0f8d0cdb>,
+        <urn:uuid:de2abcb1-3ebc-432d-9681-0de25ee0017e>,
+        <urn:uuid:e3b7f902-dfcb-401d-8ec3-35d6f026b913>,
+        <urn:uuid:e59e315f-cefc-43d2-a3fd-f56a35ad520d>,
+        <urn:uuid:e5dbbedf-3d4b-4078-91d7-614e7f05c5bd>,
+        <urn:uuid:e9335f5a-8f73-44ca-9d70-821222978fe1>,
+        <urn:uuid:eac13302-1267-49aa-a902-6b916c039421>,
+        <urn:uuid:eb38e8cc-5bd3-4fe5-81fb-c7b2bc7ba739>,
+        <urn:uuid:f2156961-550b-42ee-9f9a-2c4c82996462>,
+        <urn:uuid:f32491c0-e9c5-4feb-95b1-4e7bfe3a3ecc>,
+        <urn:uuid:f40c6e5b-4386-4a8f-b86e-a28dd9ed5766>,
+        <urn:uuid:f7fcc844-ac03-4c3c-9daa-81f357c88717>,
+        <urn:uuid:fa1ba324-9054-420f-a127-372cac6927a4>,
+        <urn:uuid:fba711d8-d326-4a64-8405-3682f5e5ca29>,
+        <urn:uuid:ff24b5f8-852a-4d19-a0be-23b5c6338ef3>,
+        <urn:uuid:ff98493b-11f0-441a-bec9-37e5baed664c>;
+    rdf:first <urn:uuid:ae84a4bc-c314-4b4a-b45b-becc0f8d21a7>;
+    rdf:rest ( <urn:uuid:e9335f5a-8f73-44ca-9d70-821222978fe1> <urn:uuid:d9838ac2-fcd5-40e6-ad34-eeb494b3edf4> <urn:uuid:a08aec3d-588a-4c2b-8741-f3b1c5efdc4d> <urn:uuid:9548b132-7954-4f09-9f50-1893cd898055> <urn:uuid:1993a4bc-af16-4a1c-8015-124f47ec61ed> <urn:uuid:93181269-63e6-424d-b475-6ab52afede59> <urn:uuid:6263ebff-f26e-4766-b304-8cafb66103ae> <urn:uuid:bb34da89-2827-4629-a51c-cf3f7131b5ec> <urn:uuid:c6a420a5-5de9-48d7-884c-20e4101796b0> <urn:uuid:5e152339-1609-4c87-8483-0e8d64630f63> <urn:uuid:1517d23b-adac-45f4-bbfc-287e90ebd222> <urn:uuid:c6502e09-b993-44d8-a86d-fcde491302da> <urn:uuid:bb26a71c-e7a9-4f11-b3a8-d3f51e2754f2> <urn:uuid:ff24b5f8-852a-4d19-a0be-23b5c6338ef3> <urn:uuid:74fa3b6c-43f9-41a9-b04b-3c01e3aeebae> <urn:uuid:9e40858c-7fa4-4823-84b0-ab76b214e95b> <urn:uuid:fba711d8-d326-4a64-8405-3682f5e5ca29> <urn:uuid:585d0dac-f439-4062-8d85-ef2d864163c4> <urn:uuid:38346eee-d090-4fbc-8dd0-e7f55e2df27f> <urn:uuid:f2156961-550b-42ee-9f9a-2c4c82996462> <urn:uuid:4a652a9f-4685-424f-8c89-a46bb6042bc6> <urn:uuid:4464659d-7239-4d8d-bed6-67d9f4508eab> <urn:uuid:32ef5926-f257-4832-9c80-29cd4fc1398c> <urn:uuid:87e18e58-d739-49a5-ad9d-f2213f788082> <urn:uuid:bc7ff982-96a6-4afc-ad5a-5a037f5d8916> <urn:uuid:d94368fc-f6c1-46b3-9e93-bc44b432c25a> <urn:uuid:26638ac4-bdfc-4721-bfc6-75c3005ace67> <urn:uuid:ac3ebc7d-fc2f-4534-b1c8-851e2af06ee3> <urn:uuid:6d636c34-bd9b-476c-9722-73c3d4243f1a> <urn:uuid:91ea8c30-63fe-44e0-8fbe-3dc961a8d676> <urn:uuid:c5e8f948-5da5-4ba8-b9e4-42d0abfdb9a1> <urn:uuid:3251411e-3002-40a5-a6f9-f70fefd0f2cc> <urn:uuid:ac2121e4-6910-46a7-af41-a3170eaa5bc1> <urn:uuid:3348739a-f695-4ef7-9ed9-f2af2a4e7a01> <urn:uuid:98b50cf5-fdc5-46d5-989a-a0e6526fb4f6> <urn:uuid:46d5b971-3e6f-4d1d-979d-4cc1db8b9ff4> <urn:uuid:8d96863f-6177-4d7b-ad08-d2a90036527e> <urn:uuid:8c7259a2-a2bd-41eb-99a9-03084065e804> <urn:uuid:c90ba79a-8610-490a-90be-56db2a54f89a> <urn:uuid:0ee2c4da-9d8e-4ab5-806e-fc6493d5e01f> <urn:uuid:bed625cb-cfe9-4627-a1e8-acac50f49ff5> <urn:uuid:dac8491d-52b8-43fc-9394-5b6d0f8d0cdb> <urn:uuid:9323feb1-ff57-45ee-8b01-1815c91d98d8> <urn:uuid:ab209d0c-a42f-42e4-bfb0-6ceface435a2> <urn:uuid:575b5ee8-c5dc-4189-b040-b8d829edf8ff> <urn:uuid:ff98493b-11f0-441a-bec9-37e5baed664c> <urn:uuid:6192edd1-3fb1-472c-a806-38ac1b8355aa> <urn:uuid:048e621c-ebd5-42c9-8285-cae3e51d32e3> <urn:uuid:4a5ac702-612d-4d70-a61e-7f0dfaf4723d> <urn:uuid:33b5832e-8284-4b8b-bf1f-8afd6e62450f> <urn:uuid:08d5f4c5-154e-4910-8bce-f8c09a034242> <urn:uuid:7b70eaff-46a1-4dca-9413-261971ffe59c> <urn:uuid:714ad989-2b6b-4139-a75e-4712b878c62d> <urn:uuid:67688831-d16e-4310-a8f2-4ba48c9c6003> <urn:uuid:f32491c0-e9c5-4feb-95b1-4e7bfe3a3ecc> <urn:uuid:41a5ac05-5d51-4107-8b87-a2f832de098e> <urn:uuid:97cf5365-9363-4d40-a6f9-f88d8dc424da> <urn:uuid:4a8b76e8-b927-4b4e-8760-d28e0b04094a> <urn:uuid:19fb1109-b60e-4474-a30c-f832020e6308> <urn:uuid:b14ddeb0-bc9d-486a-a822-7c2982e51f2f> <urn:uuid:12d9ed83-4170-4844-9531-abfa2eae9cb7> <urn:uuid:a2fdfa45-8a7d-4b69-bb3b-2a474e00a2ee> <urn:uuid:8153a628-89e0-4e64-bc35-9f1efc2aa75f> <urn:uuid:85ef8b4e-5967-479a-a359-e2f809322f26> <urn:uuid:609e300c-412d-4dbc-9457-cac078b8ed19> <urn:uuid:4b67308f-097c-445a-8524-80f025b42523> <urn:uuid:48302504-cbc4-44aa-89e2-54808a0ca927> <urn:uuid:3e6c3ed7-c523-45b4-bb70-11d9b6c21528> <urn:uuid:b58046d1-8e8e-40e0-a537-294b80ecb24f> <urn:uuid:e5dbbedf-3d4b-4078-91d7-614e7f05c5bd> <urn:uuid:c7641978-be12-4062-b4a9-34c7d924ca9a> <urn:uuid:f40c6e5b-4386-4a8f-b86e-a28dd9ed5766> <urn:uuid:d26d0fd1-7016-4002-b03a-d8a25bd0cc3e> <urn:uuid:0c84a69a-e3b8-47f1-b361-1293c4c08523> <urn:uuid:a3720bb8-3366-40ee-883b-a42fff8a6aa9> <urn:uuid:eb38e8cc-5bd3-4fe5-81fb-c7b2bc7ba739> <urn:uuid:cfab4a28-5748-4f89-8c79-73506772337a> <urn:uuid:bd292eed-226d-4c13-9ee3-c579425ce182> <urn:uuid:306b2dfd-a64f-4d19-99cb-c1f313cca9c1> <urn:uuid:13610dd4-daf0-46f9-b89c-6d97ba17e05d> <urn:uuid:37562ba1-8564-4dfb-86ad-ecb5f12f21c4> <urn:uuid:3b3f1994-e86d-4ea1-943d-addb669d8c94> <urn:uuid:e59e315f-cefc-43d2-a3fd-f56a35ad520d> <urn:uuid:a1aebce5-fe20-4b09-9933-1aea8ea4ee1c> <urn:uuid:a26a2917-1928-4010-bbc2-0bc3362ae16d> <urn:uuid:e3b7f902-dfcb-401d-8ec3-35d6f026b913> <urn:uuid:2ea359cc-ad12-45c4-a738-f54fb0df044c> <urn:uuid:6e95a267-42b1-4ab5-9339-1d2d2bad6381> <urn:uuid:de2abcb1-3ebc-432d-9681-0de25ee0017e> <urn:uuid:0b009166-e07d-4d7f-a6e2-9ad3841358e5> <urn:uuid:afc18753-ea59-4d5f-ba3d-1a183f6c2b7a> <urn:uuid:5905fe07-a45d-4e2f-a5c7-74a489d195f4> <urn:uuid:3aa231e5-8a8b-4646-8b1a-25be789e34eb> <urn:uuid:5839fce5-432b-486c-bdbf-e6b57aec7f7f> <urn:uuid:eac13302-1267-49aa-a902-6b916c039421> <urn:uuid:fa1ba324-9054-420f-a127-372cac6927a4> <urn:uuid:f7fcc844-ac03-4c3c-9daa-81f357c88717> <urn:uuid:bd44a344-8148-48eb-8a15-897698550ffb> <urn:uuid:6ab3f09e-3949-46f2-ae8a-c9453f37bcdb> <urn:uuid:0af38051-29a1-454e-8596-ed01b6247510> <urn:uuid:d06d6fbc-a72e-4d79-b5fd-65f26fc2aee2> <urn:uuid:95dadbe0-c607-4e0c-8418-c184087d7b11> ) .
+
+<urn:uuid:7942e820-c2f5-4f99-bcae-5f9b2197d26d> a <http://purl.org/dc/terms/Agent>;
+    foaf:mbox "azaroth42@gmail.com";
+    foaf:name "SharedCanvas: Python/rdflib" .
+
+<urn:uuid:048e621c-ebd5-42c9-8285-cae3e51d32e3> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-48>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=61,1740,522,52> .
+
+<urn:uuid:08d5f4c5-154e-4910-8bce-f8c09a034242> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-51>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=700,150,572,48> .
+
+<urn:uuid:0af38051-29a1-454e-8596-ed01b6247510> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-100>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=663,1755,596,46> .
+
+<urn:uuid:0b009166-e07d-4d7f-a6e2-9ad3841358e5> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-90>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=676,1417,581,42> .
+
+<urn:uuid:0c84a69a-e3b8-47f1-b361-1293c4c08523> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-74>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=683,943,537,43> .
+
+<urn:uuid:0ee2c4da-9d8e-4ab5-806e-fc6493d5e01f> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-40>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=66,1478,517,48> .
+
+<urn:uuid:12d9ed83-4170-4844-9531-abfa2eae9cb7> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-61>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=698,503,531,39> .
+
+<urn:uuid:13610dd4-daf0-46f9-b89c-6d97ba17e05d> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-80>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=676,1110,542,41> .
+
+<urn:uuid:1517d23b-adac-45f4-bbfc-287e90ebd222> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-11>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,540,516,43> .
+
+<urn:uuid:1993a4bc-af16-4a1c-8015-124f47ec61ed> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-5>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,343,523,34> .
+
+<urn:uuid:19fb1109-b60e-4474-a30c-f832020e6308> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-59>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=696,432,529,47> .
+
+<urn:uuid:26638ac4-bdfc-4721-bfc6-75c3005ace67> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-27>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=172,1045,409,45> .
+
+<urn:uuid:2ea359cc-ad12-45c4-a738-f54fb0df044c> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-87>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=676,1315,581,40> .
+
+<urn:uuid:306b2dfd-a64f-4d19-99cb-c1f313cca9c1> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-79>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=808,1081,416,39> .
+
+<urn:uuid:3251411e-3002-40a5-a6f9-f70fefd0f2cc> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-32>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=74,1212,507,43> .
+
+<urn:uuid:32ef5926-f257-4832-9c80-29cd4fc1398c> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-23>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,945,501,43> .
+
+<urn:uuid:3348739a-f695-4ef7-9ed9-f2af2a4e7a01> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-34>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=74,1279,498,47> .
+
+<urn:uuid:33b5832e-8284-4b8b-bf1f-8afd6e62450f> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-50>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=61,1812,499,52> .
+
+<urn:uuid:37562ba1-8564-4dfb-86ad-ecb5f12f21c4> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-81>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=664,1138,121,89> .
+
+<urn:uuid:38346eee-d090-4fbc-8dd0-e7f55e2df27f> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-19>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,815,524,39> .
+
+<urn:uuid:3aa231e5-8a8b-4646-8b1a-25be789e34eb> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-93>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1513,584,43> .
+
+<urn:uuid:3b3f1994-e86d-4ea1-943d-addb669d8c94> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-82>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=778,1146,451,37> .
+
+<urn:uuid:3e6c3ed7-c523-45b4-bb70-11d9b6c21528> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-68>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=692,744,535,28> .
+
+<urn:uuid:41a5ac05-5d51-4107-8b87-a2f832de098e> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-56>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=702,326,538,45> .
+
+<urn:uuid:4464659d-7239-4d8d-bed6-67d9f4508eab> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-22>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,910,518,44> .
+
+<urn:uuid:46d5b971-3e6f-4d1d-979d-4cc1db8b9ff4> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-36>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1342,502,39> .
+
+<urn:uuid:48302504-cbc4-44aa-89e2-54808a0ca927> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-67>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=698,709,526,35> .
+
+<urn:uuid:4a5ac702-612d-4d70-a61e-7f0dfaf4723d> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-49>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=63,1781,514,44> .
+
+<urn:uuid:4a652a9f-4685-424f-8c89-a46bb6042bc6> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-21>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,878,533,41> .
+
+<urn:uuid:4a8b76e8-b927-4b4e-8760-d28e0b04094a> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-58>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=698,399,522,39> .
+
+<urn:uuid:4b67308f-097c-445a-8524-80f025b42523> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-66>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=692,676,530,37> .
+
+<urn:uuid:575b5ee8-c5dc-4189-b040-b8d829edf8ff> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-45>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1640,526,55> .
+
+<urn:uuid:5839fce5-432b-486c-bdbf-e6b57aec7f7f> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-94>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1552,604,43> .
+
+<urn:uuid:585d0dac-f439-4062-8d85-ef2d864163c4> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-18>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,780,503,39> .
+
+<urn:uuid:5905fe07-a45d-4e2f-a5c7-74a489d195f4> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-92>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=672,1484,591,35> .
+
+<urn:uuid:5e152339-1609-4c87-8483-0e8d64630f63> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-10>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,508,510,36> .
+
+<urn:uuid:609e300c-412d-4dbc-9457-cac078b8ed19> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-65>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=692,640,528,36> .
+
+<urn:uuid:6192edd1-3fb1-472c-a806-38ac1b8355aa> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-47>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=63,1708,516,54> .
+
+<urn:uuid:6263ebff-f26e-4766-b304-8cafb66103ae> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-7>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,406,546,39> .
+
+<urn:uuid:67688831-d16e-4310-a8f2-4ba48c9c6003> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-54>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=702,258,520,39> .
+
+<urn:uuid:6ab3f09e-3949-46f2-ae8a-c9453f37bcdb> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-99>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=659,1723,581,43> .
+
+<urn:uuid:6d636c34-bd9b-476c-9722-73c3d4243f1a> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-29>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,1118,494,33> .
+
+<urn:uuid:6e95a267-42b1-4ab5-9339-1d2d2bad6381> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-88>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=672,1352,598,41> .
+
+<urn:uuid:714ad989-2b6b-4139-a75e-4712b878c62d> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-53>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=698,226,527,39> .
+
+<urn:uuid:74fa3b6c-43f9-41a9-b04b-3c01e3aeebae> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-15>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,679,540,39> .
+
+<urn:uuid:7b70eaff-46a1-4dca-9413-261971ffe59c> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-52>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=702,193,536,33> .
+
+<urn:uuid:8153a628-89e0-4e64-bc35-9f1efc2aa75f> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-63>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=689,570,542,46> .
+
+<urn:uuid:85ef8b4e-5967-479a-a359-e2f809322f26> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-64>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=689,609,535,37> .
+
+<urn:uuid:87e18e58-d739-49a5-ad9d-f2213f788082> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-24>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,975,509,48> .
+
+<urn:uuid:8c7259a2-a2bd-41eb-99a9-03084065e804> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-38>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=68,1409,524,50> .
+
+<urn:uuid:8d96863f-6177-4d7b-ad08-d2a90036527e> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-37>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=66,1378,507,44> .
+
+<urn:uuid:91ea8c30-63fe-44e0-8fbe-3dc961a8d676> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-30>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,1140,544,48> .
+
+<urn:uuid:93181269-63e6-424d-b475-6ab52afede59> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-6>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=76,378,529,32> .
+
+<urn:uuid:9323feb1-ff57-45ee-8b01-1815c91d98d8> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-43>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1575,503,48> .
+
+<urn:uuid:9548b132-7954-4f09-9f50-1893cd898055> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-4>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=79,308,496,33> .
+
+<urn:uuid:95dadbe0-c607-4e0c-8418-c184087d7b11> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-102>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=659,1816,563,60> .
+
+<urn:uuid:97cf5365-9363-4d40-a6f9-f88d8dc424da> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-57>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=702,365,522,38> .
+
+<urn:uuid:98b50cf5-fdc5-46d5-989a-a0e6526fb4f6> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-35>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1313,513,44> .
+
+<urn:uuid:9e40858c-7fa4-4823-84b0-ab76b214e95b> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-16>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=74,711,520,43> .
+
+<urn:uuid:a08aec3d-588a-4c2b-8741-f3b1c5efdc4d> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-3>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=87,274,520,36> .
+
+<urn:uuid:a1aebce5-fe20-4b09-9933-1aea8ea4ee1c> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-84>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=674,1214,577,37> .
+
+<urn:uuid:a26a2917-1928-4010-bbc2-0bc3362ae16d> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-85>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=681,1244,583,43> .
+
+<urn:uuid:a2fdfa45-8a7d-4b69-bb3b-2a474e00a2ee> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-62>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=694,538,522,37> .
+
+<urn:uuid:a3720bb8-3366-40ee-883b-a42fff8a6aa9> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-75>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=683,978,537,41> .
+
+<urn:uuid:ab209d0c-a42f-42e4-bfb0-6ceface435a2> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-44>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=68,1610,531,52> .
+
+<urn:uuid:ac2121e4-6910-46a7-af41-a3170eaa5bc1> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-33>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=68,1248,511,44> .
+
+<urn:uuid:ac3ebc7d-fc2f-4534-b1c8-851e2af06ee3> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-28>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=169,1079,419,41> .
+
+<urn:uuid:ae84a4bc-c314-4b4a-b45b-becc0f8d21a7> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-0>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=78,169,510,42> .
+
+<urn:uuid:afc18753-ea59-4d5f-ba3d-1a183f6c2b7a> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-91>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=674,1450,600,39> .
+
+<urn:uuid:b14ddeb0-bc9d-486a-a822-7c2982e51f2f> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-60>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=700,466,511,39> .
+
+<urn:uuid:b58046d1-8e8e-40e0-a537-294b80ecb24f> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-69>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=694,774,552,41> .
+
+<urn:uuid:bb26a71c-e7a9-4f11-b3a8-d3f51e2754f2> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-13>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,611,535,42> .
+
+<urn:uuid:bb34da89-2827-4629-a51c-cf3f7131b5ec> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-8>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=78,442,525,37> .
+
+<urn:uuid:bc7ff982-96a6-4afc-ad5a-5a037f5d8916> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-25>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=66,1012,329,41> .
+
+<urn:uuid:bd292eed-226d-4c13-9ee3-c579425ce182> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-78>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=663,1082,154,32> .
+
+<urn:uuid:bd44a344-8148-48eb-8a15-897698550ffb> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-98>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1684,559,50> .
+
+<urn:uuid:bed625cb-cfe9-4627-a1e8-acac50f49ff5> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-41>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1512,513,46> .
+
+<urn:uuid:c5e8f948-5da5-4ba8-b9e4-42d0abfdb9a1> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-31>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=74,1179,520,41> .
+
+<urn:uuid:c6502e09-b993-44d8-a86d-fcde491302da> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-12>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=66,573,507,43> .
+
+<urn:uuid:c6a420a5-5de9-48d7-884c-20e4101796b0> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-9>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,475,541,39> .
+
+<urn:uuid:c7641978-be12-4062-b4a9-34c7d924ca9a> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-71>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=694,845,550,33> .
+
+<urn:uuid:c90ba79a-8610-490a-90be-56db2a54f89a> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-39>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1448,498,45> .
+
+<urn:uuid:cfab4a28-5748-4f89-8c79-73506772337a> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-77>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=679,1045,589,43> .
+
+<urn:uuid:d06d6fbc-a72e-4d79-b5fd-65f26fc2aee2> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-101>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=664,1788,615,43> .
+
+<urn:uuid:d26d0fd1-7016-4002-b03a-d8a25bd0cc3e> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-73>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=685,910,531,39> .
+
+<urn:uuid:d94368fc-f6c1-46b3-9e93-bc44b432c25a> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-26>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=61,1042,121,91> .
+
+<urn:uuid:d9838ac2-fcd5-40e6-ad34-eeb494b3edf4> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-2>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=81,243,530,33> .
+
+<urn:uuid:dac8491d-52b8-43fc-9394-5b6d0f8d0cdb> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-42>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=68,1543,528,50> .
+
+<urn:uuid:de2abcb1-3ebc-432d-9681-0de25ee0017e> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-89>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=670,1381,567,39> .
+
+<urn:uuid:e3b7f902-dfcb-401d-8ec3-35d6f026b913> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-86>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=676,1281,570,41> .
+
+<urn:uuid:e59e315f-cefc-43d2-a3fd-f56a35ad520d> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-83>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=782,1183,477,39> .
+
+<urn:uuid:e5dbbedf-3d4b-4078-91d7-614e7f05c5bd> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-70>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=694,808,528,39> .
+
+<urn:uuid:e9335f5a-8f73-44ca-9d70-821222978fe1> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-1>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=81,209,515,32> .
+
+<urn:uuid:eac13302-1267-49aa-a902-6b916c039421> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-95>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1588,563,46> .
+
+<urn:uuid:eb38e8cc-5bd3-4fe5-81fb-c7b2bc7ba739> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-76>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=677,1012,571,39> .
+
+<urn:uuid:f2156961-550b-42ee-9f9a-2c4c82996462> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-20>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,845,490,39> .
+
+<urn:uuid:f32491c0-e9c5-4feb-95b1-4e7bfe3a3ecc> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-55>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=700,295,522,41> .
+
+<urn:uuid:f40c6e5b-4386-4a8f-b86e-a28dd9ed5766> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-72>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=692,884,537,28> .
+
+<urn:uuid:f7fcc844-ac03-4c3c-9daa-81f357c88717> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-97>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=666,1649,576,50> .
+
+<urn:uuid:fa1ba324-9054-420f-a127-372cac6927a4> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-96>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=668,1617,543,52> .
+
+<urn:uuid:fba711d8-d326-4a64-8405-3682f5e5ca29> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-17>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,743,528,46> .
+
+<urn:uuid:ff24b5f8-852a-4d19-a0be-23b5c6338ef3> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-14>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=72,644,500,41> .
+
+<urn:uuid:ff98493b-11f0-441a-bec9-37e5baed664c> a <http://dms.stanford.edu/ns/TextAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/Line-f6r-46>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r#xywh=70,1679,518,48> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f6r";
+    exif:height 2229;
+    exif:width 1542 .
+

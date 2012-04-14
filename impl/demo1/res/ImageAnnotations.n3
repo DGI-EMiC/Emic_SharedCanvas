@@ -1,0 +1,1230 @@
+@prefix cnt: <http://www.w3.org/2008/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix dms: <http://dms.stanford.edu/ns/> .
+@prefix exif: <http://www.w3.org/2003/12/exif/ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix oac: <http://www.openannotation.org/ns/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://localhost/EmicShared/impl/demo1/res/ImageAnnotations.n3> a <http://www.openarchives.org/ore/terms/ResourceMap>;
+    dc:format "n3";
+    dcterms:creator <urn:uuid:c8eed69e-722c-4dd5-9f94-7715c5773f05>;
+    dcterms:modified "2011-08-24T19:09:59Z";
+    ore:describes <http://localhost/EmicShared/impl/demo1/res/ImageAnnotations> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f10r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f10r";
+    exif:height 2223;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f10v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f10v";
+    exif:height 2208;
+    exif:width 1530 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f11r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f11r";
+    exif:height 2232;
+    exif:width 1527 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f11v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f11v";
+    exif:height 2205;
+    exif:width 1554 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f12r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f12r";
+    exif:height 2211;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f12v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f12v";
+    exif:height 2199;
+    exif:width 1530 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f13r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f13r";
+    exif:height 2208;
+    exif:width 1533 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f13v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f13v";
+    exif:height 2190;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f14r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f14r";
+    exif:height 2211;
+    exif:width 1539 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f14v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f14v";
+    exif:height 2202;
+    exif:width 1536 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f15r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f15r";
+    exif:height 2193;
+    exif:width 1533 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f15v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f15v";
+    exif:height 2232;
+    exif:width 1506 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f16r#xywh=640,780,590,410> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f16r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f16v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f16v";
+    exif:height 2178;
+    exif:width 1521 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f17r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f17r";
+    exif:height 2214;
+    exif:width 1476 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f17v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f17v";
+    exif:height 2181;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f18r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f18r";
+    exif:height 2193;
+    exif:width 1476 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f18v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f18v";
+    exif:height 2169;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f19r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f19r";
+    exif:height 2196;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f19v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f19v";
+    exif:height 2175;
+    exif:width 1503 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f1r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f1r";
+    exif:height 2217;
+    exif:width 1548 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f1v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f1v";
+    exif:height 2202;
+    exif:width 1521 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f20r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f20r";
+    exif:height 2193;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f20v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f20v";
+    exif:height 2169;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f21r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f21r";
+    exif:height 2208;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f21v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f21v";
+    exif:height 2187;
+    exif:width 1497 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f22r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f22r";
+    exif:height 2208;
+    exif:width 1482 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f22v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f22v";
+    exif:height 2184;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f23r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f23r";
+    exif:height 2220;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f23v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f23v";
+    exif:height 2166;
+    exif:width 1485 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f24r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f24r";
+    exif:height 2202;
+    exif:width 1482 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f24v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f24v";
+    exif:height 2160;
+    exif:width 1512 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f25r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f25r";
+    exif:height 2214;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f25v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f25v";
+    exif:height 2175;
+    exif:width 1506 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f26r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f26r";
+    exif:height 2220;
+    exif:width 1494 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f26v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f26v";
+    exif:height 2178;
+    exif:width 1503 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f27r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f27r";
+    exif:height 2190;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f27v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f27v";
+    exif:height 2181;
+    exif:width 1497 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f28r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f28r";
+    exif:height 2202;
+    exif:width 1482 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f28v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f28v";
+    exif:height 2175;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f29r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f29r";
+    exif:height 2205;
+    exif:width 1482 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f29v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f29v";
+    exif:height 2169;
+    exif:width 1500 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f2r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f2r";
+    exif:height 2190;
+    exif:width 1548 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f2v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f2v";
+    exif:height 2211;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f30r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f30r";
+    exif:height 2199;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f30v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f30v";
+    exif:height 2184;
+    exif:width 1497 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f31r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f31r";
+    exif:height 2208;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f31v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f31v";
+    exif:height 2193;
+    exif:width 1500 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f32r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f32r";
+    exif:height 2196;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f32v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f32v";
+    exif:height 2172;
+    exif:width 1494 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f33r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f33r";
+    exif:height 2199;
+    exif:width 1506 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f33v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f33v";
+    exif:height 2178;
+    exif:width 1524 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f34r#xywh=45,230,170,420> a <http://dms.stanford.edu/ns/CanvasSegment>;
+    dcterms:isPartOf <http://localhost/EmicShared/impl/demo1/res/Canvas-f34r> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f34v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f34v";
+    exif:height 2178;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f35r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f35r";
+    exif:height 2205;
+    exif:width 1494 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f35v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f35v";
+    exif:height 2169;
+    exif:width 1512 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f36r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f36r";
+    exif:height 2202;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f36v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f36v";
+    exif:height 2187;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f3r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f3r";
+    exif:height 2220;
+    exif:width 1545 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f3v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f3v";
+    exif:height 2181;
+    exif:width 1515 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f4r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f4r";
+    exif:height 2226;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f4v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f4v";
+    exif:height 2193;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f5r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f5r";
+    exif:height 2208;
+    exif:width 1530 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f5v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f5v";
+    exif:height 2205;
+    exif:width 1527 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f6r";
+    exif:height 2229;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f6v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f6v";
+    exif:height 2199;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f7r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f7r";
+    exif:height 2211;
+    exif:width 1533 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f7v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f7v";
+    exif:height 2202;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f8r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f8r";
+    exif:height 2211;
+    exif:width 1539 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f8v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f8v";
+    exif:height 2202;
+    exif:width 1545 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f9r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f9r";
+    exif:height 2226;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f9v> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f9v";
+    exif:height 2205;
+    exif:width 1515 .
+
+<http://localhost/EmicShared/impl/demo1/res/ImageAnnotations> a <http://dms.stanford.edu/ns/ImageAnnotationList>,
+        <http://www.openarchives.org/ore/terms/Aggregation>,
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#List>;
+    ore:aggregates <urn:uuid:000bf844-38da-4408-9fc1-4c57ee49ba1c>,
+        <urn:uuid:0bbccced-cb31-4f04-a9b0-80abb62f388a>,
+        <urn:uuid:0c02af04-b2b7-4b1f-96ec-11cf8bdb5bcb>,
+        <urn:uuid:0c48094f-f3d1-4e86-b5bb-f2d871313c58>,
+        <urn:uuid:16822ccd-82c7-4e9d-9f26-0265925c051d>,
+        <urn:uuid:1682c5c8-a413-4078-a310-e285c454c5ff>,
+        <urn:uuid:1866ea76-54c4-44e5-b44a-938be1f13a7a>,
+        <urn:uuid:1bc5743c-b155-430b-b0de-792355921151>,
+        <urn:uuid:1da9b5ba-0c5f-4e13-aa1e-7e8da390d618>,
+        <urn:uuid:1f94733c-1dcb-4505-9f9d-b9909d079509>,
+        <urn:uuid:22144c73-bbeb-454e-9601-5aac501a33b4>,
+        <urn:uuid:2323f101-d9fb-4cd5-a8c6-2a05880576ac>,
+        <urn:uuid:257bb025-0aee-4821-b638-0bb41bb09bb7>,
+        <urn:uuid:2faf3209-bc00-4f68-8ca3-9e0ffbace419>,
+        <urn:uuid:31f4c189-67c9-4098-afbf-ff6c0f6366a5>,
+        <urn:uuid:37aabb5c-4217-4bdc-b921-9686965a2b8b>,
+        <urn:uuid:398d2591-6aea-4b49-82d3-06dc8754cf67>,
+        <urn:uuid:3e1a298c-b3a8-4432-bdcb-a2a1c2b23ddf>,
+        <urn:uuid:412e9d49-1ee0-4440-8afc-9b23dc7270a7>,
+        <urn:uuid:456389fb-57ea-49b7-ba90-13739dd23f44>,
+        <urn:uuid:4576da6e-477b-4325-b595-4cc01914dc0f>,
+        <urn:uuid:49b5865c-4575-4829-a2fd-e899c2c9167f>,
+        <urn:uuid:49d5a787-f61d-4be9-b236-a20bfcdf421b>,
+        <urn:uuid:4a9c4315-0521-4bab-be9f-a45692afca54>,
+        <urn:uuid:59a1248d-de28-4c86-96fb-173e7719851a>,
+        <urn:uuid:5d3e327a-0398-4fbc-a466-bd93c62b842b>,
+        <urn:uuid:5e5866c5-41cd-4f2a-a80e-629a9d561c53>,
+        <urn:uuid:605b093b-0436-4faf-b571-731ccfeeddd2>,
+        <urn:uuid:63ad5625-fe9f-49e8-90e1-222cd90d535e>,
+        <urn:uuid:64ca87fe-b4cf-41a6-a792-a4a7a17e15d3>,
+        <urn:uuid:68d38d59-9aec-48fb-a8cb-88f17169d90a>,
+        <urn:uuid:6c884919-6a4c-4680-a798-93c22bfc2bb4>,
+        <urn:uuid:6d649184-2651-44a5-aae7-d813ee904ab7>,
+        <urn:uuid:713ecf41-6ca4-4d34-b6e2-527686633305>,
+        <urn:uuid:7190aebe-e71d-4b0d-8236-0be28426ff2b>,
+        <urn:uuid:7386fed4-6a0e-43f1-955d-11c474a5a5e6>,
+        <urn:uuid:73ef34d1-54d2-48db-b702-539879e93214>,
+        <urn:uuid:77a8655d-83f8-4c6c-b3b6-d6572e26fb7c>,
+        <urn:uuid:781f2a04-4b09-43ce-81e3-563a68032736>,
+        <urn:uuid:7a3fdd75-1002-4441-8673-e4a0bc536818>,
+        <urn:uuid:7f420f2f-6c16-4b2d-bcf3-4e97d1e35ae3>,
+        <urn:uuid:85cc7ba5-0414-45d2-930d-2d6f9598044c>,
+        <urn:uuid:8bcb5ec8-b51f-4401-af08-8b92dcd7d87f>,
+        <urn:uuid:8ca577c9-d5b9-4f2a-8566-bf1405dae8b7>,
+        <urn:uuid:8e10ec27-bd85-4495-9811-892da139a92b>,
+        <urn:uuid:998ac26c-1b91-4db2-91fb-a7d6011d4e6f>,
+        <urn:uuid:9a99d58c-d5e4-49c1-83c2-51eb616117bf>,
+        <urn:uuid:9c94bc04-096a-438a-8f10-3adae81700c7>,
+        <urn:uuid:9cfc1e2c-8aa2-47e4-a308-76afaa72df0d>,
+        <urn:uuid:a0f1df9b-ec2d-4a03-a23f-8566885adf1d>,
+        <urn:uuid:a4698446-acab-4c37-a680-ca7c55741c31>,
+        <urn:uuid:a88a9f4e-4a77-4d41-8adc-3c9a3d3e0979>,
+        <urn:uuid:afab31f6-97a7-4243-8d6b-e8b5fab1f0e8>,
+        <urn:uuid:b59f4092-7636-40b1-a1dd-1169f7556139>,
+        <urn:uuid:b7b24cb3-fb32-41ff-ac28-960536d286fb>,
+        <urn:uuid:b8777ef9-96c4-4aa2-88fd-bde7e2b0accc>,
+        <urn:uuid:bc46a2e6-dddb-4032-9513-3270b6a83cad>,
+        <urn:uuid:c285fce5-1065-4152-b93c-3d27a8165cc7>,
+        <urn:uuid:c28730bf-8fb1-4672-a89c-998eccb8acdb>,
+        <urn:uuid:c61ca245-e796-48ee-87a4-7773423840a4>,
+        <urn:uuid:c84ba392-4ed7-4db3-868c-11285b2ce1a7>,
+        <urn:uuid:ca870dc4-eb93-4159-96c9-b9e8082f6b60>,
+        <urn:uuid:cddd4683-c296-423d-a551-60dcc0a59b66>,
+        <urn:uuid:cf33cbac-740b-4033-a3d2-612c2671c9d5>,
+        <urn:uuid:d632d4a3-1cd8-4fa2-b91b-621a631c2745>,
+        <urn:uuid:dc7fc754-f435-4275-9763-919196060edd>,
+        <urn:uuid:e459d7b3-8ae8-4686-acd5-86773b942843>,
+        <urn:uuid:e5928047-c80a-4d08-97e7-3e77f08ac58f>,
+        <urn:uuid:e6ab952b-788d-42d9-8762-b5c474af241c>,
+        <urn:uuid:e78d5b9a-e6ef-4c83-8d1f-e3c02dad2cd9>,
+        <urn:uuid:eff04a7a-1a62-4a81-ac19-2b6c1fa54f9f>,
+        <urn:uuid:f106dc4b-8731-4dfc-b747-12d767872640>,
+        <urn:uuid:f25a5d81-a7ec-4129-831e-c58bc93adcc3>,
+        <urn:uuid:f684d6e3-db34-499e-963b-9be6e134f7b3>;
+    rdf:first <urn:uuid:cddd4683-c296-423d-a551-60dcc0a59b66>;
+    rdf:rest ( <urn:uuid:68d38d59-9aec-48fb-a8cb-88f17169d90a> <urn:uuid:dc7fc754-f435-4275-9763-919196060edd> <urn:uuid:8e10ec27-bd85-4495-9811-892da139a92b> <urn:uuid:77a8655d-83f8-4c6c-b3b6-d6572e26fb7c> <urn:uuid:a4698446-acab-4c37-a680-ca7c55741c31> <urn:uuid:b7b24cb3-fb32-41ff-ac28-960536d286fb> <urn:uuid:2323f101-d9fb-4cd5-a8c6-2a05880576ac> <urn:uuid:4576da6e-477b-4325-b595-4cc01914dc0f> <urn:uuid:1f94733c-1dcb-4505-9f9d-b9909d079509> <urn:uuid:f25a5d81-a7ec-4129-831e-c58bc93adcc3> <urn:uuid:bc46a2e6-dddb-4032-9513-3270b6a83cad> <urn:uuid:0bbccced-cb31-4f04-a9b0-80abb62f388a> <urn:uuid:a88a9f4e-4a77-4d41-8adc-3c9a3d3e0979> <urn:uuid:e78d5b9a-e6ef-4c83-8d1f-e3c02dad2cd9> <urn:uuid:0c48094f-f3d1-4e86-b5bb-f2d871313c58> <urn:uuid:8bcb5ec8-b51f-4401-af08-8b92dcd7d87f> <urn:uuid:85cc7ba5-0414-45d2-930d-2d6f9598044c> <urn:uuid:9a99d58c-d5e4-49c1-83c2-51eb616117bf> <urn:uuid:6d649184-2651-44a5-aae7-d813ee904ab7> <urn:uuid:8ca577c9-d5b9-4f2a-8566-bf1405dae8b7> <urn:uuid:5e5866c5-41cd-4f2a-a80e-629a9d561c53> <urn:uuid:b8777ef9-96c4-4aa2-88fd-bde7e2b0accc> <urn:uuid:5d3e327a-0398-4fbc-a466-bd93c62b842b> <urn:uuid:456389fb-57ea-49b7-ba90-13739dd23f44> <urn:uuid:1866ea76-54c4-44e5-b44a-938be1f13a7a> <urn:uuid:1da9b5ba-0c5f-4e13-aa1e-7e8da390d618> <urn:uuid:e459d7b3-8ae8-4686-acd5-86773b942843> <urn:uuid:49b5865c-4575-4829-a2fd-e899c2c9167f> <urn:uuid:2faf3209-bc00-4f68-8ca3-9e0ffbace419> <urn:uuid:49d5a787-f61d-4be9-b236-a20bfcdf421b> <urn:uuid:16822ccd-82c7-4e9d-9f26-0265925c051d> <urn:uuid:1bc5743c-b155-430b-b0de-792355921151> <urn:uuid:59a1248d-de28-4c86-96fb-173e7719851a> <urn:uuid:eff04a7a-1a62-4a81-ac19-2b6c1fa54f9f> <urn:uuid:398d2591-6aea-4b49-82d3-06dc8754cf67> <urn:uuid:0c02af04-b2b7-4b1f-96ec-11cf8bdb5bcb> <urn:uuid:4a9c4315-0521-4bab-be9f-a45692afca54> <urn:uuid:998ac26c-1b91-4db2-91fb-a7d6011d4e6f> <urn:uuid:7190aebe-e71d-4b0d-8236-0be28426ff2b> <urn:uuid:781f2a04-4b09-43ce-81e3-563a68032736> <urn:uuid:d632d4a3-1cd8-4fa2-b91b-621a631c2745> <urn:uuid:cf33cbac-740b-4033-a3d2-612c2671c9d5> <urn:uuid:63ad5625-fe9f-49e8-90e1-222cd90d535e> <urn:uuid:6c884919-6a4c-4680-a798-93c22bfc2bb4> <urn:uuid:412e9d49-1ee0-4440-8afc-9b23dc7270a7> <urn:uuid:605b093b-0436-4faf-b571-731ccfeeddd2> <urn:uuid:713ecf41-6ca4-4d34-b6e2-527686633305> <urn:uuid:e5928047-c80a-4d08-97e7-3e77f08ac58f> <urn:uuid:7f420f2f-6c16-4b2d-bcf3-4e97d1e35ae3> <urn:uuid:31f4c189-67c9-4098-afbf-ff6c0f6366a5> <urn:uuid:a0f1df9b-ec2d-4a03-a23f-8566885adf1d> <urn:uuid:3e1a298c-b3a8-4432-bdcb-a2a1c2b23ddf> <urn:uuid:37aabb5c-4217-4bdc-b921-9686965a2b8b> <urn:uuid:b59f4092-7636-40b1-a1dd-1169f7556139> <urn:uuid:73ef34d1-54d2-48db-b702-539879e93214> <urn:uuid:c61ca245-e796-48ee-87a4-7773423840a4> <urn:uuid:9cfc1e2c-8aa2-47e4-a308-76afaa72df0d> <urn:uuid:c28730bf-8fb1-4672-a89c-998eccb8acdb> <urn:uuid:7386fed4-6a0e-43f1-955d-11c474a5a5e6> <urn:uuid:257bb025-0aee-4821-b638-0bb41bb09bb7> <urn:uuid:9c94bc04-096a-438a-8f10-3adae81700c7> <urn:uuid:afab31f6-97a7-4243-8d6b-e8b5fab1f0e8> <urn:uuid:1682c5c8-a413-4078-a310-e285c454c5ff> <urn:uuid:ca870dc4-eb93-4159-96c9-b9e8082f6b60> <urn:uuid:f106dc4b-8731-4dfc-b747-12d767872640> <urn:uuid:e6ab952b-788d-42d9-8762-b5c474af241c> <urn:uuid:64ca87fe-b4cf-41a6-a792-a4a7a17e15d3> <urn:uuid:000bf844-38da-4408-9fc1-4c57ee49ba1c> <urn:uuid:7a3fdd75-1002-4441-8673-e4a0bc536818> <urn:uuid:c84ba392-4ed7-4db3-868c-11285b2ce1a7> <urn:uuid:22144c73-bbeb-454e-9601-5aac501a33b4> <urn:uuid:c285fce5-1065-4152-b93c-3d27a8165cc7> <urn:uuid:f684d6e3-db34-499e-963b-9be6e134f7b3> ) .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f10r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2223;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f10v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2208;
+    exif:width 1530 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f11r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2232;
+    exif:width 1527 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f11v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2205;
+    exif:width 1554 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f12r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2211;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f12v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2199;
+    exif:width 1530 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f13r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2208;
+    exif:width 1533 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f13v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2190;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f14r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2211;
+    exif:width 1539 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f14v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2202;
+    exif:width 1536 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f15r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2193;
+    exif:width 1533 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f15v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2232;
+    exif:width 1506 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f16r-d.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image> .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f16r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2226;
+    exif:width 1527 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f16v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2178;
+    exif:width 1521 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f17r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2214;
+    exif:width 1476 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f17v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2181;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f18r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2193;
+    exif:width 1476 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f18v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2169;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f19r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2196;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f19v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2175;
+    exif:width 1503 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f1r-c.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    dms:colorSpace "RGB" .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f1r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    dms:colorSpace "BW";
+    exif:height 2217;
+    exif:width 1548 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f1v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2202;
+    exif:width 1521 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f20r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2193;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f20v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2169;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f21r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2208;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f21v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2187;
+    exif:width 1497 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f22r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2208;
+    exif:width 1482 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f22v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2184;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f23r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2220;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f23v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2166;
+    exif:width 1485 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f24r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2202;
+    exif:width 1482 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f24v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2160;
+    exif:width 1512 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f25r-c.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    dms:colorSpace "RGB" .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f25r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    dms:colorSpace "BW";
+    exif:height 2214;
+    exif:width 1488 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f25v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2175;
+    exif:width 1506 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f26r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2220;
+    exif:width 1494 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f26v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2178;
+    exif:width 1503 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f27r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2190;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f27v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2181;
+    exif:width 1497 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f28r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2202;
+    exif:width 1482 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f28v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2175;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f29r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2205;
+    exif:width 1482 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f29v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2169;
+    exif:width 1500 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f2r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2190;
+    exif:width 1548 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f2v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2211;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f30r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2199;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f30v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2184;
+    exif:width 1497 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f31r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2208;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f31v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2193;
+    exif:width 1500 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f32r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2196;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f32v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2172;
+    exif:width 1494 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f33r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2199;
+    exif:width 1506 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f33v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2178;
+    exif:width 1524 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f34r-d.jpg> a <http://dms.stanford.edu/ns/Image>;
+    exif:height 782;
+    exif:width 400 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f34r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2205;
+    exif:width 1503 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f34v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2178;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f35r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2205;
+    exif:width 1494 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f35v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2169;
+    exif:width 1512 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f36r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2202;
+    exif:width 1509 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f36v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2187;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f3r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2220;
+    exif:width 1545 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f3v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2181;
+    exif:width 1515 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f4r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2226;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f4v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2193;
+    exif:width 1518 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f5r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2208;
+    exif:width 1530 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f5v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2205;
+    exif:width 1527 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f6r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2229;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f6v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2199;
+    exif:width 1491 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f7r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2211;
+    exif:width 1533 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f7v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2202;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f8r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2211;
+    exif:width 1539 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f8v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2202;
+    exif:width 1545 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f9r.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2226;
+    exif:width 1542 .
+
+<http://localhost/EmicShared/impl/demo1/res/image-f9v.jpg> a <http://dms.stanford.edu/ns/ImageBody>,
+        <http://purl.org/dc/dcmitype/Image>;
+    exif:height 2205;
+    exif:width 1515 .
+
+<urn:uuid:5c750aa1-9fa2-40f6-b788-edf5f2928dad> a <http://dms.stanford.edu/ns/ImageChoice>;
+    dms:option <http://localhost/EmicShared/impl/demo1/res/image-f25r-c.jpg>,
+        <http://localhost/EmicShared/impl/demo1/res/image-f25r.jpg> .
+
+<urn:uuid:78e5e8a4-08fa-49de-a5ef-9a1b8dbbeb84> a <http://dms.stanford.edu/ns/ImageChoice>;
+    dms:option <http://localhost/EmicShared/impl/demo1/res/image-f1r-c.jpg>,
+        <http://localhost/EmicShared/impl/demo1/res/image-f1r.jpg> .
+
+<urn:uuid:be356bad-3362-4f1b-9c92-f264dc896f81> a <http://www.openannotation.org/ns/SvgConstraint>,
+        <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "<path xmlns='http://www.w3.org/2000/svg' d='M 62 40 L 375 50 L 175 750 L 85 750 L 80 660 L 160 500 L 150 160 L 60 130 z '/>" .
+
+<urn:uuid:c8eed69e-722c-4dd5-9f94-7715c5773f05> a <http://purl.org/dc/terms/Agent>;
+    foaf:mbox "azaroth42@gmail.com";
+    foaf:name "SharedCanvas: Python/rdflib" .
+
+<urn:uuid:ecdd4cc3-fb76-4fd7-a951-08cb9fa2be1b> a <http://www.openannotation.org/ns/ConstrainedBody>;
+    oac:constrainedBy <urn:uuid:be356bad-3362-4f1b-9c92-f264dc896f81>;
+    oac:constrains <http://localhost/EmicShared/impl/demo1/res/image-f34r-d.jpg> .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f16r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f16r";
+    exif:height 2226;
+    exif:width 1527 .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f34r> a <http://dms.stanford.edu/ns/Canvas>;
+    dc:title "M804 f34r";
+    exif:height 2205;
+    exif:width 1503 .
+
+<urn:uuid:000bf844-38da-4408-9fc1-4c57ee49ba1c> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f35r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f35r> .
+
+<urn:uuid:0bbccced-cb31-4f04-a9b0-80abb62f388a> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f7r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f7r> .
+
+<urn:uuid:0c02af04-b2b7-4b1f-96ec-11cf8bdb5bcb> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f19r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f19r> .
+
+<urn:uuid:0c48094f-f3d1-4e86-b5bb-f2d871313c58> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f8v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f8v> .
+
+<urn:uuid:16822ccd-82c7-4e9d-9f26-0265925c051d> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f16v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f16v> .
+
+<urn:uuid:1682c5c8-a413-4078-a310-e285c454c5ff> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f32v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f32v> .
+
+<urn:uuid:1866ea76-54c4-44e5-b44a-938be1f13a7a> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f13v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f13v> .
+
+<urn:uuid:1bc5743c-b155-430b-b0de-792355921151> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f17r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f17r> .
+
+<urn:uuid:1da9b5ba-0c5f-4e13-aa1e-7e8da390d618> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f14r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f14r> .
+
+<urn:uuid:1f94733c-1dcb-4505-9f9d-b9909d079509> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f5v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f5v> .
+
+<urn:uuid:22144c73-bbeb-454e-9601-5aac501a33b4> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f36v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f36v> .
+
+<urn:uuid:2323f101-d9fb-4cd5-a8c6-2a05880576ac> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f4v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f4v> .
+
+<urn:uuid:257bb025-0aee-4821-b638-0bb41bb09bb7> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f31r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f31r> .
+
+<urn:uuid:2faf3209-bc00-4f68-8ca3-9e0ffbace419> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f15v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f15v> .
+
+<urn:uuid:31f4c189-67c9-4098-afbf-ff6c0f6366a5> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f26r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f26r> .
+
+<urn:uuid:37aabb5c-4217-4bdc-b921-9686965a2b8b> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f27v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f27v> .
+
+<urn:uuid:398d2591-6aea-4b49-82d3-06dc8754cf67> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f18v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f18v> .
+
+<urn:uuid:3e1a298c-b3a8-4432-bdcb-a2a1c2b23ddf> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f27r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f27r> .
+
+<urn:uuid:412e9d49-1ee0-4440-8afc-9b23dc7270a7> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f23v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f23v> .
+
+<urn:uuid:456389fb-57ea-49b7-ba90-13739dd23f44> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f13r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f13r> .
+
+<urn:uuid:4576da6e-477b-4325-b595-4cc01914dc0f> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f5r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f5r> .
+
+<urn:uuid:49b5865c-4575-4829-a2fd-e899c2c9167f> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f15r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f15r> .
+
+<urn:uuid:49d5a787-f61d-4be9-b236-a20bfcdf421b> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f16r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f16r> .
+
+<urn:uuid:4a9c4315-0521-4bab-be9f-a45692afca54> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f19v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f19v> .
+
+<urn:uuid:59a1248d-de28-4c86-96fb-173e7719851a> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f17v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f17v> .
+
+<urn:uuid:5d3e327a-0398-4fbc-a466-bd93c62b842b> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f12v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f12v> .
+
+<urn:uuid:5e5866c5-41cd-4f2a-a80e-629a9d561c53> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f11v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f11v> .
+
+<urn:uuid:605b093b-0436-4faf-b571-731ccfeeddd2> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f24r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f24r> .
+
+<urn:uuid:63ad5625-fe9f-49e8-90e1-222cd90d535e> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f22v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f22v> .
+
+<urn:uuid:64ca87fe-b4cf-41a6-a792-a4a7a17e15d3> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f34v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f34v> .
+
+<urn:uuid:68d38d59-9aec-48fb-a8cb-88f17169d90a> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f1v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f1v> .
+
+<urn:uuid:6c884919-6a4c-4680-a798-93c22bfc2bb4> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f23r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f23r> .
+
+<urn:uuid:6d649184-2651-44a5-aae7-d813ee904ab7> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f10v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f10v> .
+
+<urn:uuid:713ecf41-6ca4-4d34-b6e2-527686633305> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f24v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f24v> .
+
+<urn:uuid:7190aebe-e71d-4b0d-8236-0be28426ff2b> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f20v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f20v> .
+
+<urn:uuid:7386fed4-6a0e-43f1-955d-11c474a5a5e6> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f30v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f30v> .
+
+<urn:uuid:73ef34d1-54d2-48db-b702-539879e93214> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f28v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f28v> .
+
+<urn:uuid:77a8655d-83f8-4c6c-b3b6-d6572e26fb7c> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f3r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f3r> .
+
+<urn:uuid:781f2a04-4b09-43ce-81e3-563a68032736> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f21r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f21r> .
+
+<urn:uuid:7a3fdd75-1002-4441-8673-e4a0bc536818> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f35v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f35v> .
+
+<urn:uuid:7f420f2f-6c16-4b2d-bcf3-4e97d1e35ae3> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f25v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f25v> .
+
+<urn:uuid:85cc7ba5-0414-45d2-930d-2d6f9598044c> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f9v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f9v> .
+
+<urn:uuid:8bcb5ec8-b51f-4401-af08-8b92dcd7d87f> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f9r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f9r> .
+
+<urn:uuid:8ca577c9-d5b9-4f2a-8566-bf1405dae8b7> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f11r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f11r> .
+
+<urn:uuid:8e10ec27-bd85-4495-9811-892da139a92b> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f2v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f2v> .
+
+<urn:uuid:998ac26c-1b91-4db2-91fb-a7d6011d4e6f> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f20r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f20r> .
+
+<urn:uuid:9a99d58c-d5e4-49c1-83c2-51eb616117bf> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f10r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f10r> .
+
+<urn:uuid:9c94bc04-096a-438a-8f10-3adae81700c7> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f31v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f31v> .
+
+<urn:uuid:9cfc1e2c-8aa2-47e4-a308-76afaa72df0d> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f29v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f29v> .
+
+<urn:uuid:a0f1df9b-ec2d-4a03-a23f-8566885adf1d> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f26v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f26v> .
+
+<urn:uuid:a4698446-acab-4c37-a680-ca7c55741c31> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f3v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f3v> .
+
+<urn:uuid:a88a9f4e-4a77-4d41-8adc-3c9a3d3e0979> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f7v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f7v> .
+
+<urn:uuid:afab31f6-97a7-4243-8d6b-e8b5fab1f0e8> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f32r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f32r> .
+
+<urn:uuid:b59f4092-7636-40b1-a1dd-1169f7556139> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f28r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f28r> .
+
+<urn:uuid:b7b24cb3-fb32-41ff-ac28-960536d286fb> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f4r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f4r> .
+
+<urn:uuid:b8777ef9-96c4-4aa2-88fd-bde7e2b0accc> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f12r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f12r> .
+
+<urn:uuid:bc46a2e6-dddb-4032-9513-3270b6a83cad> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f6v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6v> .
+
+<urn:uuid:c285fce5-1065-4152-b93c-3d27a8165cc7> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f16r-d.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f16r#xywh=640,780,590,410> .
+
+<urn:uuid:c28730bf-8fb1-4672-a89c-998eccb8acdb> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f30r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f30r> .
+
+<urn:uuid:c61ca245-e796-48ee-87a4-7773423840a4> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f29r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f29r> .
+
+<urn:uuid:c84ba392-4ed7-4db3-868c-11285b2ce1a7> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f36r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f36r> .
+
+<urn:uuid:ca870dc4-eb93-4159-96c9-b9e8082f6b60> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f33r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f33r> .
+
+<urn:uuid:cddd4683-c296-423d-a551-60dcc0a59b66> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <urn:uuid:78e5e8a4-08fa-49de-a5ef-9a1b8dbbeb84>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f1r> .
+
+<urn:uuid:cf33cbac-740b-4033-a3d2-612c2671c9d5> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f22r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f22r> .
+
+<urn:uuid:d632d4a3-1cd8-4fa2-b91b-621a631c2745> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f21v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f21v> .
+
+<urn:uuid:dc7fc754-f435-4275-9763-919196060edd> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f2r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f2r> .
+
+<urn:uuid:e459d7b3-8ae8-4686-acd5-86773b942843> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f14v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f14v> .
+
+<urn:uuid:e5928047-c80a-4d08-97e7-3e77f08ac58f> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <urn:uuid:5c750aa1-9fa2-40f6-b788-edf5f2928dad>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f25r> .
+
+<urn:uuid:e6ab952b-788d-42d9-8762-b5c474af241c> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f34r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f34r> .
+
+<urn:uuid:e78d5b9a-e6ef-4c83-8d1f-e3c02dad2cd9> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f8r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f8r> .
+
+<urn:uuid:eff04a7a-1a62-4a81-ac19-2b6c1fa54f9f> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f18r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f18r> .
+
+<urn:uuid:f106dc4b-8731-4dfc-b747-12d767872640> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f33v.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f33v> .
+
+<urn:uuid:f25a5d81-a7ec-4129-831e-c58bc93adcc3> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <http://localhost/EmicShared/impl/demo1/res/image-f6r.jpg>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f6r> .
+
+<urn:uuid:f684d6e3-db34-499e-963b-9be6e134f7b3> a <http://dms.stanford.edu/ns/ImageAnnotation>,
+        <http://www.openannotation.org/ns/Annotation>;
+    oac:hasBody <urn:uuid:ecdd4cc3-fb76-4fd7-a951-08cb9fa2be1b>;
+    oac:hasTarget <http://localhost/EmicShared/impl/demo1/res/Canvas-f34r#xywh=45,230,170,420> .
+

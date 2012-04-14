@@ -1,0 +1,1756 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:cnt="http://www.w3.org/2008/content#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dms="http://dms.stanford.edu/ns/"
+   xmlns:exif="http://www.w3.org/2003/12/exif/ns#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:oac="http://www.openannotation.org/ns/"
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:nodeID="bCfJsWeh71269">
+    <rdf:first rdf:resource="urn:uuid:fef69459-6e69-4d8d-87f3-4744f867a2a5"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh72302"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f22v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2184</exif:height>
+    <dc:title>M804 f22v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:30bbd393-9cd6-4fe1-96cc-8c185c6ea6fd">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f31r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f31r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh7857">
+    <rdf:first rdf:resource="urn:uuid:3b2c1387-e277-414f-b407-d767038b2f45"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh8890"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f19v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1503</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2175</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r#xywh=640,780,590,410">
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh56214">
+    <rdf:first rdf:resource="urn:uuid:8e911613-1fa2-4c9d-8638-70daae460297"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh57237"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:35166f78-8354-4a80-9306-d7cecb5e43a0">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f15v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f15v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:df1351d1-778d-42be-bb77-822e75c79432">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f23v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f23v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh47181">
+    <rdf:first rdf:resource="urn:uuid:3dc9fb6e-1f28-4ad0-97a3-ffb0d613b3bf"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh48204"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh6794">
+    <rdf:first rdf:resource="urn:uuid:f2691fde-06ad-4ea8-b7c8-9a338a27532d"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh7857"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:5d82a558-ab76-49f3-9047-f66459139f4e">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f16r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:b6cf1868-68f9-4994-90dd-240a4a959358">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="urn:uuid:8a8ea8a4-303c-4e45-8a10-dde493e24045"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f11v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1554</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f34v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2178</exif:height>
+    <dc:title>M804 f34v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:f2691fde-06ad-4ea8-b7c8-9a338a27532d">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f4v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f4v"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh69253">
+    <rdf:first rdf:resource="urn:uuid:54b76a0a-c012-426e-bba8-4b4c3dfde943"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh70266"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f34r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1503</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f24r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:03b87dce-3e73-49f0-969d-92ba1b03a6d4">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f15r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f15r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:bde17fa8-8f89-456c-bd16-927531501c81">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f23r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f23r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f23v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1485</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2166</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:3b2c1387-e277-414f-b407-d767038b2f45">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f5r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f5r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:844e417a-3229-4cb3-90ee-9dffd9b0a6b9">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f17v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f17v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1503</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <dc:title>M804 f34r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f29v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169</exif:height>
+    <dc:title>M804 f29v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f11r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1527</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2232</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f35r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1494</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <dc:title>M804 f35r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f19r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2196</exif:height>
+    <dc:title>M804 f19r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh10996">
+    <rdf:first rdf:resource="urn:uuid:d26b2e6e-955f-409a-89e9-00c51d942c7b"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh12029"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh31706">
+    <rdf:first rdf:resource="urn:uuid:e6a5fbd7-a054-4db7-8532-7b122821da74"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh32739"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f16r-d.jpg">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh51139">
+    <rdf:first rdf:resource="urn:uuid:8dae486d-793d-4023-9766-8e0e0ec8e66e"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh52152"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:8dae486d-793d-4023-9766-8e0e0ec8e66e">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f26r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f26r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh33782">
+    <rdf:first rdf:resource="urn:uuid:844e417a-3229-4cb3-90ee-9dffd9b0a6b9"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh34805"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:f9295713-e1d8-4a9a-91d0-c9a1034de97b">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f16r-d.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r#xywh=640,780,590,410"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh65351">
+    <rdf:first rdf:resource="urn:uuid:0fefee72-fe9f-467c-865c-5a9d6a36c066"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh66384"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f32r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2196</exif:height>
+    <dc:title>M804 f32r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f12r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <dc:title>M804 f12r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f14r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1539</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:252346f0-69a7-4a69-93df-b251c5d9a36a">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f3r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f3r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh73336">
+    <rdf:first rdf:resource="urn:uuid:519183d6-c081-4a1b-98f8-1fa330546a1b"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:90752a09-4b72-4b1f-bb5a-148aa18d049d">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f13r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f13r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f32v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1494</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2172</exif:height>
+    <dc:title>M804 f32v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f10v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1530</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <dc:title>M804 f10v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f35v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1512</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh54198">
+    <rdf:first rdf:resource="urn:uuid:b568d99e-63ad-4f18-9209-6f869d6e16ff"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh55201"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f24r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <dc:title>M804 f24r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f8v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1545</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f13r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1533</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f18v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169</exif:height>
+    <dc:title>M804 f18v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f22r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:361043ed-9274-4348-a1c1-589cc872dc34">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f10r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f10r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:bbd96655-e45f-4bcf-8a2b-0e0b63ebbe34">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f18r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f18r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh19330">
+    <rdf:first rdf:resource="urn:uuid:d3b5ae61-10de-4f18-9187-0398e87621ff"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh20373"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f35v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1512</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169</exif:height>
+    <dc:title>M804 f35v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f27r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2190</exif:height>
+    <dc:title>M804 f27r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f1r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1548</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2217</exif:height>
+    <dc:title>Black &amp; White</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:637d0090-9e37-4360-bbc2-851d5af0dcc4">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f2r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f2r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f16v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1521</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2178</exif:height>
+    <dc:title>M804 f16v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:fc63e966-f3ae-4ecf-8300-ce62551a1fa3">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f9v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f9v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f12v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1530</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2199</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:fef69459-6e69-4d8d-87f3-4744f867a2a5">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f36r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f36r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:54b76a0a-c012-426e-bba8-4b4c3dfde943">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f35r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f35r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:377a6417-3629-49e6-a0fe-d2dcbf7b3818">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f32r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f32r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:46e74f54-a8e2-41f1-a3a1-24660472c584">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f20r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f20r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:d26b2e6e-955f-409a-89e9-00c51d942c7b">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f6v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f6v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f25v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1506</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2175</exif:height>
+    <dc:title>M804 f25v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f28v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2175</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh21406">
+    <rdf:first rdf:resource="urn:uuid:989e559f-c7e8-4fee-a7c1-f72c4f6507b0"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh22429"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f31r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:c67c0c24-25bf-4c23-b4fb-5ce66269a879">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f5v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f5v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f36r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <dc:title>M804 f36r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f24v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1512</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2160</exif:height>
+    <dc:title>M804 f24v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:e5c12519-e756-4442-a83d-556848c32714">
+    <foaf:name>SharedCanvas: Python/rdflib</foaf:name>
+    <foaf:mbox>azaroth42@gmail.com</foaf:mbox>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh57237">
+    <rdf:first rdf:resource="urn:uuid:ef21eb38-ad9c-4dcf-bbf1-dd2e55f85f4b"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh58230"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f33v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1524</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2178</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f8v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1545</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <dc:title>M804 f8v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f20v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f1v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1521</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f15r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1533</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh16211">
+    <rdf:first rdf:resource="urn:uuid:53516929-26a7-4ac9-af18-a2b11d5ffc07"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh17224"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f9v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1515</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f24v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1512</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2160</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:e7f19d4d-424b-4a65-ab1d-23bfd3d05573">
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>&lt;path xmlns='http://www.w3.org/2000/svg' d='M 62 40 L 375 50 L 175 750 L 85 750 L 80 660 L 160 500 L 150 160 L 60 130 z '/&gt;</cnt:chars>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/SvgConstraint"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:273b31db-fb5e-4c98-95a7-0c5deea0fda3">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f8r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f8r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:76b28fb3-8caa-4f2f-8649-216ccfa6bd64">
+    <oac:constrains rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f34r-d.jpg"/>
+    <oac:constrainedBy rdf:resource="urn:uuid:e7f19d4d-424b-4a65-ab1d-23bfd3d05573"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/ConstrainedBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f1r-c.jpg">
+    <dc:title>Color</dc:title>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f20r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <dc:title>M804 f20r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <dc:title>M804 f2v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh18247">
+    <rdf:first rdf:resource="urn:uuid:361043ed-9274-4348-a1c1-589cc872dc34"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh19330"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f7r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1533</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <dc:title>M804 f7r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f6v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2199</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f32r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2196</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1521</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <dc:title>M804 f1v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:d3b5ae61-10de-4f18-9187-0398e87621ff">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f10v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f10v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:b568d99e-63ad-4f18-9209-6f869d6e16ff">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f27v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f27v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:ddb9b9e0-8d36-422f-8e89-7566378b35fc">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f4r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f4r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh32739">
+    <rdf:first rdf:resource="urn:uuid:95b0c8db-eb4d-4e30-a79d-915306b8ae2f"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh33782"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh39960">
+    <rdf:first rdf:resource="urn:uuid:cc9efb2c-3567-4ee6-a863-27a6a13e1664"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh40993"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh52152">
+    <rdf:first rdf:resource="urn:uuid:83de4d65-0b76-4d92-9ff1-21c9fdb41a6b"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh53165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f30r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2199</exif:height>
+    <dc:title>M804 f30r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh70266">
+    <rdf:first rdf:resource="urn:uuid:68affbce-3ca0-46aa-99e5-1eb3d979e0eb"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh71269"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:42c75bcc-7378-4d18-9653-ace245b7b4da">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f30r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f30r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh48204">
+    <rdf:first rdf:resource="urn:uuid:e8aa42c0-1c84-49af-977e-6daecc7ed04b"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh49243"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1548</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2217</exif:height>
+    <dc:title>M804 f1r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh43059">
+    <rdf:first rdf:resource="urn:uuid:a995bc64-39be-47c2-ad19-abe3bfd9ae0d"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh44102"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:500d43dc-5865-4160-b239-c77d90e8129e">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f21v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f21v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f17v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2181</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f33r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1506</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2199</exif:height>
+    <dc:title>M804 f33r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh23482">
+    <rdf:first rdf:resource="urn:uuid:5c02776d-6274-4e15-97bc-93c57a30588e"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh24515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f33v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1524</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2178</exif:height>
+    <dc:title>M804 f33v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f25r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2214</exif:height>
+    <dms:colorSpace>BW</dms:colorSpace>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f13r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1533</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <dc:title>M804 f13r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f5v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1527</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <dc:title>M804 f5v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:a12ca557-37ed-4ee2-ab06-0e65da7448d6">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f13v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f13v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f26v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1503</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2178</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:e6a5fbd7-a054-4db7-8532-7b122821da74">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f16v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f16v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh29750">
+    <rdf:first rdf:resource="urn:uuid:35166f78-8354-4a80-9306-d7cecb5e43a0"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh30803"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f4v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <dc:title>M804 f4v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f18r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1476</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <dc:title>M804 f18r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f15r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1533</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <dc:title>M804 f15r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f31v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <dc:title>M804 f31v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:baa5096e-659d-4f10-9322-5faa9172b12f">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f3v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f3v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f5r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1530</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh12029">
+    <rdf:first rdf:resource="urn:uuid:97f94b9c-3008-4b5d-8617-440d1a4090f6"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh13092"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:5c02776d-6274-4e15-97bc-93c57a30588e">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f12v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f12v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f22r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <dc:title>M804 f22r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh3675">
+    <rdf:first rdf:resource="urn:uuid:252346f0-69a7-4a69-93df-b251c5d9a36a"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh4698"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f16v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1521</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2178</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f5r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1530</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <dc:title>M804 f5r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f33r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1506</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2199</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh35828">
+    <rdf:first rdf:resource="urn:uuid:5b393dd6-2234-4fbc-bc5b-a5e7a7ae5b53"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh36861"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh63325">
+    <rdf:first rdf:resource="urn:uuid:377a6417-3629-49e6-a0fe-d2dcbf7b3818"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh64328"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f28r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:53516929-26a7-4ac9-af18-a2b11d5ffc07">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f9r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f9r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f20r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f9r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2226</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:37cfdbcb-1ada-4864-887f-109ec15d868c">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f1v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f36v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2187</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f26r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1494</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2220</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:95c40e64-3c0f-4e60-8ee0-bf522c06ec65">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f22v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f22v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f6r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2229</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh36861">
+    <rdf:first rdf:resource="urn:uuid:de53f54e-1957-4f47-9480-249a52bd586c"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh37874"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f2r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1548</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2190</exif:height>
+    <dc:title>M804 f2r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f29r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <dc:title>M804 f29r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f23v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1485</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2166</exif:height>
+    <dc:title>M804 f23v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f25v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1506</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2175</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh40993">
+    <rdf:first rdf:resource="urn:uuid:7ac4e40b-3ad3-4a77-acb4-e346aab69d5f"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh42026"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f10r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2223</exif:height>
+    <dc:title>M804 f10r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh22429">
+    <rdf:first rdf:resource="urn:uuid:bed795a9-f336-4e3a-b1c3-10c8f380e3b8"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh23482"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f11v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1554</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <dc:title>M804 f11v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f32v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1494</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2172</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f6r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2229</exif:height>
+    <dc:title>M804 f6r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f26v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1503</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2178</exif:height>
+    <dc:title>M804 f26v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f23r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2220</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f27r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2190</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f21r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f34v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2178</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f3r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1545</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2220</exif:height>
+    <dc:title>M804 f3r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh4698">
+    <rdf:first rdf:resource="urn:uuid:baa5096e-659d-4f10-9322-5faa9172b12f"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh5741"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:9e67f360-1707-413b-b788-d91a9bf8b99b">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f33v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f33v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f10v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1530</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f10r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2223</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh67257">
+    <rdf:first rdf:resource="urn:uuid:be4a603f-d959-44a6-80f1-6d631686c0e8"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh68240"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f2v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh61289">
+    <rdf:first rdf:resource="urn:uuid:30bbd393-9cd6-4fe1-96cc-8c185c6ea6fd"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh62322"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh46138">
+    <rdf:first rdf:resource="urn:uuid:df1351d1-778d-42be-bb77-822e75c79432"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh47181"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:fdf83f84-798a-488c-b0c9-2f06d0cd44ac">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f14r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f14r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:7ac4e40b-3ad3-4a77-acb4-e346aab69d5f">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f21r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f21r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f36r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh27654">
+    <rdf:first rdf:resource="urn:uuid:e48fd495-c272-46ba-a81a-c4e21e95eda5"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh28697"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh546">
+    <rdf:first rdf:resource="urn:uuid:37cfdbcb-1ada-4864-887f-109ec15d868c"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh1599"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f15v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1506</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2232</exif:height>
+    <dc:title>M804 f15v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f2r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1548</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2190</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh66384">
+    <rdf:first rdf:resource="urn:uuid:9e67f360-1707-413b-b788-d91a9bf8b99b"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh67257"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh1599">
+    <rdf:first rdf:resource="urn:uuid:637d0090-9e37-4360-bbc2-851d5af0dcc4"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh2652"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh17224">
+    <rdf:first rdf:resource="urn:uuid:fc63e966-f3ae-4ecf-8300-ce62551a1fa3"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh18247"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f19r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2196</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f14v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1536</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh15168">
+    <rdf:first rdf:resource="urn:uuid:a079ae32-1dae-4865-a3a9-05a9c2edbe0c"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh16211"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:8e911613-1fa2-4c9d-8638-70daae460297">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f28v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f28v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f21r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <dc:title>M804 f21r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f21v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1497</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2187</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f14v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1536</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <dc:title>M804 f14v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh53165">
+    <rdf:first rdf:resource="urn:uuid:8dad846c-dac7-4995-ab5a-9e09d0a25f6d"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh54198"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f27v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1497</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2181</exif:height>
+    <dc:title>M804 f27v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh8890">
+    <rdf:first rdf:resource="urn:uuid:c67c0c24-25bf-4c23-b4fb-5ce66269a879"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh9953"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh49243">
+    <rdf:first rdf:resource="urn:uuid:2374e86d-d571-4052-b6ce-13eabba3d604"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh50136"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f5v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1527</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f4r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2226</exif:height>
+    <dc:title>M804 f4r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f23r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2220</exif:height>
+    <dc:title>M804 f23r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:83de4d65-0b76-4d92-9ff1-21c9fdb41a6b">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f26v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f26v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f4r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2226</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f11r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1527</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2232</exif:height>
+    <dc:title>M804 f11r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f8r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1539</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <dc:title>M804 f8r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f26r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1494</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2220</exif:height>
+    <dc:title>M804 f26r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f27v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1497</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2181</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:be4a603f-d959-44a6-80f1-6d631686c0e8">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f34r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh2652">
+    <rdf:first rdf:resource="urn:uuid:3b53da61-cb1e-44e4-a967-bc5253c7bc64"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh3675"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:a264b60b-591d-4eb2-b383-baac23a55ce2">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f25v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f25v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f13v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2190</exif:height>
+    <dc:title>M804 f13v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:3dc9fb6e-1f28-4ad0-97a3-ffb0d613b3bf">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f24r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f24r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f17v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2181</exif:height>
+    <dc:title>M804 f17v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:727727e5-f2d2-4ca3-82a0-2b93ddbc1568">
+    <dms:option rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f25r.jpg"/>
+    <dms:option rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f25r-c.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageChoice"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f6v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2199</exif:height>
+    <dc:title>M804 f6v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh45125">
+    <rdf:first rdf:resource="urn:uuid:bde17fa8-8f89-456c-bd16-927531501c81"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh46138"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f12v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1530</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2199</exif:height>
+    <dc:title>M804 f12v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f4v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:bc192e28-0891-4bb7-96ca-7c76bd3fc263">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f11r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f11r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:3b53da61-cb1e-44e4-a967-bc5253c7bc64">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f2v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f2v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh26591">
+    <rdf:first rdf:resource="urn:uuid:fdf83f84-798a-488c-b0c9-2f06d0cd44ac"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh27654"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f25r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2214</exif:height>
+    <dc:title>M804 f25r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f25r-c.jpg">
+    <dms:colorSpace>RGB</dms:colorSpace>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh73317">
+    <rdf:first rdf:resource="urn:uuid:f9295713-e1d8-4a9a-91d0-c9a1034de97b"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh73336"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f28v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2175</exif:height>
+    <dc:title>M804 f28v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:9fa551d4-83b9-4fec-911e-3031b05fec72">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f32v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f32v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f16r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1527</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2226</exif:height>
+    <dc:title>M804 f16r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:2374e86d-d571-4052-b6ce-13eabba3d604">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f25r"/>
+    <oac:hasBody rdf:resource="urn:uuid:727727e5-f2d2-4ca3-82a0-2b93ddbc1568"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:68affbce-3ca0-46aa-99e5-1eb3d979e0eb">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f35v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f35v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:de53f54e-1957-4f47-9480-249a52bd586c">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f19r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f19r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh30803">
+    <rdf:first rdf:resource="urn:uuid:5d82a558-ab76-49f3-9047-f66459139f4e"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh31706"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh42026">
+    <rdf:first rdf:resource="urn:uuid:500d43dc-5865-4160-b239-c77d90e8129e"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh43059"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f3v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1515</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2181</exif:height>
+    <dc:title>M804 f3v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f17r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1476</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2214</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f16r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1527</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2226</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:f91821e4-0426-4bbb-a0d7-1fbe4fb4270d">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f36v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f36v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh59273">
+    <rdf:first rdf:resource="urn:uuid:42c75bcc-7378-4d18-9653-ace245b7b4da"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh60276"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh58230">
+    <rdf:first rdf:resource="urn:uuid:01d4c47a-a5a4-4584-8124-9082b464fe01"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh59273"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh9953">
+    <rdf:first rdf:resource="urn:uuid:a3b94801-a8cd-4c67-88c0-2df24981ada1"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh10996"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:5d85a985-396f-4548-bc24-87649efd7283">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f30v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f30v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh5741">
+    <rdf:first rdf:resource="urn:uuid:ddb9b9e0-8d36-422f-8e89-7566378b35fc"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh6794"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:5b393dd6-2234-4fbc-bc5b-a5e7a7ae5b53">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f18v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f18v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:95b0c8db-eb4d-4e30-a79d-915306b8ae2f">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f17r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f17r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f20v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169</exif:height>
+    <dc:title>M804 f20v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f7v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <dc:title>M804 f7v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:5ffa8703-5964-4fe6-a998-8e3c3ee2c076">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f28r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f28r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:97f94b9c-3008-4b5d-8617-440d1a4090f6">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f7r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f7r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f31r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1509</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2208</exif:height>
+    <dc:title>M804 f31r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh64328">
+    <rdf:first rdf:resource="urn:uuid:9fa551d4-83b9-4fec-911e-3031b05fec72"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh65351"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f28r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <dc:title>M804 f28r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f18v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f7r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1533</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:0fefee72-fe9f-467c-865c-5a9d6a36c066">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f33r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f33r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:a995bc64-39be-47c2-ad19-abe3bfd9ae0d">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f22r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f22r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh20373">
+    <rdf:first rdf:resource="urn:uuid:bc192e28-0891-4bb7-96ca-7c76bd3fc263"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh21406"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:8dad846c-dac7-4995-ab5a-9e09d0a25f6d">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f27r.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f27r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f22v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1488</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2184</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:c32b6cb4-e4ba-48c0-987d-f0deda66c952">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f19v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f19v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f29r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1482</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f9r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2226</exif:height>
+    <dc:title>M804 f9r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f13v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2190</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh68240">
+    <rdf:first rdf:resource="urn:uuid:77927e2f-aa84-4a27-b888-76135883f944"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh69253"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f29v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2169</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh60276">
+    <rdf:first rdf:resource="urn:uuid:5d85a985-396f-4548-bc24-87649efd7283"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh61289"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:a3b94801-a8cd-4c67-88c0-2df24981ada1">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f6r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f6r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f17r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1476</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2214</exif:height>
+    <dc:title>M804 f17r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:01d4c47a-a5a4-4584-8124-9082b464fe01">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f29v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f29v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:989e559f-c7e8-4fee-a7c1-f72c4f6507b0">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f11v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f11v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:77927e2f-aa84-4a27-b888-76135883f944">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f34v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f34v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f30r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1491</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2199</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f9v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1515</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <dc:title>M804 f9v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh28697">
+    <rdf:first rdf:resource="urn:uuid:03b87dce-3e73-49f0-969d-92ba1b03a6d4"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh29750"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f34r-d.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">400</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">782</exif:height>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Image"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f18r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1476</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh37874">
+    <rdf:first rdf:resource="urn:uuid:c32b6cb4-e4ba-48c0-987d-f0deda66c952"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh38917"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh72302">
+    <rdf:first rdf:resource="urn:uuid:f91821e4-0426-4bbb-a0d7-1fbe4fb4270d"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh73317"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f31v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1500</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2193</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f14r">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1539</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <dc:title>M804 f14r</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh34805">
+    <rdf:first rdf:resource="urn:uuid:bbd96655-e45f-4bcf-8a2b-0e0b63ebbe34"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh35828"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f3v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1515</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2181</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f30v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1497</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2184</exif:height>
+    <dc:title>M804 f30v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh13092">
+    <rdf:first rdf:resource="urn:uuid:817d23dc-5a05-4064-ab86-a3a671ded6bf"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh14135"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f12r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/ImageAnnotations.xml">
+    <dcterms:modified>2011-07-21T16:09:58Z</dcterms:modified>
+    <dc:format>application/rdf+xml</dc:format>
+    <ore:describes rdf:resource="http://www.shared-canvas.org/impl/demo1/res/ImageAnnotations"/>
+    <dcterms:creator rdf:resource="urn:uuid:e5c12519-e756-4442-a83d-556848c32714"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f7v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1542</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2202</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh50136">
+    <rdf:first rdf:resource="urn:uuid:a264b60b-591d-4eb2-b383-baac23a55ce2"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh51139"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:a079ae32-1dae-4865-a3a9-05a9c2edbe0c">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f8v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f8v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f8r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1539</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2211</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/ImageAnnotations">
+    <ore:aggregates rdf:resource="urn:uuid:46e74f54-a8e2-41f1-a3a1-24660472c584"/>
+    <ore:aggregates rdf:resource="urn:uuid:f91821e4-0426-4bbb-a0d7-1fbe4fb4270d"/>
+    <ore:aggregates rdf:resource="urn:uuid:30bbd393-9cd6-4fe1-96cc-8c185c6ea6fd"/>
+    <ore:aggregates rdf:resource="urn:uuid:5d85a985-396f-4548-bc24-87649efd7283"/>
+    <ore:aggregates rdf:resource="urn:uuid:c67c0c24-25bf-4c23-b4fb-5ce66269a879"/>
+    <ore:aggregates rdf:resource="urn:uuid:5b393dd6-2234-4fbc-bc5b-a5e7a7ae5b53"/>
+    <ore:aggregates rdf:resource="urn:uuid:ef21eb38-ad9c-4dcf-bbf1-dd2e55f85f4b"/>
+    <ore:aggregates rdf:resource="urn:uuid:35166f78-8354-4a80-9306-d7cecb5e43a0"/>
+    <ore:aggregates rdf:resource="urn:uuid:5d82a558-ab76-49f3-9047-f66459139f4e"/>
+    <ore:aggregates rdf:resource="urn:uuid:b6cf1868-68f9-4994-90dd-240a4a959358"/>
+    <ore:aggregates rdf:resource="urn:uuid:3b2c1387-e277-414f-b407-d767038b2f45"/>
+    <ore:aggregates rdf:resource="urn:uuid:95b0c8db-eb4d-4e30-a79d-915306b8ae2f"/>
+    <ore:aggregates rdf:resource="urn:uuid:f2691fde-06ad-4ea8-b7c8-9a338a27532d"/>
+    <ore:aggregates rdf:resource="urn:uuid:a995bc64-39be-47c2-ad19-abe3bfd9ae0d"/>
+    <ore:aggregates rdf:resource="urn:uuid:0fefee72-fe9f-467c-865c-5a9d6a36c066"/>
+    <ore:aggregates rdf:resource="urn:uuid:5ffa8703-5964-4fe6-a998-8e3c3ee2c076"/>
+    <ore:aggregates rdf:resource="urn:uuid:3dc9fb6e-1f28-4ad0-97a3-ffb0d613b3bf"/>
+    <ore:aggregates rdf:resource="urn:uuid:974247aa-a851-4faa-bfaf-c03f277b2467"/>
+    <ore:aggregates rdf:resource="urn:uuid:03b87dce-3e73-49f0-969d-92ba1b03a6d4"/>
+    <ore:aggregates rdf:resource="urn:uuid:bde17fa8-8f89-456c-bd16-927531501c81"/>
+    <ore:aggregates rdf:resource="urn:uuid:fdf83f84-798a-488c-b0c9-2f06d0cd44ac"/>
+    <ore:aggregates rdf:resource="urn:uuid:7ac4e40b-3ad3-4a77-acb4-e346aab69d5f"/>
+    <ore:aggregates rdf:resource="urn:uuid:cc9efb2c-3567-4ee6-a863-27a6a13e1664"/>
+    <ore:aggregates rdf:resource="urn:uuid:500d43dc-5865-4160-b239-c77d90e8129e"/>
+    <ore:aggregates rdf:resource="urn:uuid:a3b94801-a8cd-4c67-88c0-2df24981ada1"/>
+    <ore:aggregates rdf:resource="urn:uuid:01d4c47a-a5a4-4584-8124-9082b464fe01"/>
+    <ore:aggregates rdf:resource="urn:uuid:989e559f-c7e8-4fee-a7c1-f72c4f6507b0"/>
+    <ore:aggregates rdf:resource="urn:uuid:77927e2f-aa84-4a27-b888-76135883f944"/>
+    <ore:aggregates rdf:resource="urn:uuid:d3b5ae61-10de-4f18-9187-0398e87621ff"/>
+    <ore:aggregates rdf:resource="urn:uuid:b568d99e-63ad-4f18-9209-6f869d6e16ff"/>
+    <ore:aggregates rdf:resource="urn:uuid:ddb9b9e0-8d36-422f-8e89-7566378b35fc"/>
+    <ore:aggregates rdf:resource="urn:uuid:baa5096e-659d-4f10-9322-5faa9172b12f"/>
+    <ore:aggregates rdf:resource="urn:uuid:844e417a-3229-4cb3-90ee-9dffd9b0a6b9"/>
+    <ore:aggregates rdf:resource="urn:uuid:8e911613-1fa2-4c9d-8638-70daae460297"/>
+    <ore:aggregates rdf:resource="urn:uuid:377a6417-3629-49e6-a0fe-d2dcbf7b3818"/>
+    <ore:aggregates rdf:resource="urn:uuid:97f94b9c-3008-4b5d-8617-440d1a4090f6"/>
+    <ore:aggregates rdf:resource="urn:uuid:de53f54e-1957-4f47-9480-249a52bd586c"/>
+    <ore:aggregates rdf:resource="urn:uuid:8dae486d-793d-4023-9766-8e0e0ec8e66e"/>
+    <ore:aggregates rdf:resource="urn:uuid:8dad846c-dac7-4995-ab5a-9e09d0a25f6d"/>
+    <ore:aggregates rdf:resource="urn:uuid:f9295713-e1d8-4a9a-91d0-c9a1034de97b"/>
+    <ore:aggregates rdf:resource="urn:uuid:9e67f360-1707-413b-b788-d91a9bf8b99b"/>
+    <ore:aggregates rdf:resource="urn:uuid:252346f0-69a7-4a69-93df-b251c5d9a36a"/>
+    <ore:aggregates rdf:resource="urn:uuid:a079ae32-1dae-4865-a3a9-05a9c2edbe0c"/>
+    <ore:aggregates rdf:resource="urn:uuid:be4a603f-d959-44a6-80f1-6d631686c0e8"/>
+    <ore:aggregates rdf:resource="urn:uuid:c32b6cb4-e4ba-48c0-987d-f0deda66c952"/>
+    <ore:aggregates rdf:resource="urn:uuid:a12ca557-37ed-4ee2-ab06-0e65da7448d6"/>
+    <ore:aggregates rdf:resource="urn:uuid:a264b60b-591d-4eb2-b383-baac23a55ce2"/>
+    <ore:aggregates rdf:resource="urn:uuid:37cfdbcb-1ada-4864-887f-109ec15d868c"/>
+    <ore:aggregates rdf:resource="urn:uuid:e6a5fbd7-a054-4db7-8532-7b122821da74"/>
+    <ore:aggregates rdf:resource="urn:uuid:df1351d1-778d-42be-bb77-822e75c79432"/>
+    <ore:aggregates rdf:resource="urn:uuid:519183d6-c081-4a1b-98f8-1fa330546a1b"/>
+    <ore:aggregates rdf:resource="urn:uuid:83de4d65-0b76-4d92-9ff1-21c9fdb41a6b"/>
+    <ore:aggregates rdf:resource="urn:uuid:273b31db-fb5e-4c98-95a7-0c5deea0fda3"/>
+    <ore:aggregates rdf:resource="urn:uuid:bbd96655-e45f-4bcf-8a2b-0e0b63ebbe34"/>
+    <ore:aggregates rdf:resource="urn:uuid:361043ed-9274-4348-a1c1-589cc872dc34"/>
+    <ore:aggregates rdf:resource="urn:uuid:5c02776d-6274-4e15-97bc-93c57a30588e"/>
+    <ore:aggregates rdf:resource="urn:uuid:3b53da61-cb1e-44e4-a967-bc5253c7bc64"/>
+    <ore:aggregates rdf:resource="urn:uuid:fc63e966-f3ae-4ecf-8300-ce62551a1fa3"/>
+    <ore:aggregates rdf:resource="urn:uuid:e48fd495-c272-46ba-a81a-c4e21e95eda5"/>
+    <ore:aggregates rdf:resource="urn:uuid:817d23dc-5a05-4064-ab86-a3a671ded6bf"/>
+    <ore:aggregates rdf:resource="urn:uuid:637d0090-9e37-4360-bbc2-851d5af0dcc4"/>
+    <ore:aggregates rdf:resource="urn:uuid:bed795a9-f336-4e3a-b1c3-10c8f380e3b8"/>
+    <ore:aggregates rdf:resource="urn:uuid:9fa551d4-83b9-4fec-911e-3031b05fec72"/>
+    <ore:aggregates rdf:resource="urn:uuid:2374e86d-d571-4052-b6ce-13eabba3d604"/>
+    <ore:aggregates rdf:resource="urn:uuid:68affbce-3ca0-46aa-99e5-1eb3d979e0eb"/>
+    <ore:aggregates rdf:resource="urn:uuid:53516929-26a7-4ac9-af18-a2b11d5ffc07"/>
+    <ore:aggregates rdf:resource="urn:uuid:fef69459-6e69-4d8d-87f3-4744f867a2a5"/>
+    <ore:aggregates rdf:resource="urn:uuid:bc192e28-0891-4bb7-96ca-7c76bd3fc263"/>
+    <ore:aggregates rdf:resource="urn:uuid:90752a09-4b72-4b1f-bb5a-148aa18d049d"/>
+    <ore:aggregates rdf:resource="urn:uuid:54b76a0a-c012-426e-bba8-4b4c3dfde943"/>
+    <ore:aggregates rdf:resource="urn:uuid:42c75bcc-7378-4d18-9653-ace245b7b4da"/>
+    <ore:aggregates rdf:resource="urn:uuid:e8aa42c0-1c84-49af-977e-6daecc7ed04b"/>
+    <ore:aggregates rdf:resource="urn:uuid:95c40e64-3c0f-4e60-8ee0-bf522c06ec65"/>
+    <ore:aggregates rdf:resource="urn:uuid:d26b2e6e-955f-409a-89e9-00c51d942c7b"/>
+    <rdf:first rdf:resource="urn:uuid:b6cf1868-68f9-4994-90dd-240a4a959358"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh546"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotationList"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:ef21eb38-ad9c-4dcf-bbf1-dd2e55f85f4b">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f29r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f29r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f21v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1497</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2187</exif:height>
+    <dc:title>M804 f21v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh25548">
+    <rdf:first rdf:resource="urn:uuid:a12ca557-37ed-4ee2-ab06-0e65da7448d6"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh26591"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r#xywh=45,230,170,420">
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:519183d6-c081-4a1b-98f8-1fa330546a1b">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f34r#xywh=45,230,170,420"/>
+    <oac:hasBody rdf:resource="urn:uuid:76b28fb3-8caa-4f2f-8649-216ccfa6bd64"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f35r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1494</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2205</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f30v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1497</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2184</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f36v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1518</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2187</exif:height>
+    <dc:title>M804 f36v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh38917">
+    <rdf:first rdf:resource="urn:uuid:46e74f54-a8e2-41f1-a3a1-24660472c584"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh39960"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f19v">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1503</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2175</exif:height>
+    <dc:title>M804 f19v</dc:title>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:817d23dc-5a05-4064-ab86-a3a671ded6bf">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f7v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f7v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh24515">
+    <rdf:first rdf:resource="urn:uuid:90752a09-4b72-4b1f-bb5a-148aa18d049d"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh25548"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:e48fd495-c272-46ba-a81a-c4e21e95eda5">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f14v"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f14v.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f3r.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1545</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2220</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:bed795a9-f336-4e3a-b1c3-10c8f380e3b8">
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f12r"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f12r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh44102">
+    <rdf:first rdf:resource="urn:uuid:95c40e64-3c0f-4e60-8ee0-bf522c06ec65"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh45125"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh55201">
+    <rdf:first rdf:resource="urn:uuid:5ffa8703-5964-4fe6-a998-8e3c3ee2c076"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh56214"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:974247aa-a851-4faa-bfaf-c03f277b2467">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f31v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f31v"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh62322">
+    <rdf:first rdf:resource="urn:uuid:974247aa-a851-4faa-bfaf-c03f277b2467"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh63325"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:cc9efb2c-3567-4ee6-a863-27a6a13e1664">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f20v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f20v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/image-f15v.jpg">
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1506</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2232</exif:height>
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Image"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageBody"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:e8aa42c0-1c84-49af-977e-6daecc7ed04b">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f24v.jpg"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f24v"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:8a8ea8a4-303c-4e45-8a10-dde493e24045">
+    <dms:option rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f1r-c.jpg"/>
+    <dms:option rdf:resource="http://www.shared-canvas.org/impl/demo1/res/image-f1r.jpg"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/ImageChoice"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh14135">
+    <rdf:first rdf:resource="urn:uuid:273b31db-fb5e-4c98-95a7-0c5deea0fda3"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh15168"/>
+  </rdf:Description>
+</rdf:RDF>

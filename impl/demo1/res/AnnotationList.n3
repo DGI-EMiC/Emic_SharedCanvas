@@ -1,0 +1,38 @@
+@prefix cnt: <http://www.w3.org/2008/content#> .
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcterms: <http://purl.org/dc/terms/> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix oac: <http://www.openannotation.org/ns/> .
+@prefix ore: <http://www.openarchives.org/ore/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+
+<http://localhost/EmicShared/impl/demo1/res/AnnotationList.n3> a <http://www.openarchives.org/ore/terms/ResourceMap>;
+    dc:format "n3";
+    dcterms:creator <urn:uuid:ae83849a-3a83-45f7-b165-3952eb075923>;
+    dcterms:modified "2011-08-24T19:10:00Z";
+    ore:describes <http://localhost/EmicShared/impl/demo1/res/AnnotationList> .
+
+<http://localhost/EmicShared/impl/demo1/res/AnnotationList> a <http://dms.stanford.edu/ns/AnnotationList>,
+        <http://www.openarchives.org/ore/terms/Aggregation>,
+        <http://www.w3.org/1999/02/22-rdf-syntax-ns#List>;
+    ore:aggregates <urn:uuid:d167ce27-53e6-4e0b-924a-1c5e95e98052>;
+    rdf:first <urn:uuid:d167ce27-53e6-4e0b-924a-1c5e95e98052>;
+    rdf:rest () .
+
+<http://localhost/EmicShared/impl/demo1/res/Canvas-f1r> a <http://dms.stanford.edu/ns/Canvas> .
+
+<urn:uuid:06144284-d474-4fc5-b2e1-0bcc99c1c4f1> a <http://www.w3.org/2008/content#ContentAsText>;
+    cnt:characterEncoding "UTF-8";
+    cnt:chars "<svg:circle xmlns:svg='http://www.w3.org/2000/svg' cx='430' cy='610' r='75' />" .
+
+<urn:uuid:591b3da9-8208-4a67-86ed-9ee2360287d3> a <http://www.openannotation.org/ns/ConstrainedTarget>;
+    oac:constrainedBy <urn:uuid:06144284-d474-4fc5-b2e1-0bcc99c1c4f1>;
+    oac:constrains <http://localhost/EmicShared/impl/demo1/res/Canvas-f1r> .
+
+<urn:uuid:ae83849a-3a83-45f7-b165-3952eb075923> a <http://purl.org/dc/terms/Agent>;
+    foaf:mbox "azaroth42@gmail.com";
+    foaf:name "SharedCanvas: Python/rdflib" .
+
+<urn:uuid:d167ce27-53e6-4e0b-924a-1c5e95e98052> a <http://www.openannotation.org/ns/Annotation>;
+    oac:hasTarget <urn:uuid:591b3da9-8208-4a67-86ed-9ee2360287d3> .
+

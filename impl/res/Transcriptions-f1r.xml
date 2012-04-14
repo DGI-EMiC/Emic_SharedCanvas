@@ -1,0 +1,1109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rdf:RDF
+   xmlns:cnt="http://www.w3.org/2008/content#"
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:dcterms="http://purl.org/dc/terms/"
+   xmlns:dms="http://dms.stanford.edu/ns/"
+   xmlns:exif="http://www.w3.org/2003/12/exif/ns#"
+   xmlns:foaf="http://xmlns.com/foaf/0.1/"
+   xmlns:oac="http://www.openannotation.org/ns/"
+   xmlns:ore="http://www.openarchives.org/ore/terms/"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+>
+  <rdf:Description rdf:about="urn:uuid:c437ff82-4081-4fad-a89c-1a8a3093c80f">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-15"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=73,1383,540,35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1522,565,35">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1010,554,39">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1r">
+    <ore:aggregates rdf:resource="urn:uuid:84937c24-3218-46c9-a131-11b78e0cc2fc"/>
+    <ore:aggregates rdf:resource="urn:uuid:12994b8b-8c4b-4282-b2c2-87b86298a0cf"/>
+    <ore:aggregates rdf:resource="urn:uuid:a75473ca-a374-484b-a2e8-e01582c8f34f"/>
+    <ore:aggregates rdf:resource="urn:uuid:95ee1ef2-78ec-4dbc-9296-4d2287bc16e7"/>
+    <ore:aggregates rdf:resource="urn:uuid:f1929b78-ce4f-42ed-86b7-58560d4436f3"/>
+    <ore:aggregates rdf:resource="urn:uuid:4662ff56-7030-4a8d-87b4-268d730253e4"/>
+    <ore:aggregates rdf:resource="urn:uuid:b497696b-939a-46ee-823d-3cdd594c4365"/>
+    <ore:aggregates rdf:resource="urn:uuid:c46597b9-efd1-4b8b-945a-d18409b83347"/>
+    <ore:aggregates rdf:resource="urn:uuid:544b566f-31a2-4dd1-8599-090fe33af878"/>
+    <ore:aggregates rdf:resource="urn:uuid:65c63845-13e0-4e75-9717-866cd5695318"/>
+    <ore:aggregates rdf:resource="urn:uuid:2ee67f3c-9c24-44a2-8107-1b29fb75c1f3"/>
+    <ore:aggregates rdf:resource="urn:uuid:1d327a6e-0d78-49ed-8a87-b68826517505"/>
+    <ore:aggregates rdf:resource="urn:uuid:8bbb5a05-d26d-411e-8ecf-e3b5c576ac7a"/>
+    <ore:aggregates rdf:resource="urn:uuid:71f985fd-a842-4adf-bd9e-15b5f351f903"/>
+    <ore:aggregates rdf:resource="urn:uuid:43ab9cbb-d799-4bf4-b509-f221ba062bef"/>
+    <ore:aggregates rdf:resource="urn:uuid:d65258b3-836f-478e-ad30-48c18064ca3a"/>
+    <ore:aggregates rdf:resource="urn:uuid:fe21310f-d1fb-4df1-8a81-9fa0f8af22f7"/>
+    <ore:aggregates rdf:resource="urn:uuid:cebf3467-f57a-4a95-b8a0-d554f0455808"/>
+    <ore:aggregates rdf:resource="urn:uuid:791b0b9b-2df3-4aeb-b3ac-bb6c7b8bc3ab"/>
+    <ore:aggregates rdf:resource="urn:uuid:480adac8-d977-4d83-b084-186a90e7dc1a"/>
+    <ore:aggregates rdf:resource="urn:uuid:b66a3319-d4ae-4278-b478-30c93e02f3fc"/>
+    <ore:aggregates rdf:resource="urn:uuid:46860883-5e66-4d9b-9f95-72045722900e"/>
+    <ore:aggregates rdf:resource="urn:uuid:0497e372-643e-45c6-b46d-f1972a89a250"/>
+    <ore:aggregates rdf:resource="urn:uuid:483e2080-3d31-4c8d-93d4-a32868ded705"/>
+    <ore:aggregates rdf:resource="urn:uuid:6bec144c-0ea1-4798-8c40-c896171e5603"/>
+    <ore:aggregates rdf:resource="urn:uuid:129bc263-17f6-4078-abcd-405aa2085775"/>
+    <ore:aggregates rdf:resource="urn:uuid:dbe91fb8-131e-4852-857b-5d22bda7588a"/>
+    <ore:aggregates rdf:resource="urn:uuid:782ce7d8-0227-46a5-89e2-a7918536590e"/>
+    <ore:aggregates rdf:resource="urn:uuid:9088acea-0912-472b-b197-22653c259c66"/>
+    <ore:aggregates rdf:resource="urn:uuid:6400599c-62b5-4eae-8503-166df01d6a2b"/>
+    <ore:aggregates rdf:resource="urn:uuid:3eaa28a3-b439-46fe-8da2-fd3fb8f772c2"/>
+    <ore:aggregates rdf:resource="urn:uuid:809370ca-2fe6-4082-830b-255d4f1cd16d"/>
+    <ore:aggregates rdf:resource="urn:uuid:bfa84644-f0e4-4869-b866-f9367a7986be"/>
+    <ore:aggregates rdf:resource="urn:uuid:f727bd24-96b7-43c9-903e-374e4e81d76f"/>
+    <ore:aggregates rdf:resource="urn:uuid:d6f49311-cbe2-49e3-a6a2-3bed54e2628d"/>
+    <ore:aggregates rdf:resource="urn:uuid:17c540c7-5a40-4d7c-a6df-e0914113a352"/>
+    <ore:aggregates rdf:resource="urn:uuid:0e02b140-051b-4b40-9e67-33808b5fc236"/>
+    <ore:aggregates rdf:resource="urn:uuid:52958626-ed2a-4ba4-9647-7b3cbe943c21"/>
+    <ore:aggregates rdf:resource="urn:uuid:0f251dd8-446c-4e9f-a706-f1aa14352af4"/>
+    <ore:aggregates rdf:resource="urn:uuid:a1b93307-2f1b-4644-9fd1-ab49997cba76"/>
+    <ore:aggregates rdf:resource="urn:uuid:2f0e7925-ccfc-42c6-91bc-631bece5b0dc"/>
+    <ore:aggregates rdf:resource="urn:uuid:981d7123-f600-4e7e-b0ac-590f63a0912e"/>
+    <ore:aggregates rdf:resource="urn:uuid:edacb7b6-87ca-4e36-8db4-472e2448e06f"/>
+    <ore:aggregates rdf:resource="urn:uuid:68b101f6-50d9-4cab-a0e3-4e0df3e781dd"/>
+    <ore:aggregates rdf:resource="urn:uuid:d9310851-4267-4450-aeab-fe068c71b345"/>
+    <ore:aggregates rdf:resource="urn:uuid:ee9f738f-480c-43e2-9931-d47022e37b9c"/>
+    <ore:aggregates rdf:resource="urn:uuid:c437ff82-4081-4fad-a89c-1a8a3093c80f"/>
+    <ore:aggregates rdf:resource="urn:uuid:d026633b-1149-442a-b765-08d099a7faba"/>
+    <ore:aggregates rdf:resource="urn:uuid:d6b381a2-afb3-46d5-9d2c-a914ea2d5d71"/>
+    <ore:aggregates rdf:resource="urn:uuid:5af02a7b-40da-4734-9c10-ca69a1a1bb16"/>
+    <ore:aggregates rdf:resource="urn:uuid:340507ee-e602-4de9-bd48-b30a95174a56"/>
+    <rdf:first rdf:resource="urn:uuid:95ee1ef2-78ec-4dbc-9296-4d2287bc16e7"/>
+    <dms:forCanvas rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotationList"/>
+    <rdf:type rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#List"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/Aggregation"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh45"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-39">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>faites et rassemblees par venerable homme et</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1319,565,44">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:480adac8-d977-4d83-b084-186a90e7dc1a">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-42"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1489,545,38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:8bbb5a05-d26d-411e-8ecf-e3b5c576ac7a">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-20"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1544,523,52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:782ce7d8-0227-46a5-89e2-a7918536590e">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-16"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1413,538,44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1442,525,47">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=687,1110,582,46">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=382,1180,209,31">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-17">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>de grant loenge mais ains que je le commence</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/Canvas"/>
+    <dc:title>M804 f1r</dc:title>
+    <exif:width rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1548</exif:width>
+    <exif:height rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">2217</exif:height>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh245">
+    <rdf:first rdf:resource="urn:uuid:d65258b3-836f-478e-ad30-48c18064ca3a"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh255"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1784,517,56">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=702,1452,537,48">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-23">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>que tous ceulz et celles qui le liront verront</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh335">
+    <rdf:first rdf:resource="urn:uuid:0f251dd8-446c-4e9f-a706-f1aa14352af4"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh345"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:0497e372-643e-45c6-b46d-f1972a89a250">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-25"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=59,1716,543,48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-35">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>mencier. Premierement de la grace de Dieu</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:dbe91fb8-131e-4852-857b-5d22bda7588a">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-39"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1385,556,41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-50">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>il fu en son venir moult amis et secres a tres-</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh535">
+    <rdf:first rdf:resource="urn:uuid:c46597b9-efd1-4b8b-945a-d18409b83347"/>
+    <rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-12">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>en memoire per-</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-43">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>et le continua tout son vivant au plus juste-</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=395,1250,210,37">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1489,545,38">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1282,586,50">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1147,558,52">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:809370ca-2fe6-4082-830b-255d4f1cd16d">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-36"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1282,586,50"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh225">
+    <rdf:first rdf:resource="urn:uuid:8bbb5a05-d26d-411e-8ecf-e3b5c576ac7a"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh235"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:f727bd24-96b7-43c9-903e-374e4e81d76f">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-19"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1513,536,46"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh355">
+    <rdf:first rdf:resource="urn:uuid:0e02b140-051b-4b40-9e67-33808b5fc236"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh365"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1614,533,45">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh525">
+    <rdf:first rdf:resource="urn:uuid:17c540c7-5a40-4d7c-a6df-e0914113a352"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh535"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1587,562,40">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh75">
+    <rdf:first rdf:resource="urn:uuid:6bec144c-0ea1-4798-8c40-c896171e5603"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh85"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=66,934,1195,50">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=689,1618,574,50">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh485">
+    <rdf:first rdf:resource="urn:uuid:6400599c-62b5-4eae-8503-166df01d6a2b"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh495"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:a1b93307-2f1b-4644-9fd1-ab49997cba76">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-41"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=702,1452,537,48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-14">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>les preux ayent</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=68,1747,534,52">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-44">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>ment qu'il pot, et moult lui cousta a l'acquerre</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1544,523,52">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:ae71dfc4-ca1d-4f09-ad9e-5e6cbc12a097">
+    <foaf:name>SharedCanvas: Python/rdflib</foaf:name>
+    <rdf:type rdf:resource="http://purl.org/dc/terms/Agent"/>
+    <foaf:mbox>azaroth42@gmail.com</foaf:mbox>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh285">
+    <rdf:first rdf:resource="urn:uuid:b497696b-939a-46ee-823d-3cdd594c4365"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh295"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-4">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>fin que honnorables</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-15">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>exemple de eulz encouragier en bien faisant,</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh195">
+    <rdf:first rdf:resource="urn:uuid:f1929b78-ce4f-42ed-86b7-58560d4436f3"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh205"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:84937c24-3218-46c9-a131-11b78e0cc2fc">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-30"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1078,586,43"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh45">
+    <rdf:first rdf:resource="urn:uuid:edacb7b6-87ca-4e36-8db4-472e2448e06f"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh55"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1513,536,46">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:a75473ca-a374-484b-a2e8-e01582c8f34f">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-14"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1343,212,44"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:d026633b-1149-442a-b765-08d099a7faba">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-23"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1646,523,50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-27">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>et maconnez l'une pierre apres l'autre et</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh235">
+    <rdf:first rdf:resource="urn:uuid:129bc263-17f6-4078-abcd-405aa2085775"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh245"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1786,545,59">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1078,586,43">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-16">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>je vueil traittier et recorder l'istoire et matiere</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:1d327a6e-0d78-49ed-8a87-b68826517505">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-37"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1319,565,44"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh215">
+    <rdf:first rdf:resource="urn:uuid:f727bd24-96b7-43c9-903e-374e4e81d76f"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh225"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh105">
+    <rdf:first rdf:resource="urn:uuid:68b101f6-50d9-4cab-a0e3-4e0df3e781dd"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh115"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1350,549,33">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:71f985fd-a842-4adf-bd9e-15b5f351f903">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-48"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1690,547,41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-30">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>aussi les sciences sont estraites et compilees</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-31">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>de pluseurs clers. Et ce que l'un ne scet l'autre</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh185">
+    <rdf:first rdf:resource="urn:uuid:782ce7d8-0227-46a5-89e2-a7918536590e"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh195"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:791b0b9b-2df3-4aeb-b3ac-bb6c7b8bc3ab">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-4"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=400,1008,226,37"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:b66a3319-d4ae-4278-b478-30c93e02f3fc">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-49"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1721,545,47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-25">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>et plaisance et je escheir en leur grace. On</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-24">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>et oeront y puissent prendre esbatement</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:46860883-5e66-4d9b-9f95-72045722900e">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-12"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=395,1280,223,46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-2">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/RubricBody"/>
+    <cnt:chars>d'Engleterre, d'Escoce et d'Espaigne, lesquelles sont devisees en quatre parties. Le prologue.</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:483e2080-3d31-4c8d-93d4-a32868ded705">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-45"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1587,562,40"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh455">
+    <rdf:first rdf:resource="urn:uuid:52958626-ed2a-4ba4-9647-7b3cbe943c21"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh465"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:129bc263-17f6-4078-abcd-405aa2085775">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-21"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=68,1575,547,54"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=391,1145,226,46">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-5">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>avenues et nobles</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=689,1753,561,52">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:2ee67f3c-9c24-44a2-8107-1b29fb75c1f3">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-10"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1210,235,42"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh265">
+    <rdf:first rdf:resource="urn:uuid:cebf3467-f57a-4a95-b8a0-d554f0455808"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh275"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-45">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>et a l'avoir mais quelz frais qu'il y eust ne</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-48">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>meismes large, honnorable et courtois et</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:d6f49311-cbe2-49e3-a6a2-3bed54e2628d">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-28"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1010,554,39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-1">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/RubricBody"/>
+    <cnt:chars>Ci commencent les croniques que fist maistre Frossart qui parlent des nouvelles guerres de France et</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1045,593,43">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-8">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>guerres de France</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh95">
+    <rdf:first rdf:resource="urn:uuid:d6b381a2-afb3-46d5-9d2c-a914ea2d5d71"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh105"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh505">
+    <rdf:first rdf:resource="urn:uuid:71f985fd-a842-4adf-bd9e-15b5f351f903"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh515"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-13">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>petuel, parquoy</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-34">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>et venir a la matiere que j'ay empris de com-</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1r.xml">
+    <dcterms:creator rdf:resource="urn:uuid:ae71dfc4-ca1d-4f09-ad9e-5e6cbc12a097"/>
+    <rdf:type rdf:resource="http://www.openarchives.org/ore/terms/ResourceMap"/>
+    <ore:describes rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Transcriptions-f1r"/>
+    <dc:format>application/rdf+xml</dc:format>
+    <dcterms:modified>2011-07-21T16:10:19Z</dcterms:modified>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:d65258b3-836f-478e-ad30-48c18064ca3a">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-22"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1614,533,45"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh365">
+    <rdf:first rdf:resource="urn:uuid:544b566f-31a2-4dd1-8599-090fe33af878"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh375"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-3">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/InitialBody"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>A</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:d9310851-4267-4450-aeab-fe068c71b345">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-9"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=382,1180,209,31"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=395,1280,223,46">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-7">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>d'armes par les</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh295">
+    <rdf:first rdf:resource="urn:uuid:9088acea-0912-472b-b197-22653c259c66"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh305"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh315">
+    <rdf:first rdf:resource="urn:uuid:43ab9cbb-d799-4bf4-b509-f221ba062bef"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh325"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=75,971,1172,50">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:340507ee-e602-4de9-bd48-b30a95174a56">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-47"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=685,1655,580,39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:95ee1ef2-78ec-4dbc-9296-4d2287bc16e7">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-1"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=66,934,1195,50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=400,1008,226,37">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:f1929b78-ce4f-42ed-86b7-58560d4436f3">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-17"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1442,525,47"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:4662ff56-7030-4a8d-87b4-268d730253e4">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-32"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1147,558,52"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh405">
+    <rdf:first rdf:resource="urn:uuid:bfa84644-f0e4-4869-b866-f9367a7986be"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh415"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh465">
+    <rdf:first rdf:resource="urn:uuid:3eaa28a3-b439-46fe-8da2-fd3fb8f772c2"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh475"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1180,561,43">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh155">
+    <rdf:first rdf:resource="urn:uuid:65c63845-13e0-4e75-9717-866cd5695318"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh165"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-20">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>et mettre en moy sens et entendement si</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-11">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>registrez et miz</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:fe21310f-d1fb-4df1-8a81-9fa0f8af22f7">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-11"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=395,1250,210,37"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh115">
+    <rdf:first rdf:resource="urn:uuid:d9310851-4267-4450-aeab-fe068c71b345"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh125"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-41">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>de Saint Lambert de Liege, qui grant cure et</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-38">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>et ordonner sur les vrayes croniques jadis</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-51">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>noble et doubte seigneur monseigneur Jehan de</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=48,1012,365,382">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh435">
+    <rdf:first rdf:resource="urn:uuid:a1b93307-2f1b-4644-9fd1-ab49997cba76"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh445"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh205">
+    <rdf:first rdf:resource="urn:uuid:5af02a7b-40da-4734-9c10-ca69a1a1bb16"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh215"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-21">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>vertueux que ce livre que j'ay commencie je le</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh255">
+    <rdf:first rdf:resource="urn:uuid:d026633b-1149-442a-b765-08d099a7faba"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh265"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1476,528,53">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1315,214,35">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1385,556,41">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1418,578,48">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-19">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>de neant crea toutes choses qu'il vueille creer</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh135">
+    <rdf:first rdf:resource="urn:uuid:fe21310f-d1fb-4df1-8a81-9fa0f8af22f7"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh145"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh55">
+    <rdf:first rdf:resource="urn:uuid:ee9f738f-480c-43e2-9931-d47022e37b9c"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh65"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh305">
+    <rdf:first rdf:resource="urn:uuid:d6f49311-cbe2-49e3-a6a2-3bed54e2628d"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh315"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-33">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>ou loing ou pres.Dont aussi pour attaindre</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1684,521,43">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:9088acea-0912-472b-b197-22653c259c66">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-27"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1784,517,56"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh85">
+    <rdf:first rdf:resource="urn:uuid:2f0e7925-ccfc-42c6-91bc-631bece5b0dc"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh95"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1215,560,37">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:bfa84644-f0e4-4869-b866-f9367a7986be">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-38"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1350,549,33"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-22">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>puisse continuer et perseverer en tele maniere</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh125">
+    <rdf:first rdf:resource="urn:uuid:2ee67f3c-9c24-44a2-8107-1b29fb75c1f3"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh135"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh425">
+    <rdf:first rdf:resource="urn:uuid:981d7123-f600-4e7e-b0ac-590f63a0912e"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh435"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=73,1383,540,35">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh475">
+    <rdf:first rdf:resource="urn:uuid:483e2080-3d31-4c8d-93d4-a32868ded705"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh485"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh325">
+    <rdf:first rdf:resource="urn:uuid:84937c24-3218-46c9-a131-11b78e0cc2fc"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh335"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:edacb7b6-87ca-4e36-8db4-472e2448e06f">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-2"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=75,971,1172,50"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh375">
+    <rdf:first rdf:resource="urn:uuid:12994b8b-8c4b-4282-b2c2-87b86298a0cf"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh385"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh65">
+    <rdf:first rdf:resource="urn:uuid:791b0b9b-2df3-4aeb-b3ac-bb6c7b8bc3ab"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh75"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-29">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>semblees de divers lieux et pluseurs sourgons,</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:0f251dd8-446c-4e9f-a706-f1aa14352af4">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-31"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=687,1110,582,46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:68b101f6-50d9-4cab-a0e3-4e0df3e781dd">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-8"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=391,1145,226,46"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:ee9f738f-480c-43e2-9931-d47022e37b9c">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-3"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=48,1012,365,382"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:5af02a7b-40da-4734-9c10-ca69a1a1bb16">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-18"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1476,528,53"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-32">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>scet. Non pourquant rien n'est qui ne soit sceu</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=386,1108,218,41">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1557,591,35">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh275">
+    <rdf:first rdf:resource="urn:uuid:0497e372-643e-45c6-b46d-f1972a89a250"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh285"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:12994b8b-8c4b-4282-b2c2-87b86298a0cf">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-35"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1252,565,41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-18">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>je requier au sauveur de tout le monde qui</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh165">
+    <rdf:first rdf:resource="urn:uuid:a75473ca-a374-484b-a2e8-e01582c8f34f"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh175"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:b497696b-939a-46ee-823d-3cdd594c4365">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-26"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=68,1747,534,52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:c46597b9-efd1-4b8b-945a-d18409b83347">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-51"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1786,545,59"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1721,545,47">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:65c63845-13e0-4e75-9717-866cd5695318">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-13"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1315,214,35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-10">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>soient notablement</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-6">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>aventures, fais</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=387,1047,244,39">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-46">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>feist riens, ne les plaingni car il estoit riche</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1690,547,41">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:981d7123-f600-4e7e-b0ac-590f63a0912e">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-40"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1418,578,48"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:43ab9cbb-d799-4bf4-b509-f221ba062bef">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-29"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1045,593,43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1343,212,44">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:cebf3467-f57a-4a95-b8a0-d554f0455808">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-24"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=72,1684,521,43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-40">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>discret seigneur monseigneur Jehan le Bel, chanoine</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=389,1077,213,38">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh415">
+    <rdf:first rdf:resource="urn:uuid:dbe91fb8-131e-4852-857b-5d22bda7588a"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh425"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh495">
+    <rdf:first rdf:resource="urn:uuid:340507ee-e602-4de9-bd48-b30a95174a56"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh505"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh175">
+    <rdf:first rdf:resource="urn:uuid:c437ff82-4081-4fad-a89c-1a8a3093c80f"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh185"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh145">
+    <rdf:first rdf:resource="urn:uuid:46860883-5e66-4d9b-9f95-72045722900e"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh155"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh395">
+    <rdf:first rdf:resource="urn:uuid:1d327a6e-0d78-49ed-8a87-b68826517505"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh405"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh515">
+    <rdf:first rdf:resource="urn:uuid:b66a3319-d4ae-4278-b478-30c93e02f3fc"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh525"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:6bec144c-0ea1-4798-8c40-c896171e5603">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-5"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=387,1047,244,39"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-9">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>et d'Engleterre</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh445">
+    <rdf:first rdf:resource="urn:uuid:480adac8-d977-4d83-b084-186a90e7dc1a"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh455"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-28">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>toutes grosses rivieres sont faites et ras-</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-47">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:chars>et puissant si les povoit bien porter et de soy</cnt:chars>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=77,1413,538,44">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1252,565,41">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:52958626-ed2a-4ba4-9647-7b3cbe943c21">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-43"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=696,1522,565,35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:3eaa28a3-b439-46fe-8da2-fd3fb8f772c2">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-44"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=700,1557,591,35"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=685,1655,580,39">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=68,1575,547,54">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=79,1646,523,50">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=59,1716,543,48">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh345">
+    <rdf:first rdf:resource="urn:uuid:4662ff56-7030-4a8d-87b4-268d730253e4"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh355"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-42">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>toute bonne diligence mist en ceste matiere</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:0e02b140-051b-4b40-9e67-33808b5fc236">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-33"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=698,1180,561,43"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-26">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>dist et vray est que tous edefices sont ouvrez</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-49">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>qui voulentiers veoit le sien despendre. Aussi</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-36">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>et de la benoite Vierge Marie dont tout confort</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:2f0e7925-ccfc-42c6-91bc-631bece5b0dc">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-6"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=389,1077,213,38"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=393,1210,235,42">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/CanvasSegment"/>
+    <dcterms:isPartOf rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:6400599c-62b5-4eae-8503-166df01d6a2b">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-46"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=689,1618,574,50"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-37">
+    <rdf:type rdf:resource="http://purl.org/dc/dcmitype/Text"/>
+    <rdf:type rdf:resource="http://www.w3.org/2008/content#ContentAsText"/>
+    <cnt:characterEncoding>UTF-8</cnt:characterEncoding>
+    <cnt:chars>et avancement viennent, je me vueil fonder</cnt:chars>
+  </rdf:Description>
+  <rdf:Description rdf:nodeID="bCfJsWeh385">
+    <rdf:first rdf:resource="urn:uuid:809370ca-2fe6-4082-830b-255d4f1cd16d"/>
+    <rdf:rest rdf:nodeID="bCfJsWeh395"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:d6b381a2-afb3-46d5-9d2c-a914ea2d5d71">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-7"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=386,1108,218,41"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:17c540c7-5a40-4d7c-a6df-e0914113a352">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-50"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=689,1753,561,52"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="urn:uuid:544b566f-31a2-4dd1-8599-090fe33af878">
+    <rdf:type rdf:resource="http://dms.stanford.edu/ns/TextAnnotation"/>
+    <rdf:type rdf:resource="http://www.openannotation.org/ns/Annotation"/>
+    <oac:hasBody rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Line-f1r-34"/>
+    <oac:hasTarget rdf:resource="http://www.shared-canvas.org/impl/demo1/res/Canvas-f1r#xywh=694,1215,560,37"/>
+  </rdf:Description>
+</rdf:RDF>
