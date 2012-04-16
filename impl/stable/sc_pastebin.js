@@ -11,7 +11,7 @@ function pb_postData(title, data) {
 		type:'POST',
                 url:emic_params.islandora_post_url,
 		data: {title:title, data:data},
-		success: function(data,status,xhr) {pb_getPaste($.parseJSON(data));},
+		success: function(data,status,xhr) {pb_getPaste(data);},
 		error: function(data,status,xhr) {alert('Failed to post')}	
 	});	
 }

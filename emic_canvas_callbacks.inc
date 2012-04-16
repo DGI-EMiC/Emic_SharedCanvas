@@ -39,8 +39,20 @@ function islandora_add_annotation($pid) {
 
 // create Domdoc object with transformed data from SharedCanvas
   $annotationDomDoc = new DOMDocument();
-  $annotation_xml = emic_shared_transform_annotationList(urldecode($_POST['data']),'html');
+  $annotation_xml = emic_shared_transform_annotationList(urldecode($_POST['data']), 'html');
+  $simplexml = simplexml_load_string($annotation_xml);
+  $annotations = $simplexml->xpath('//rdf:type[@rdf:resource="http://www.openannotation.org/ns/Annotation"]');
+  $parents = $annotations[0]->xpath("parent::*");
+  $parent = $parents[0];
+  foreach ($parent->attributes('rdf', TRUE) as $key => $value) {
+    echo (string) $value;
+  }
+
   $annotationDomDoc->loadXML($annotation_xml);
+
+ 
+
+
 
 // Get Description elements as nodeList and send them to
   $descriptions = $annotationDomDoc->getElementsByTagName('Description');
@@ -74,7 +86,7 @@ function emic_shared_transform_annotationList($xml_in, $input_type) {
 
   $path = drupal_get_path('module', 'emic_canvas') . '/xslt/';
   $xslts = array(
-    'html' => $path .'html_to_AnnotationList.xsl',
+    'html' => $path . 'html_to_AnnotationList.xsl',
     'rdf' => $path . 'AnnotationList_to_html.xsl'
   );
   try {
