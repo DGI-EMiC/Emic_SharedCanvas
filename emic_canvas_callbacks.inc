@@ -8,8 +8,16 @@
  */
 function islandora_canvas_setup($pid) {
   global $base_url;
+  global $user;
+  module_load_include('inc', 'islandora_book', 'book_pack_utils');
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   module_load_include('inc', 'emic_canvas', 'build_sharedcanvas_streams');
+  $books = get_collection_from_pid($pid);
+  $book = $books[0];
+  $item = new Fedora_Item($book);
+  $title = $item->objectProfile->objLabel;
+  $pages = get_page_pids($book);
+  $position = array_search($pid, $pages);
   $item = new Fedora_Item($pid);
 
   if (!key_exists('Manifest', $item->datastreams)) {
@@ -21,7 +29,10 @@ function islandora_canvas_setup($pid) {
   $results['object_base'] = "$base_url/fedora/repository/$pid";
   $results['islandora_post_url'] = "$base_url/emic/shared/add_annotation/$pid";
   $results['islandora_get_annotation'] = "$base_url/emic/get_annotation/$pid/";
+  $results['islandora_delete_annotation'] = "$base_url/emic/delete_annotation/$pid/";
   $results['get_annotation_list_url'] = "$base_url/emic/get_urns/$pid";
+  $results['position'] = $position;
+  $results['pages'] = $pages;
   $json = json_encode($results);
   echo $json;
 }
@@ -50,27 +61,10 @@ function islandora_add_annotation($pid) {
 
   $annotationDomDoc->loadXML($annotation_xml);
 
- 
-
-
-
 // Get Description elements as nodeList and send them to
   $descriptions = $annotationDomDoc->getElementsByTagName('Description');
   $rdf->addDescriptionsFromNodelist($descriptions);
-  $updated_annotationList = $rdf->printRDF();
-
-  $flat_pid = str_replace(':', '_', $pid);
-  $file_path = file_directory_path() . "/$flat_pid/annotationList.xml";
-  if (!is_dir($file_path)) {
-    mkdir($file_path, 0777, TRUE);
-  }
-
-  file_put_contents("$file_path/annotationList.xml", $updated_annotationList);
-  $item->add_or_modify_by_reference("$base_url/$file_path/annotationList.xml", 'AnnotationList', "AnnotationList", 'text/plain', FALSE, 'Modified by Islandora API');
-  file_delete("$file_path/$name.xml");
-
-  rmdir($file_path);
-  rmdir(file_directory_path() . "/$flat_pid");
+  islandora_save_updated_annotations($pid, $rdf);
 }
 
 /**
@@ -132,7 +126,7 @@ function islandora_shared_get_annotation_urns($pid) {
   echo $json;
 }
 
-function islandora_shared_get_annotation($pid, $urn) {
+function get_annotation_data($pid, $urn) {
   global $base_url;
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
@@ -145,7 +139,7 @@ function islandora_shared_get_annotation($pid, $urn) {
 
   foreach ($descriptions as $description) {
     if ($urn == $description->getAttribute('rdf:about')) {    // gets description element matching URN
-      $rdf->addDescriptionElement($description);              // add this elemtent to new RDF object
+      $rdf->addDescriptionElement($description);              // add this element to new RDF object
       $bodies = $description->getElementsByTagName('hasBody'); // get body element from Annotation object
       foreach ($bodies as $body) {                            // get urns from hasBody elements
         $body_urns[] = $body->getAttribute("rdf:resource");
@@ -173,9 +167,62 @@ function islandora_shared_get_annotation($pid, $urn) {
       }
     }
   }
+  return $rdf;
+}
+
+function islandora_shared_get_annotation($pid, $urn) {
+
+  $rdf = get_annotation_data($pid, $urn);
   $results = emic_shared_transform_annotationList($rdf->printRDF(), 'rdf');
   $results = preg_replace('/<\?xml.*?\?>/', '', $results);
   $results = preg_replace('/<!DOCTYPE.*?>/', '', $results);
 
   echo $results;
+}
+
+function islandora_delete_annotation($pid, $urn) {
+  global $base_url;
+  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
+  module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
+// create domdoc and use it to populate builder
+  $item = new Fedora_Item($pid);
+  $domDoc = new DOMDocument();
+  $list = $item->get_datastream_dissemination('AnnotationList');
+  $domDoc->loadXML($list);
+  $rdf = new IslandoraRdfBuilder($domDoc);
+
+  $xml = get_annotation_data($pid, "urn:uuid:$urn");
+  $xml = $xml->printRDF();
+  $simplexml = simplexml_load_string($xml);
+  $candidates = $simplexml->xpath('//rdf:Description');
+  foreach ($candidates as $candidate) {
+    foreach ($candidate->attributes('rdf', TRUE) as $key => $value) {
+      if ($key == 'about') {
+        $node_ids[] = (string) $value;
+      }
+    }
+  }
+
+  foreach ($node_ids as $node_id) {
+    $rdf->deleteDescriptionElement($node_id);
+  }
+  islandora_save_updated_annotations($pid, $rdf);
+}
+
+function islandora_save_updated_annotations($pid, $rdf) {
+  global $base_url;
+  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
+  $item = new Fedora_Item($pid);
+  $updated_annotationList = $rdf->printRDF();
+  $flat_pid = str_replace(':', '_', $pid);
+  $file_path = file_directory_path() . "/$flat_pid/annotationList.xml";
+  if (!is_dir($file_path)) {
+    mkdir($file_path, 0777, TRUE);
+  }
+
+  file_put_contents("$file_path/annotationList.xml", $updated_annotationList);
+  $item->add_or_modify_by_reference("$base_url/$file_path/annotationList.xml", 'AnnotationList', "AnnotationList", 'text/plain', FALSE, 'Modified by Islandora API');
+  file_delete("$file_path/$name.xml");
+  rmdir($file_path);
+  rmdir(file_directory_path() . "/$flat_pid");
 }

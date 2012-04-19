@@ -36,6 +36,12 @@ function emic_canvas_menu() {
     'access arguments' => array('view fedora collection'),
     'file' => 'emic_canvas_callbacks.inc',
   );
+  $items['emic/delete_annotation'] = array(
+    'page callback' => 'islandora_delete_annotation',
+    'type' => MENU_CALLBACK,
+    'access arguments' => array('view fedora collection'),
+    'file' => 'emic_canvas_callbacks.inc',
+  );
 
   $items['emic/serve'] = array(
     'page callback' => 'emic_serve',
@@ -45,4 +51,15 @@ function emic_canvas_menu() {
   );
 
   return $items;
+}
+
+function emic_canvas_islandora_book_get_pageview_links($pid) {
+  $options = array(
+    'attributes' => array('target' => '_blank'),
+    'query' => array(
+      'PID' => $pid,
+    ),
+  );
+
+  return l(t('Annotate with Shared Canvas'), "/sites/all/modules/emic_canvas/impl/index.html", $options);
 }

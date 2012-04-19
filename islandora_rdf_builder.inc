@@ -84,6 +84,16 @@ class IslandoraRdfBuilder {
       $domNode = $this->domDoc->importNode($domElement, true);
       $this->root->appendChild($domNode);
   }
+
+  function deleteDescriptionElement($node_id){
+    $xpath = new DOMXPath($this->domDoc);
+    $candidates = $xpath->query("//rdf:Description[@rdf:about='$node_id']");
+    foreach($candidates as $candidate){
+      //$parent = $candidate->parentNode;
+     // $parent->removeChild($candidate);
+      $candidate->parentNode->removeChild($candidate);    
+    }
+  }
   
   /**
    * Convenience method to structure input arrays for addDescriptionNode

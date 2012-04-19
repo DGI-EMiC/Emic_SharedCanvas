@@ -396,7 +396,7 @@ $(document).ready(function(){
     url: base +'/emic/shared/setup/' + PID,
     async:false,
     success: function(data, status, xhr) {
-      emic_params = data;
+      emic_canvas_params = data;
     },
     error: function() {
       alert("AJAX call failed here");
@@ -405,17 +405,24 @@ $(document).ready(function(){
 
   });
  
-  opts.base = emic_params.object_base;
+  opts.base = emic_canvas_params.object_base;
 
-$('#page_title').text(emic_params.page_title);
+  // build and populate page choice dropdown
+  $('#canvas_page_selector').html('<select id="canvas_page_choose"></select>');
+  $.each(emic_canvas_params.pages, function(key, value){
+    $('#canvas_page_choose').append('<option  value="' + key + '">Page ' + (key + 1) + '</option>');
+  });  // build and populate page choice dropdown
+  $('#canvas_page_selector').html('<select id="canvas_page_choose"></select>');
+  $.each(emic_canvas_params.pages, function(key, value){
+    $('#canvas_page_choose').append('<option  value="' + key + '">Page ' + (key + 1) + '</option>');
+  });
+
+ 
   // RDF Initializationc
   var rdfbase = $.rdf(opts);
   topinfo['query'] = rdfbase;
 
-  //  for(var prop in rdfbase) {
-  //    if(rdfbase.hasOwnProperty(prop))
-  //      alert(prop + " = " + rdfbase[prop]);
-  //  }
+
 
 
   var l = $(location).attr('hash');
@@ -446,7 +453,7 @@ $('#page_title').text(emic_params.page_title);
   initCanvas(nCanvas)
 
   // Manifest Initialization
-  var manuri = emic_params.manifest_url;
+  var manuri = emic_canvas_params.manifest_url;
   if (manuri != undefined) {
     fetchTriples(manuri, rdfbase, cb_process_manifest);
   } else {
