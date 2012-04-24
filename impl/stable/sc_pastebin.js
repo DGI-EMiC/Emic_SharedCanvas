@@ -19,7 +19,7 @@ function pb_postData(title, data) {
     },
     error: function(data,status,xhr) {
       alert('Failed to post')
-      }
+    }
   });
 }
 
@@ -32,22 +32,23 @@ function pb_getList() {
     success: function(data,status,xhr) {
 
       var l = $.parseJSON(data);
-			
-      for (var i=0,info;info=l[i];i++){
-        var pid = info;
+      if( l != null){
+        for (var i=0,info;info=l[i];i++){
+          var pid = info;
 				
 				
-        $('#canvases .canvas').each(function() {
-          var cnv = $(this).attr('canvas');
+          $('#canvases .canvas').each(function() {
+            var cnv = $(this).attr('canvas');
 					
-          pb_getPaste(pid);
+            pb_getPaste(pid);
 					
-        });
+          });
+        }
       }
     },
     error: function(data,status,xhr) {
       alert('Failed to retrieve List')
-      }
+    }
   });
 }
 
@@ -61,7 +62,7 @@ function pb_getPaste(pid) {
     },
     error: function(data,status,xhr) {
       alert(data)
-      }
+    }
   });
 }
 
@@ -82,6 +83,6 @@ function pb_deleteAnno(urn) {
     },
     error: function(data,status,xhr) {
       alert('Failed to delete annotation')
-      }
+    }
   });
 }

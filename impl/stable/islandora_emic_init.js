@@ -399,12 +399,15 @@ $(document).ready(function(){
       emic_canvas_params = data;
     },
     error: function() {
-      alert("AJAX call failed here");
+      alert("Please Login to EMiC site");
     },
     dataType: 'json'
 
   });
- 
+
+  if(emic_canvas_params.no_edit == true){
+    $('#create_annotation').hide();
+  }
   opts.base = emic_canvas_params.object_base;
 
   // build and populate page choice dropdown

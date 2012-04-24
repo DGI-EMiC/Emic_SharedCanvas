@@ -33,6 +33,7 @@ function islandora_canvas_setup($pid) {
   $results['get_annotation_list_url'] = "$base_url/emic/get_urns/$pid";
   $results['position'] = $position;
   $results['pages'] = $pages;
+  $results['no_edit'] = !user_access('edit CWRC');
   $json = json_encode($results);
   echo $json;
 }

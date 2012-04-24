@@ -196,22 +196,24 @@ function showNavLinks(canvas, which, wCanvas, seq) {
 		info = extract_canvas_size(qry, canvas)	
 		topinfo['sequenceInfo'][canvas] = info
 	}
-
-	var title = info[2];	
-	var ttl = $('#title');
-	var curr = ttl.text()
-	if (!curr) {
-		$('#title').append(title)
-	} else {
-		var cl = curr.split(' ')
-		var nl = title.split(' ')
-		while (cl && nl && cl[0] == nl[0]) {
-			cl.shift();
-			nl.shift();
-		}
-		title = nl.join(' ');
-		ttl.append(', ' + title)
-	}
+//
+//      Removed for EMiC
+//
+//	var title = info[2];
+//	var ttl = $('#title');
+//	var curr = ttl.text()
+//	if (!curr) {
+//		$('#title').append(title)
+//	} else {
+//		var cl = curr.split(' ')
+//		var nl = title.split(' ')
+//		while (cl && nl && cl[0] == nl[0]) {
+//			cl.shift();
+//			nl.shift();
+//		}
+//		title = nl.join(' ');
+//		ttl.append(', ' + title)
+//	}
 	
 	// Info for next canvas, if there is one
 	$('#next').empty();

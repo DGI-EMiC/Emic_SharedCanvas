@@ -53,13 +53,3 @@ function emic_canvas_menu() {
   return $items;
 }
 
-function emic_canvas_islandora_book_get_pageview_links($pid) {
-  $options = array(
-    'attributes' => array('target' => '_blank'),
-    'query' => array(
-      'PID' => $pid,
-    ),
-  );
-
-  return l(t('Annotate with Shared Canvas'), "/sites/all/modules/emic_canvas/impl/index.html", $options);
-}
