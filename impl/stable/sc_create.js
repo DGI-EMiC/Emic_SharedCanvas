@@ -45,7 +45,7 @@ function startAnnotating() {
 	$('#create_annotation').css({color:'#808080'});
 	$('#create_annotation').empty().append('Annotating');	
 	$('#create_annotation_box').show();
-	$('#create_annotation_box').offset({top:35,left:200});
+	$('#create_annotation_box').offset({top:200,left:35});
 	
 	$('#canvases .canvas').each(function() {
 		var cnv = $(this).attr('canvas');	
