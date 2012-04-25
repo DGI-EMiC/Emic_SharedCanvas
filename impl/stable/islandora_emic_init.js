@@ -70,6 +70,7 @@ var opts = {
 
 
 function initCanvas(nCanvas) {
+  
   var w = $('body').width();
   topinfo['origBodyWidth'] = w;
   $('#top_menu_bar').width(w-5);
@@ -272,17 +273,7 @@ function init_ui() {
 
   // Initialize audio player up front, even if not used
   // Better than re-building every canvas
-  $("#jquery_jplayer_1").jPlayer({
-    ready: function () {
-    //$(this).bind($.jPlayer.event.timeupdate, on_audio_currentTime);
-    },
-    // preload: 'auto',
-    volume: 0.8,
-   
-    errorAlerts: true,
-    warningAlerts: true,
-    supplied: "mp3"   // XXX: dynamic? Recreate jplayer to change?
-  });
+
 
   $("#slider_volume").slider({
     value: 80,
@@ -321,25 +312,12 @@ function init_ui() {
     }
   });
 
-  // Enable iPad swipe navigation
-  var swipeLeft = function() {
-    nextPage();
-  }
-  var swipeRight = function() {
-    prevPage();
-  }
-  var swOpts = {
-    'swipeLeft':swipeLeft,
-    'swipeRight':swipeRight,
-    threshold:20
-  };
-  $(function(){
-    $('body').swipe(swOpts)
-  });
+
 
   // Refresh Canvas if browser is resized
   // We're called as per move... so need wait till finished resizing
   $(window).resize(function() {
+   
     var w = $('body').width();
     topinfo['bodyWidth'] = w;
     if (toid != null) {
@@ -409,6 +387,8 @@ $(document).ready(function(){
     $('#create_annotation').hide();
   }
   opts.base = emic_canvas_params.object_base;
+
+
 
   // build and populate page choice dropdown
   $('#canvas_page_selector').html('<select id="canvas_page_choose"></select>');

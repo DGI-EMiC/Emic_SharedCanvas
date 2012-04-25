@@ -139,13 +139,13 @@
           <img id="annoShape_poly" class="annoShape" src="imgs/draw_poly.png" style="padding: 2px;"/>
           <span style="float:right">
             <span style="font-size:9pt;color:#707070;">About Canvas:<input type="checkbox" id="anno_aboutCanvas"></input></span>
-            <span style="font-size:9pt;color:#707070;">Text is URL:<input type="checkbox" id="anno_isResource"></input></span>
+            
           </span>
           <hr style="margin: 0px; padding: 0px; height: 1px;"/>
         </div>
         <div id="create_annos_block" class="dragBlock">
           <span style="font-size: 11pt;">Title: <input id="anno_title" type="text" size="28"></input></span>
-          <span style="float:right"><select id="anno_type">
+          <span style="float:right" hidden ="true"><select id="anno_type">
               <option value="comment">Commentary</option>
               <option value="transcription">Transcription</option>
             </select></span>
@@ -164,7 +164,7 @@
 
       <div id="comment_annos" class="dragBox ui-dialog ui-widget ui-corner-all ui-draggable ui-resizable">
         <div id="comment_annos_header" class="dragHead ui-dialog-titlebar ui-widget-header ui-corner-all">
-          <span>Comments</span>
+          <span>Image Annotations</span>
           <span class="dragShade" style="float:right;" id="comment_annos_showhide">[-]</span>
         </div>
         <div id="comment_annos_block" class="dragBlock"></div>

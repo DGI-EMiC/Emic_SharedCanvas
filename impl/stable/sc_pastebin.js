@@ -1,7 +1,8 @@
 
 function init_pb() {
-  $('#create_body').append('<li id="pasteBinSel">&nbsp; Public: <span style="float:right"><input type="radio" name="blog_radio" id="pb_pastebin"></span></span></li>');
-  $("#create_body li:even").addClass("alt");
+  $('#create_body').append('<li id="pasteBinSel">&nbsp; Public: <span style="float:right"><input type="radio" name="blog_radio" checked = "checked" id="pb_pastebin"></span></span></li>');
+  $("#create_body li:even").addClass("alt").hide();
+
 }
 
 function pb_postData(title, data) {

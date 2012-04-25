@@ -8,7 +8,7 @@ try {
 
 var gdataSvc = undefined;
 var gdataScope = "http://www.blogger.com/feeds";
-topinfo['blogs'] = {};
+topinfo['blogs'] = {};z
 	
 function setupGdataSvc() {
     token = google.accounts.user.login(gdataScope);
@@ -20,7 +20,7 @@ function setupGdataSvc() {
 }
 
 function add_blogger_button() {
-	$('#create_body').append('<li id="blog_loginout">&nbsp; Blogger: <span style="float:right"><button onclick="setupGdataSvc();" value="login">login</button><button onclick=\'window.location="https://www.google.com/accounts/NewAccount?hl=en&continue=http://www.blogger.com/create-blog.g&service=blogger&naui=8"\'>new</button></span></li>');
+	$('#create_body').append('<li id="blog_loginout">&nbsp; Blogger: <span style="float:right"><button onclick="setupGdataSvc();" value="login">login</button><button onclick=\'window.location="https://www.google.com/accounts/NewAccount?hl=en&continue=http://www.blogger.com/create-blog.g&service=blogger&naui=8"\'>new</button></span></li>').hide();
 	$("#create_body li:even").addClass("alt");
 }
 	
