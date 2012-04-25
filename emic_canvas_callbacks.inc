@@ -226,5 +226,5 @@ function islandora_save_updated_annotations($pid, $rdf) {
   $item->add_or_modify_by_reference("$base_url/$file", 'AnnotationList', "AnnotationList", 'text/plain', FALSE, 'Modified by Islandora API');
   file_delete("$file");
   rmdir($file_path);
-  rmdir(file_directory_path() . "/$flat_pid");
+ 
 }
