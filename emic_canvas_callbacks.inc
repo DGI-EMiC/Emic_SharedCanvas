@@ -16,7 +16,7 @@ function islandora_canvas_setup($pid) {
   $book = $books[0];
   $item = new Fedora_Item($book);
   $title = $item->objectProfile->objLabel;
-  $pages = get_page_pids($book);
+  $pages = get_sorted_pages($book);
   $position = array_search($pid, $pages);
   $item = new Fedora_Item($pid);
 
