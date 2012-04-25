@@ -216,14 +216,15 @@ function islandora_save_updated_annotations($pid, $rdf) {
   $item = new Fedora_Item($pid);
   $updated_annotationList = $rdf->printRDF();
   $flat_pid = str_replace(':', '_', $pid);
-  $file_path = file_directory_path() . "/$flat_pid/annotationList.xml";
+  $file_path = file_directory_path() . "/$flat_pid";
+  $file = "$file_path/annotationList.xml";
   if (!is_dir($file_path)) {
     mkdir($file_path, 0777, TRUE);
   }
 
-  file_put_contents("$file_path/annotationList.xml", $updated_annotationList);
-  $item->add_or_modify_by_reference("$base_url/$file_path/annotationList.xml", 'AnnotationList', "AnnotationList", 'text/plain', FALSE, 'Modified by Islandora API');
-  file_delete("$file_path/$name.xml");
+  file_put_contents($file, $updated_annotationList);
+  $item->add_or_modify_by_reference("$base_url/$file", 'AnnotationList', "AnnotationList", 'text/plain', FALSE, 'Modified by Islandora API');
+  file_delete("$file");
   rmdir($file_path);
   rmdir(file_directory_path() . "/$flat_pid");
 }

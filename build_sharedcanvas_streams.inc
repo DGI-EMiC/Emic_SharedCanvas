@@ -290,7 +290,7 @@ function get_height_and_width($pid) {
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   $item = new Fedora_Item($pid);
   $jpeg = $item->get_datastream_dissemination('JPEG');
-  $file = file_directory_path() . '/tmpJPG1.jpg';
+  $file = file_directory_path() . '/tmpJPG.jpg';
   file_put_contents($file, $jpeg);
   exec("exiftool -X $file", $output);
   file_delete(file_directory_path() . '/tmpJPG.jpg');
