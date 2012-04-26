@@ -62,7 +62,7 @@ function pb_getPaste(pid) {
       load_commentAnno(data);
     },
     error: function(data,status,xhr) {
-      alert(data)
+      console.dir(data)
     }
   });
 }

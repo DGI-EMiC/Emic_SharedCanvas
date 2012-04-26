@@ -4,13 +4,14 @@
     xmlns:dctype="http://purl.org/dc/dcmitype/" xmlns:oac="http://www.openannotation.org/ns/"
     xmlns:cnt="http://www.w3.org/2008/content#" xmlns:dms="http://dms.stanford.edu/ns/"
     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
-    
+
     xmlns:ore="http://www.openarchives.org/ore/terms/"
     xmlns:exif="http://www.w3.org/2003/12/exif/ns#" version="1.0">
     <xsl:output method="xml" version="1.0" encoding="iso-8859-1" indent="yes"/>
     <xsl:template match="/">
         <rdf:RDF>
             <xsl:for-each select="//div">
+                <xsl:if test="./@about">
                 <rdf:Description>
                     <xsl:attribute name="rdf:about">
                         <xsl:value-of select="./@about"/>
@@ -20,7 +21,7 @@
                             <xsl:attribute name="rdf:resource">
                                 <xsl:value-of select="./@href"/>
                             </xsl:attribute>
-                           
+
                         </xsl:element>
                     </xsl:for-each>
 
@@ -31,6 +32,7 @@
                         </xsl:element>
                     </xsl:for-each>
                 </rdf:Description>
+                </xsl:if>
             </xsl:for-each>
         </rdf:RDF>
     </xsl:template>
