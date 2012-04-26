@@ -795,14 +795,15 @@ function paint_commentAnno(anno, canvasId) {
 	
 	txt = txt.replace('\n', '<br/>')
 	block = '<div class="comment_title" id="anno_'+myid+'"><span class="comment_showhide">+ </span>' + title + '</div>';
-	block += ('<div class="comment_text">('+tgttxt+')<br/>'+txt+'<br /><span id="delete_anno_'+myid+'"> - Delete Annotation</span></div>');
+	block += ('<div class="comment_text">('+tgttxt+')<br/>'+txt+'<br /><span id="delete_anno_'+myid+'"><img alt="Remove Annotation" src="imgs/cross.png" class="mceIcon"></span></div>');
         
 	$('#comment_annos_block').append(block)
 	$('#anno_'+myid).attr('canvas', canvasId);
 
         $('#delete_anno_'+myid).click(function(e){
-          pb_deleteAnno(myid);
-          
+          if (confirm("Permananently Delete This Annotation?")){
+            pb_deleteAnno(myid);
+          }      
         });
 
 
