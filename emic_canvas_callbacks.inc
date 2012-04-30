@@ -162,7 +162,7 @@ function get_annotation_data($pid, $urn) {
       }
       foreach ($descriptions as $description) {
         $about = $description->getAttribute('rdf:about');
-        if (in_array($description->getAttribute('rdf:about'), array_merge($body_urns, $target_urns, $constraint_urns))) {
+        if (in_array($description->getAttribute('rdf:about'), @array_merge($body_urns, $target_urns, $constraint_urns))) {
           $rdf->addDescriptionElement($description);
         }
       }
