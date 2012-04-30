@@ -317,7 +317,7 @@ function init_ui() {
   // Refresh Canvas if browser is resized
   // We're called as per move... so need wait till finished resizing
   $(window).resize(function() {
-   
+    closeAndEndAnnotating();
     var w = $('body').width();
     topinfo['bodyWidth'] = w;
     if (toid != null) {

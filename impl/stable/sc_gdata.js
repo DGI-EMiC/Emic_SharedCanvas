@@ -8,7 +8,7 @@ try {
 
 var gdataSvc = undefined;
 var gdataScope = "http://www.blogger.com/feeds";
-topinfo['blogs'] = {};z
+topinfo['blogs'] = {};
 	
 function setupGdataSvc() {
     token = google.accounts.user.login(gdataScope);

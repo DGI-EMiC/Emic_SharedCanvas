@@ -10,8 +10,8 @@
     <xsl:output method="xml" version="1.0" encoding="iso-8859-1" indent="yes"/>
     <xsl:template match="/">
         <rdf:RDF>
-            <xsl:for-each select="//div">
-                <xsl:if test="./@about">
+            <xsl:for-each select="//div[@about]">
+                
                 <rdf:Description>
                     <xsl:attribute name="rdf:about">
                         <xsl:value-of select="./@about"/>
@@ -32,7 +32,7 @@
                         </xsl:element>
                     </xsl:for-each>
                 </rdf:Description>
-                </xsl:if>
+                
             </xsl:for-each>
         </rdf:RDF>
     </xsl:template>

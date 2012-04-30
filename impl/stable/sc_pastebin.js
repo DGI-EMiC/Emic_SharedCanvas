@@ -6,7 +6,6 @@ function init_pb() {
 }
 
 function pb_postData(title, data) {
-  
   data = escape(data);
   $.ajax({
     type:'POST',
@@ -25,7 +24,6 @@ function pb_postData(title, data) {
 }
 
 function pb_getList() {
- 
   $.ajax({
     type:'GET',
                
