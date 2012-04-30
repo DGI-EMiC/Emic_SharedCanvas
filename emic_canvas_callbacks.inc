@@ -137,7 +137,9 @@ function get_annotation_data($pid, $urn) {
   $domDoc->loadXML($list);
   $rdf = new IslandoraRdfBuilder();
   $descriptions = $domDoc->getElementsByTagName('Description');
-
+  $body_urns = array();
+  $target_urns = array();
+  $constraint_urns = array();
   foreach ($descriptions as $description) {
     if ($urn == $description->getAttribute('rdf:about')) {    // gets description element matching URN
       $rdf->addDescriptionElement($description);              // add this element to new RDF object
@@ -162,7 +164,7 @@ function get_annotation_data($pid, $urn) {
       }
       foreach ($descriptions as $description) {
         $about = $description->getAttribute('rdf:about');
-        if (in_array($description->getAttribute('rdf:about'), @array_merge($body_urns, $target_urns, $constraint_urns))) {
+        if (in_array($description->getAttribute('rdf:about'), array_merge($body_urns, $target_urns, $constraint_urns))) {
           $rdf->addDescriptionElement($description);
         }
       }
@@ -226,5 +228,4 @@ function islandora_save_updated_annotations($pid, $rdf) {
   $item->add_or_modify_by_reference("$base_url/$file", 'AnnotationList', "AnnotationList", 'text/plain', FALSE, 'Modified by Islandora API');
   file_delete("$file");
   rmdir($file_path);
- 
 }
