@@ -11,6 +11,7 @@ class IslandoraRdfBuilder {
   function IslandoraRdfBuilder($domDoc = null) {
     if (!isset($domDoc)) {
       $this->domDoc = new DOMDocument('1.0', 'utf-8');
+      $this->domDoc->formatOutput = true;
       $this->root = $this->domDoc->appendChild($this->domDoc->createElement('rdf:RDF'));
       $this->root->setAttribute('xmlns:dc', "http://purl.org/dc/elements/1.1/");
       $this->root->setAttribute('xmlns:dcterms', "http://purl.org/dc/terms/");

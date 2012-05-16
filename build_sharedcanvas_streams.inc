@@ -66,7 +66,7 @@ function get_manifest($doc_url, $doc_path_url) {
   $children[] = $rdf->build_child('dcterms:modified', null, "$timestamp");
   $children[] = $rdf->build_child('dc:format', null, 'application/rdf+xml');
   $children[] = $rdf->build_child('rdf:type', array('rdf:resource' => 'http://www.openarchives.org/ore/terms/ResourceMap'));
- // $children[] = $rdf->build_child('dcterms:creator', array('Emic Shared Canvas'));
+  // $children[] = $rdf->build_child('dcterms:creator', array('Emic Shared Canvas'));
   $rdf->addDescriptionNode($name, $children);
 
   $name = "urn:uuid:07fbb971-6acb-48ce-9ed4-1789dfe5b3a0";
@@ -135,7 +135,7 @@ function get_normal_sequence($doc_url, $doc_path_url, $pid, $height, $width) {
   $children[] = $rdf->build_child('dcterms:modified', null, "$timestamp");
   $children[] = $rdf->build_child('dc:format', null, 'application/rdf+xml');
   $children[] = $rdf->build_child('rdf:type', array('rdf:resource' => 'http://www.openarchives.org/ore/terms/ResourceMap'));
- // $children[] = $rdf->build_child('dcterms:creator', array('rdf:resource' => 'Emic Shared Canvas'));
+  // $children[] = $rdf->build_child('dcterms:creator', array('rdf:resource' => 'Emic Shared Canvas'));
   $rdf->addDescriptionNode($name, $children);
 
   $name = "$doc_url/Canvas";
@@ -314,10 +314,30 @@ function get_height_and_width($pid) {
  */
 function emic_serve($pid, $stream) {
   global $base_url;
-  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
-  $item = new Fedora_Item($pid);
-  $manifest = $item->get_datastream_dissemination($stream);
-  echo $manifest;
+  $doc_url = "$base_url/fedora/repository/$pid";
+  $doc_path_url = "$base_url/emic/serve/$pid";
+
+  if ($stream == 'Manifest') {
+    $manifest = get_manifest($doc_url, $doc_path_url);
+    echo $manifest;
+    return;
+  }
+
+  $dimensions = get_height_and_width($pid);
+  $height = $dimensions['height'];
+  $width = $dimensions['width'];
+
+  if ($stream == 'NormalSequence') {
+    $sequence = get_normal_sequence($doc_url, $doc_path_url, $pid, $height, $width);
+    echo $sequence;
+    return;
+  }
+  if ($stream == 'ImageAnnotations') {
+    $imageAnnotations = get_imageAnnotations($doc_url, $doc_path_url, $height, $width, $title);
+    echo $imageAnnotations;
+    return;
+  }
+
 }
 
 /**
