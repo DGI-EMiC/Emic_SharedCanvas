@@ -13,6 +13,7 @@ function islandora_canvas_setup($pid) {
   module_load_include('inc', 'islandora_book', 'book_pack_utils');
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   module_load_include('inc', 'emic_canvas', 'build_sharedcanvas_streams');
+  module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
   $books = get_collection_from_pid($pid);
   $book = $books[0];
   $item = new Fedora_Item($book);
