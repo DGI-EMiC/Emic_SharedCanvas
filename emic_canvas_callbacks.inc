@@ -65,15 +65,18 @@ function islandora_canvas_setup($pid) {
  */
 function islandora_add_annotation($pid) {
   global $base_url;
+  $doc_url = "$base_url/fedora/repository/$pid";
+  $doc_path_url = "$base_url/emic/serve/$pid";
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
+    module_load_include('inc', 'emic_canvas', 'build_sharedcanvas_streams');
 // create domdoc and use it to populate builder
   $item = new Fedora_Item($pid);
   $domDoc = new DOMDocument();
-  $list = $item->get_datastream_dissemination('AnnotationList');
+  $list = get_annotationList($doc_url, $doc_path_url);
   $domDoc->loadXML($list);
   $rdf = new IslandoraRdfBuilder($domDoc);
-
+  $out = $rdf->printRDF();
 // create Domdoc object with transformed data from SharedCanvas
   $annotationDomDoc = new DOMDocument();
   $annotation_xml = emic_shared_transform_annotationList(urldecode($_POST['data']), 'html');
