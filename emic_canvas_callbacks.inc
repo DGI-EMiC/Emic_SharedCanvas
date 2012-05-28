@@ -297,6 +297,9 @@ function build_annotationList($pid) {
 
   if (array_key_exists('annotations', $item->datastreams)) {
     $list = $item->get_datastream_dissemination('annotations');
+    if(strlen($list) < 50){
+      return;
+    }
     $annoDoc = new DOMDocument();
     $annoDoc->loadXML($list);
     $descriptions = $annoDoc->getElementsByTagName('Description');
