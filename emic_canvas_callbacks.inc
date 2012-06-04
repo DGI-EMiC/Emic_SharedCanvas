@@ -69,11 +69,16 @@ function islandora_add_annotation($pid) {
   $doc_path_url = "$base_url/emic/serve/$pid";
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
-    module_load_include('inc', 'emic_canvas', 'build_sharedcanvas_streams');
+  module_load_include('inc', 'emic_canvas', 'build_sharedcanvas_streams');
 // create domdoc and use it to populate builder
   $item = new Fedora_Item($pid);
   $domDoc = new DOMDocument();
-  $list = get_annotationList($doc_url, $doc_path_url);
+  if (!key_exists('AnnotationList', $item->datastreams)) {
+    $list = get_annotationList($doc_url, $doc_path_url);
+  }
+  else {
+    $list = $item->get_datastream_dissemination('AnnotationList');
+  }
   $domDoc->loadXML($list);
   $rdf = new IslandoraRdfBuilder($domDoc);
   $out = $rdf->printRDF();
@@ -93,6 +98,8 @@ function islandora_add_annotation($pid) {
 // Get Description elements as nodeList and send them to
   $descriptions = $annotationDomDoc->getElementsByTagName('Description');
   $rdf->addDescriptionsFromNodelist($descriptions);
+  $out = $rdf->printRDF();
+
   islandora_save_updated_annotations($pid, $rdf);
 }
 
@@ -155,6 +162,9 @@ function islandora_shared_get_annotation_urns($pid) {
   echo $json;
 }
 
+
+
+
 /**
  * Retrieves details of individual annotation from datastream
  * @global url $base_url
@@ -163,12 +173,18 @@ function islandora_shared_get_annotation_urns($pid) {
  * @return IslandoraRdfBuilder
  */
 function get_annotation_data($pid, $urn) {
+
   global $base_url;
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
   $item = new Fedora_Item($pid);
-  $rdf = build_annotationList($pid);
+  $domDoc = new DOMDocument();
+  $list = $item->get_datastream_dissemination('AnnotationList');
+  $domDoc->loadXML($list);
+  $rdf = new IslandoraRdfBuilder($domDoc);
+
   $descriptions = $rdf->domDoc->getElementsByTagName('Description');
+  $count = $descriptions->length;
   $body_urns = array();
   $target_urns = array();
   $constraint_urns = array();
@@ -275,7 +291,8 @@ function islandora_save_updated_annotations($pid, $rdf) {
   }
 
   file_put_contents($file, $updated_annotationList);
-  $item->add_or_modify_by_reference("$base_url/$file", 'annotations', "Annotations", 'text/plain', FALSE, 'Modified by Islandora API');
+  $item->add_or_modify_by_reference("$base_url/$file", 'AnnotationList', "AnnotationList", 'text/plain', FALSE, 'Modified by Islandora API');
+
   file_delete("$file");
   rmdir($file_path);
 }
@@ -295,9 +312,9 @@ function build_annotationList($pid) {
   $domDoc->loadXML($annotationList);
   $rdf = new IslandoraRdfBuilder($domDoc);
 
-  if (array_key_exists('annotations', $item->datastreams)) {
-    $list = $item->get_datastream_dissemination('annotations');
-    if(strlen($list) < 50){
+  if (array_key_exists('AnnotationList', $item->datastreams)) {
+    $list = $item->get_datastream_dissemination('AnnotationList');
+    if (strlen($list) < 50) {
       return;
     }
     $annoDoc = new DOMDocument();
