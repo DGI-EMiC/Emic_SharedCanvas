@@ -21,27 +21,6 @@ function islandora_canvas_setup($pid) {
   $pages = get_sorted_pages($book);
   $position = array_search($pid, $pages);
   $item = new Fedora_Item($pid);
-
-//  if (!key_exists('Manifest', $item->datastreams)) {
-//    build_manifest($pid);
-//  }
-//  if (!key_exists('AnnotationList', $item->datastreams)) {
-//    $rdf = new IslandoraRdfBuilder();
-//    $content = $rdf->printRDF();
-//    $flat_pid = str_replace(':', '_', $pid);
-//    $file_path = file_directory_path() . "/$flat_pid/annotations";
-//    if (!is_dir($file_path)) {
-//      mkdir($file_path, 0777, TRUE);
-//    }
-//
-//    file_put_contents("$file_path/annotations.xml", $content);
-//    $item->add_or_modify_by_reference("$base_url/$file_path/annotations.xml", 'AnnotationList', 'AnnotationList', 'text/plain', FALSE, 'Modified by Islandora API');
-//    file_delete("$file_path/annotations.xml");
-//
-//    rmdir($file_path);
-//    rmdir(file_directory_path() . "/$flat_pid");
-//  }
-
   $results = array();
   $results['manifest_url'] = "$base_url/emic/serve/$pid/Manifest/manifest.xml";
   $results['page_title'] = $item->objectProfile->objLabel;
