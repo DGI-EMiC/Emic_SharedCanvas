@@ -25,7 +25,6 @@ function islandora_canvas_setup($pid) {
 //  if (!key_exists('Manifest', $item->datastreams)) {
 //    build_manifest($pid);
 //  }
-
 //  if (!key_exists('AnnotationList', $item->datastreams)) {
 //    $rdf = new IslandoraRdfBuilder();
 //    $content = $rdf->printRDF();
@@ -162,9 +161,6 @@ function islandora_shared_get_annotation_urns($pid) {
   echo $json;
 }
 
-
-
-
 /**
  * Retrieves details of individual annotation from datastream
  * @global url $base_url
@@ -265,9 +261,10 @@ function islandora_delete_annotation($pid, $urn) {
       }
     }
   }
-
-  foreach ($node_ids as $node_id) {
-    $rdf->deleteDescriptionElement($node_id);
+  if (!empty($node_ids)) {
+    foreach ($node_ids as $node_id) {
+      $rdf->deleteDescriptionElement($node_id);
+    }
   }
   islandora_save_updated_annotations($pid, $rdf);
 }
