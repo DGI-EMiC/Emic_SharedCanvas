@@ -280,29 +280,22 @@ function get_annotationList($doc_url, $doc_path_url) {
 }
 
 /**
- * Parses exif data from supplied jpeg file
- * @param string $file_path
- * path to jpeg file
+ * Retrieves exif data from supplied image
+ * @param pid $pid
  * @return array
  * Array has two values - height and width
  */
 function get_height_and_width($pid) {
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
-  $item = new Fedora_Item($pid);
-  $jpeg = $item->get_datastream_dissemination('JPEG');
-  $file = file_directory_path() . '/tmpJPG.jpg';
-  file_put_contents($file, $jpeg);
-  exec("exiftool -X $file", $output);
-  file_delete(file_directory_path() . '/tmpJPG.jpg');
-  $exif = implode('', $output);
-  $simplexml = new SimpleXMLElement($exif);
-  $width = $simplexml->xpath("/rdf:RDF/rdf:Description/*[namespace-uri()='http://ns.exiftool.ca/File/1.0/' and local-name()='ImageWidth']");
-  $width = (string) $width[0];
-  $height = $simplexml->xpath("/rdf:RDF/rdf:Description/*[namespace-uri()='http://ns.exiftool.ca/File/1.0/' and local-name()='ImageHeight']");
-  $height = (string) $height[0];
+
+  $djatoka_prefix = variable_get('islandora_djatoka_path', 'http://localhost:8080/adore-djatoka') . '/resolver?url_ver=Z39.88-2004&rft_id=';
+  $fedora_prefix = variable_get('fedora_base_url', 'http:8080/fedora');
+  $filename = $djatoka_prefix . "$fedora_prefix/objects/$pid/datastreams/JPEG/content&svc_id=info:lanl-repo/svc/getMetadata";
+  $pageData = json_decode(file_get_contents($filename));
+
   return array(
-    'height' => $height,
-    'width' => $width
+    'height' => $pageData->height,
+    'width' => $pageData->width
   );
 }
 
@@ -337,7 +330,6 @@ function emic_serve($pid, $stream) {
     echo $imageAnnotations;
     return;
   }
-
 }
 
 /**
