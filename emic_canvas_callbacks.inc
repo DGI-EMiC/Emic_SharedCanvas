@@ -228,23 +228,14 @@ function islandora_delete_annotation($pid, $urn) {
   $list = $item->get_datastream_dissemination('AnnotationList');
   $domDoc->loadXML($list);
   $rdf = new IslandoraRdfBuilder($domDoc);
+  $body_urn = $rdf->getAnnotationBodyUrn("urn:uuid:$urn");
+  $target_urn = $rdf->getAnnotationTargetUrn("urn:uuid:$urn");
+  $constrained_target_urn = $rdf->getConstrainedTarget($target_urn);
 
-  $xml = get_annotation_data($pid, "urn:uuid:$urn");
-  $xml = $xml->printRDF();
-  $simplexml = simplexml_load_string($xml);
-  $candidates = $simplexml->xpath('//rdf:Description');
-  foreach ($candidates as $candidate) {
-    foreach ($candidate->attributes('rdf', TRUE) as $key => $value) {
-      if ($key == 'about') {
-        $node_ids[] = (string) $value;
-      }
-    }
-  }
-  if (!empty($node_ids)) {
-    foreach ($node_ids as $node_id) {
-      $rdf->deleteDescriptionElement($node_id);
-    }
-  }
+  $rdf->deleteDescriptionElement("urn:uuid:$urn"); //delete the orginal annotation
+  $rdf->deleteDescriptionElement($body_urn);
+  $rdf->deleteDescriptionElement($target_urn);
+  $rdf->deleteDescriptionElement($constrained_target_urn);
   islandora_save_updated_annotations($pid, $rdf);
 }
 

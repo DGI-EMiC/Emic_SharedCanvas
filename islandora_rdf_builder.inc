@@ -62,7 +62,6 @@ class IslandoraRdfBuilder {
     }
   }
 
-
   /**
    * Takes a Nodelist of Description extracted from external RDF document and adds
    * them to this object's DOMDocument
@@ -75,27 +74,32 @@ class IslandoraRdfBuilder {
     }
   }
 
-
-    /**
+  /**
    * Takes a Description element extracted from external RDF document and adds
    * it to this object's DOMDocument
    * @param NodeList $nodeList
    */
   function addDescriptionElement($domElement) {
-      $domNode = $this->domDoc->importNode($domElement, true);
-      $this->root->appendChild($domNode);
+    $domNode = $this->domDoc->importNode($domElement, true);
+    $this->root->appendChild($domNode);
   }
 
-  function deleteDescriptionElement($node_id){
+  function setXPath() {
+    $this->xpath = new DOMXPath($this->domDoc);
+    $this->xpath->registerNamespace('rdf', 'http://www.w3.org/1999/02/22-rdf-syntax-ns#');
+    $this->xpath->registerNamespace('oac', 'http://www.openannotation.org/ns/');
+  }
+
+  function deleteDescriptionElement($node_id) {
     $xpath = new DOMXPath($this->domDoc);
     $candidates = $xpath->query("//rdf:Description[@rdf:about='$node_id']");
-    foreach($candidates as $candidate){
+    foreach ($candidates as $candidate) {
       //$parent = $candidate->parentNode;
-     // $parent->removeChild($candidate);
-      $candidate->parentNode->removeChild($candidate);    
+      // $parent->removeChild($candidate);
+      $candidate->parentNode->removeChild($candidate);
     }
   }
-  
+
   /**
    * Convenience method to structure input arrays for addDescriptionNode
    * @param string $name
@@ -118,6 +122,63 @@ class IslandoraRdfBuilder {
       }
     }
     return $return_array;
+  }
+
+  /**
+      *
+      * @param string $id
+      *  the uuid containing urn:uuid:...
+      * @return string
+      *   a uuid containing urn:uuid:... this is the uuid of the hasBody node
+      */
+  function getAnnotationBodyUrn($id) {
+    if (empty($this->xpath)) {
+      $this->setXPath();
+    }
+    $candidates = $this->xpath->query('//rdf:Description[@rdf:about="' . $id . '"]/oac:hasBody');
+    foreach ($candidates as $candidate) {
+      $resource = $candidate->getAttribute('rdf:resource');
+    }
+    return $resource;
+  }
+
+  /**
+      *
+      * @param string $id
+      *  the uuid containing urn:uuid:...
+      * @return string
+      *   a uuid containing urn:uuid:... this is the uuid of the hasTarget node
+      *
+      */
+  function getAnnotationTargetUrn($id) {
+    if (empty($this->xpath)) {
+      $this->setXPath();
+    }
+    $candidates = $this->xpath->query('//rdf:Description[@rdf:about="' . $id . '"]/oac:hasTarget');
+    foreach ($candidates as $candidate) {
+      $resource = $candidate->getAttribute('rdf:resource');
+    }
+    return $resource;
+  }
+
+  /**
+   *
+      * @param string $id
+      *  the uuid containing urn:uuid:...
+      * @return string
+      *   a uuid containing urn:uuid:... this is the uuid of the constrainedBy node
+      *
+      *
+      */
+  function getConstrainedTarget($id) {
+    if (empty($this->xpath)) {
+      $this->setXPath();
+    }
+    $candidates = $this->xpath->query('//rdf:Description[@rdf:about="' . $id . '"]/oac:constrainedBy');
+    foreach ($candidates as $candidate) {
+      $resource = $candidate->getAttribute('rdf:resource');
+    }
+    return $resource;
   }
 
 }
