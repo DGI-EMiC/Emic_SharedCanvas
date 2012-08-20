@@ -14,6 +14,17 @@ function islandora_canvas_setup($pid) {
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   module_load_include('inc', 'emic_canvas', 'build_sharedcanvas_streams');
   module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
+  module_load_include('inc', 'fedora_repository', 'ContentModel');
+
+  $cm_object = ContentModel::loadFromObject($pid);
+  $cModel = $cm_object->pid;
+
+  if ($cModel == 'islandora:criticalEditionCModelPage') {
+     $item = new Fedora_Item($pid);
+     $rels = $item->get_rdf_relationships(ISLANDORA_RELS_EXT_URI);
+     $pid = $rels['isEditionOf'][0];
+  }
+
   $books = get_collection_from_pid($pid);
   $book = $books[0];
   $item = new Fedora_Item($book);
@@ -48,6 +59,7 @@ function islandora_add_annotation($pid) {
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
   module_load_include('inc', 'emic_canvas', 'build_sharedcanvas_streams');
+
 // create domdoc and use it to populate builder
   $item = new Fedora_Item($pid);
   $domDoc = new DOMDocument();
@@ -62,6 +74,7 @@ function islandora_add_annotation($pid) {
   $out = $rdf->printRDF();
 // create Domdoc object with transformed data from SharedCanvas
   $annotationDomDoc = new DOMDocument();
+
   $annotation_xml = emic_shared_transform_annotationList(urldecode($_POST['data']), 'html');
   $simplexml = simplexml_load_string($annotation_xml);
   $annotations = $simplexml->xpath('//rdf:type[@rdf:resource="http://www.openannotation.org/ns/Annotation"]');
@@ -116,7 +129,7 @@ function emic_shared_transform_annotationList($xml_in, $input_type) {
 }
 
 /**
- * Gets individual annotatio  urns from datastream
+ * Gets individual annotation urns from datastream
  * @global url $base_url
  * @param <type> $pid
  */

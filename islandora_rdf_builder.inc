@@ -79,6 +79,7 @@ class IslandoraRdfBuilder {
    * it to this object's DOMDocument
    * @param NodeList $nodeList
    */
+
   function addDescriptionElement($domElement) {
     $domNode = $this->domDoc->importNode($domElement, true);
     $this->root->appendChild($domNode);
