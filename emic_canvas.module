@@ -42,6 +42,12 @@ function emic_canvas_menu() {
     'access arguments' => array('view fedora collection'),
     'file' => 'emic_canvas_callbacks.inc',
   );
+    $items['emic/update_annotation'] = array(
+    'page callback' => 'emic_canvas_update_annotation',
+    'type' => MENU_CALLBACK,
+    'access arguments' => array('view fedora collection'),
+    'file' => 'emic_canvas_callbacks.inc',
+  );
 
   $items['emic/serve'] = array(
     'page callback' => 'emic_serve',

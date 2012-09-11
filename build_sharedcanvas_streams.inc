@@ -270,7 +270,6 @@ function get_annotationList($doc_url, $doc_path_url) {
   $name = "$doc_path_url/AnnotationList/AnnotationList.xml";
   $children = array();
   $children[] = $rdf->build_child('ore:describes', array('rdf:resource' => "$doc_url/AnnotationList"));
-//  $children[] = $rdf->build_child('dcterms:creator', array('rdf:resource' => "Emic Shared Canvas"));
   $children[] = $rdf->build_child('rdf:type', array('rdf:resource' => ""));
   $children[] = $rdf->build_child('dc:format', null, 'application/rdf+xml');
   $children[] = $rdf->build_child('dcterms:modified', null, "$timestamp");

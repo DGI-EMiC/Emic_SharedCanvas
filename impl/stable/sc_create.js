@@ -70,13 +70,6 @@ function startAnnotating() {
 
 function saveAndEndAnnotating() {
 	
-  // check we have a service selected
-  var which = $('#create_body input[name="blog_radio"]:radio:checked').attr('id');
-  if (which == undefined) {
-    alert('You must select a service to save the Annotation to, from the list to the left.');
-    return;
-  }
-	
   var okay = saveAnnotation();
   if (okay) {
     closeAndEndAnnotating();
