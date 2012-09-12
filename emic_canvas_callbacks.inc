@@ -276,7 +276,7 @@ function emic_canvas_update_annotation() {
   $urn = urldecode($_POST['urn']);
   $title = urldecode($_POST['title']);
   $content = urldecode($_POST['content']);
-  $type = urldecode($_POST['t']);
+  $type = urldecode($_POST['annoType']);
   $pid = emic_canvas_get_pid_from_urn($urn);
 
   $item = new Fedora_Item($pid);
@@ -290,6 +290,12 @@ function emic_canvas_update_annotation() {
     $changed = TRUE;
   }
 
+    // identify Type element and replace content
+  $type_node = $xml->xpath("//rdf:Description[@rdf:about = 'urn:uuid:$urn']/dc:type");
+  if ($type_node[0][0] != $type) {
+    $type_node[0][0] = $type;
+    $changed = TRUE;
+  }
   //indentify URN of body to retrieve chars node to hold new annotation content
   $body_urn_array = $xml->xpath("//oac:hasBody");
   $body_urn = (string) $body_urn_array[0]->attributes('rdf', 'about');

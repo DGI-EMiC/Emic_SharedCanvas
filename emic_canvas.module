@@ -42,7 +42,7 @@ function emic_canvas_menu() {
     'access arguments' => array('view fedora collection'),
     'file' => 'emic_canvas_callbacks.inc',
   );
-    $items['emic/update_annotation'] = array(
+  $items['emic/update_annotation'] = array(
     'page callback' => 'emic_canvas_update_annotation',
     'type' => MENU_CALLBACK,
     'access arguments' => array('view fedora collection'),
@@ -59,3 +59,22 @@ function emic_canvas_menu() {
   return $items;
 }
 
+function emic_canvas_required_fedora_objects() {
+  module_load_include('inc', 'fedora_repository', 'fedora_repository.solutionpacks');
+  $module_path = drupal_get_path('module', 'islandora_book');
+  return array(
+    'islandora_book' => array(
+      'module' => 'emic_canavas',
+      'title' => 'Emic Shared Canvas',
+      'objects' => array(
+        array(
+          'foxml_file' => "$module_path/xml/islandora_criticalEditionPage.xml",
+          'pid' => 'islandora:criticalEditionCModelPage',
+          'dsid' => NULL,
+          'datastream_file' => NULL,
+          'dsversion' => NULL,
+        ),
+      ),
+    ),
+  );
+}
