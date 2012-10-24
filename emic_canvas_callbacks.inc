@@ -82,6 +82,7 @@ function islandora_add_annotation($pid) {
   $parent = $parents[0];
   sleep(1);
   foreach ($parent->attributes('rdf', TRUE) as $key => $value) {
+    $out = (string) $value;
     echo (string) $value;
   }
 }
@@ -215,44 +216,10 @@ function islandora_save_updated_annotations($pid, $rdf) {
   rmdir($file_path);
 }
 
-function build_annotationList($pid) {
-  global $base_url;
-  $doc_url = "$base_url/fedora/repository/$pid";
-  $doc_path_url = "$base_url/emic/serve/$pid";
-  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
-  module_load_include('inc', 'emic_canvas', 'build_sharedcanvas_streams');
-  module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
-  $item = new Fedora_Item($pid);
 
-  $annotationList = get_annotationList($doc_url, $doc_path_url);
-  $domDoc = new DOMDocument();
-  $domDoc->formatOutput = true;
-  $domDoc->loadXML($annotationList);
-  $rdf = new IslandoraRdfBuilder($domDoc);
-
-  if (array_key_exists('AnnotationList', $item->datastreams)) {
-    $list = $item->get_datastream_dissemination('AnnotationList');
-    if (strlen($list) < 50) {
-      return;
-    }
-    $annoDoc = new DOMDocument();
-    $annoDoc->loadXML($list);
-    $descriptions = $annoDoc->getElementsByTagName('Description');
-    foreach ($descriptions as $description) {
-      $constrains = $description->getElementsByTagName('constrains');
-      foreach ($constrains as $candidate) {
-        $candidate->setAttribute("rdf:resource", "$base_url/fedora/repository/$pid/Canvas");
-      }
-      $newNode = $domDoc->importNode($description, TRUE);
-      $rdf->root->appendChild($newNode);
-    }
-  }
-
-  return $rdf;
-}
 
 /**
- * Gets the pid of an annotation object identified by a know urn
+ * Gets the pid of an annotation object identified by a known urn
  * @param URN $urn
  * @return PID
  */

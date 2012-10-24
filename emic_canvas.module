@@ -63,7 +63,7 @@ function emic_canvas_required_fedora_objects() {
   module_load_include('inc', 'fedora_repository', 'fedora_repository.solutionpacks');
   $module_path = drupal_get_path('module', 'islandora_book');
   return array(
-    'islandora_book' => array(
+    'emic_shared' => array(
       'module' => 'emic_canavas',
       'title' => 'Emic Shared Canvas',
       'objects' => array(
