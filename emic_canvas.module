@@ -24,7 +24,7 @@ function emic_canvas_menu() {
   );
 
   $items['emic/get_urns'] = array(
-    'page callback' => 'islandora_shared_get_annotation_urns',
+    'page callback' => 'islandora_shared_get_annotation_pids',
     'type' => MENU_CALLBACK,
     'access arguments' => array('view fedora collection'),
     'file' => 'emic_canvas_callbacks.inc',
@@ -50,7 +50,7 @@ function emic_canvas_menu() {
   );
 
   $items['emic/serve'] = array(
-    'page callback' => 'emic_serve',
+    'page callback' => 'islandora_serve',
     'type' => MENU_CALLBACK,
     'access arguments' => array('view fedora collection'),
     'file' => 'build_sharedcanvas_streams.inc',

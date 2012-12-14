@@ -412,7 +412,7 @@ function cb_process_annoList(qry, uri) {
 
 function load_commentAnno(data) {
 	// RDFA
-      //  alert(data)
+      
 	var lqry = $(data).rdf();
 	if (lqry.databank.size() == 0) {
 		// Turtle or RDF/XML

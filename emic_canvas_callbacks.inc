@@ -18,11 +18,22 @@ function islandora_canvas_setup($pid) {
 
   $cm_object = ContentModel::loadFromObject($pid);
   $cModel = $cm_object->pid;
-
+  $dropdown = variable_get('emic_enforce_taxonomy', TRUE);
+  $vid = variable_get('emic_taxonomy_vid', '');
   if ($cModel == 'islandora:criticalEditionCModelPage') {
     $item = new Fedora_Item($pid);
     $rels = $item->get_rdf_relationships(ISLANDORA_RELS_EXT_URI);
     $pid = $rels['isEditionOf'][0];
+  }
+  if ($dropdown) {
+    $terms = taxonomy_get_tree($vid, 0, 1);
+    $categories = array();
+    foreach ($terms as $term) {
+      $categories[] = $term->name;
+    }
+  }
+  else {
+    $categories = islandora_annotations_get_solr_terms();
   }
 
   $books = get_collection_from_pid($pid);
@@ -38,12 +49,15 @@ function islandora_canvas_setup($pid) {
   $results['object_base'] = "$base_url/fedora/repository/$pid";
   $results['islandora_post_url'] = "$base_url/emic/shared/add_annotation/$pid";
   $results['islandora_get_annotation'] = "$base_url/emic/get_annotation/";
-  $results['islandora_delete_annotation'] = "$base_url/emic/delete_annotation/$pid/";
+  $results['islandora_delete_annotation'] = "$base_url/emic/delete_annotation/";
   $results['get_annotation_list_url'] = "$base_url/emic/get_urns/$pid";
   $results['islandora_update_annotation'] = "$base_url/emic/update_annotation/";
   $results['position'] = $position;
   $results['pages'] = $pages;
   $results['no_edit'] = !user_access('edit CWRC');
+  $results['categories'] = $categories;
+  $results['image_url'] = $image_url;
+  $results['use_dropdown'] = $dropdown;
   $json = json_encode($results);
   echo $json;
 }
@@ -65,26 +79,33 @@ function islandora_add_annotation($pid) {
   if (!$type) {
     $type = 'unclassified';
   }
+  $color = $_POST['color'];
   $xml = simplexml_load_string($annotation_xml);
   $labels = $xml->xpath('//dc:title');
+  $annotations = $xml->xpath('//rdf:type[@rdf:resource="http://www.w3.org/ns/openannotation/core/Annotation"]');
+  $parents = $annotations[0]->xpath("parent::*");
+  $parent = $parents[0];
+  foreach ($parent->attributes('rdf', TRUE) as $key => $value) {
+    $urn = (string) $value;
+  }
+
   $label = (string) $labels[0];
 
   $namespace = substr($pid, 0, strpos($pid, ":"));
   $annotation_pid = FEDORA_ITEM::get_next_PID_in_namespace($namespace);
   $item = fedora_item::ingest_new_item($annotation_pid, 'A', $label, $user->name);
-  $item->add_relationship('hasModel', 'islandora:OACCModel', FEDORA_MODEL_URI);
-  $item->add_relationship('targetedBy', $user->name, ISLANDORA_RELS_EXT_URI);
+  $item->add_relationship('hasModel', 'islandora:OACCModel', FEDORA_MODEL_URI); //
+  $item->add_relationship('targetedBy', $user->name, ISLANDORA_RELS_EXT_URI);   //
   $item->add_relationship('targets', $pid, ISLANDORA_RELS_EXT_URI);
-  $item->add_relationship('isAnnotationType', $type, 'http://islandora.ca/ontology/relsext#', 1);
-  $item->add_datastream_from_string($annotation_xml, 'OAC', 'OAC', 'text/plain', 'X');
-  $annotations = $xml->xpath('//rdf:type[@rdf:resource="http://www.openannotation.org/ns/Annotation"]');
-  $parents = $annotations[0]->xpath("parent::*");
-  $parent = $parents[0];
-  sleep(1);
-  foreach ($parent->attributes('rdf', TRUE) as $key => $value) {
-    $out = (string) $value;
-    echo (string) $value;
+  if ($color) {
+    $item->add_relationship('hasColor', $color, ISLANDORA_RELS_EXT_URI);
   }
+  $item->add_relationship('isAnnotationOf', $pid, FEDORA_RELS_EXT_URI);
+  $item->add_relationship('isAnnotationType', $type, 'http://islandora.ca/ontology/relsext#', 1);
+  $item->add_relationship('hasURN', $urn, ISLANDORA_RELS_EXT_URI, 1);
+  $item->add_datastream_from_string($annotation_xml, 'OAC', 'OAC', 'text/plain', 'X');
+
+  echo $annotation_pid;
 }
 
 /**
@@ -127,7 +148,7 @@ function emic_shared_transform_annotationList($xml_in, $input_type) {
  * @global url $base_url
  * @param <type> $pid
  */
-function islandora_shared_get_annotation_urns($pid) {
+function islandora_shared_get_annotation_pidsx($pid) {
 
   $pid = str_replace(':', '\:', $pid);
   $solr = variable_get('islandora_solr_search_block_url', 'http://localhost:8080/solr');
@@ -142,6 +163,47 @@ function islandora_shared_get_annotation_urns($pid) {
   echo $json;
 }
 
+function islandora_shared_get_annotation_pids($pid) {
+  module_load_include('inc', 'fedora_repository', 'ObjectHelper');
+
+  $query = <<<QUERY
+PREFIX io: <http://islandora.ca/ontology/relsext#>
+PREFIX fm: <info:fedora/fedora-system:def/model#>
+
+
+SELECT ?id ?type ?color ?urn from <#ri>
+WHERE {
+        ?id io:targets <info:fedora/$pid> ;
+            io:hasURN ?urn;
+            io:isAnnotationType ?type;
+            fm:state fm:Active ;
+
+            OPTIONAL{
+            ?id io:hasColor ?color
+            }
+}
+ORDER BY ASC(?type)
+QUERY;
+  $objects = ObjectHelper::performSparqlQuery($query);
+
+  foreach ((array) $objects as $object) {
+    $itemdata = array(
+      'id' => $object['id'],
+      'type' => $object['type'],
+      'color' => $object['color'],
+      'urn' => $object['urn'],
+    );
+
+    $pids['pids'][] = $itemdata;
+    $pids['types'][] = $object['type'];
+  }
+  if (is_array($pids['types'])) {
+    $pids['types'] = array_values(array_unique($pids['types']));
+  }
+  $json = json_encode($pids);
+  echo $json;
+}
+
 /**
  * Retrieves details of individual annotation from datastream
  * @global url $base_url
@@ -149,10 +211,10 @@ function islandora_shared_get_annotation_urns($pid) {
  * @param urn $urn
  * @return IslandoraRdfBuilder
  */
-function get_annotation_data($urn) {
+function get_annotation_data($annotation_pid) {
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   global $base_url;
-  $annotation_pid = emic_canvas_get_pid_from_urn($urn);
+
   $item = new Fedora_Item($annotation_pid);
   if (!$item->exists()) {
     return;
@@ -184,7 +246,7 @@ function islandora_shared_get_annotation($urn) {
  * @param string $pid
  * @param urn $urn
  */
-function islandora_delete_annotation($pid, $urn) {
+function islandora_delete_annotation($urn) {
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   $pid_to_delete = emic_canvas_get_pid_from_urn($urn);
   $item = new Fedora_Item($pid_to_delete);
@@ -216,20 +278,18 @@ function islandora_save_updated_annotations($pid, $rdf) {
   rmdir($file_path);
 }
 
-
-
 /**
  * Gets the pid of an annotation object identified by a known urn
  * @param URN $urn
  * @return PID
  */
 function emic_canvas_get_pid_from_urn($urn) {
-  $solr = variable_get('islandora_solr_search_block_url', 'http://localhost:8080/solr');
-  $urn = str_replace(':', '\:', $urn);
-  $url = "http://$solr/select?indent=on&version=2.2&q=annotation_urn%3A$urn&fq=&start=0&rows=10&fl=PID&qt=standard&wt=json&explainOther=&hl.fl=";
-  $results = json_decode(file_get_contents($url), TRUE);
-  $annotation_pid = $results['response']['docs'][0]['PID'];
-  return $annotation_pid;
+  module_load_include('inc', 'fedora_repository', 'ObjectHelper');
+  global $user;
+  $query = "select \$id  from <#ri> where \$id <http://islandora.ca/ontology/relsext#hasURN> 'urn:uuid:$urn'";
+  $results = ObjectHelper::performItqlQuery($query);
+  $pid = $results[0]['id'];
+  return $pid;
 }
 
 /**
@@ -257,14 +317,14 @@ function emic_canvas_update_annotation() {
     $changed = TRUE;
   }
 
-    // identify Type element and replace content
+  // identify Type element and replace content
   $type_node = $xml->xpath("//rdf:Description[@rdf:about = 'urn:uuid:$urn']/dc:type");
   if ($type_node[0][0] != $type) {
     $type_node[0][0] = $type;
     $changed = TRUE;
   }
   //indentify URN of body to retrieve chars node to hold new annotation content
-  $body_urn_array = $xml->xpath("//oac:hasBody");
+  $body_urn_array = $xml->xpath("//oa:hasBody");
   $body_urn = (string) $body_urn_array[0]->attributes('rdf', 'about');
   $content_node = $xml->xpath("//rdf:Description[@rdf:about = '$body_urn']//cnt:chars");
   if ((string) $content_node[0][0] != $content) {
@@ -279,3 +339,15 @@ function emic_canvas_update_annotation() {
   }
 }
 
+function islandora_annotations_get_solr_terms() {
+  $solr = variable_get('islandora_solr_search_block_url', 'localhost:8080/solr');
+  $url = "http://$solr/select?indent=on&version=2.2&q=rels.hasModel:islandora\:OACCModel&fl=anno_category_s&fq=&start=0&rows=10000&fl=PID&qt=standard&wt=json";
+  $results = json_decode(file_get_contents($url), TRUE);
+  $docs = $results['response']['docs'];
+
+  foreach ($docs as $doc) {
+    $terms[$doc['anno_category_s'][0]] = 1;
+  }
+
+  return array_keys($terms);
+}

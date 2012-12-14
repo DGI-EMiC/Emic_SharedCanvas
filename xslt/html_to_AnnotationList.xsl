@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform"
     xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:dcterms="http://purl.org/dc/terms/"
-    xmlns:dctype="http://purl.org/dc/dcmitype/" xmlns:oac="http://www.openannotation.org/ns/"
+    xmlns:dctype="http://purl.org/dc/dcmitype/" xmlns:oa="http://www.w3.org/ns/openannotation/core/"
     xmlns:cnt="http://www.w3.org/2008/content#" xmlns:dms="http://dms.stanford.edu/ns/"
-    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
 
     xmlns:ore="http://www.openarchives.org/ore/terms/"
     xmlns:exif="http://www.w3.org/2003/12/exif/ns#" version="1.0">

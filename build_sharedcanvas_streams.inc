@@ -8,12 +8,16 @@
  *
  */
 function build_manifest($pid) {
+  module_load_include('inc', 'islandora_image_annotation', 'includes/islandora_image_annotation.utils');
+  $dsid = islandora_image_annotation_get_dsid_from_model($pid);
   global $base_url;
-  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
-  $item = new Fedora_Item($pid);
-  $title = $item->objectProfile->objLabel;
+  //module_load_include('inc', 'islandora', 'api/fedora_item');
+  //$item = new Fedora_Item($pid);
+  $item = islandora_object_load($pid);
+
+  $title = $item->label;
   $file_array = array();
-  $doc_url = "$base_url/fedora/repository/$pid";
+  $doc_url = "$base_url/islandora/object/$pid/datastream/$dsid/view/";
   //xml datastreams used by Shared Canvas must be echoed though ajax.
   $doc_path_url = "$base_url/emic/serve/$pid";
   $dimensions = get_height_and_width($pid);
@@ -30,9 +34,10 @@ function build_manifest($pid) {
     mkdir($file_path, 0777, TRUE);
   }
   foreach ($file_array as $name => $content) {
-    file_put_contents("$file_path/$name.xml", $content);
-    $item->add_or_modify_by_reference("$base_url/$file_path/$name.xml", $name, $name, 'text/plain', FALSE, 'Modified by Islandora API');
-    file_delete("$file_path/$name.xml");
+    //file_put_contents("$file_path/$name.xml", $content);
+    //$item->add_or_modify_by_reference("$base_url/$file_path/$name.xml", $name, $name, 'text/plain', FALSE, 'Modified by Islandora API');
+    $item["$name"]->content = $content;
+    //file_delete("$file_path/$name.xml");
   }
   rmdir($file_path);
   rmdir(file_directory_path() . "/$flat_pid");
@@ -72,7 +77,7 @@ function get_manifest($doc_url, $doc_path_url) {
   $name = "urn:uuid:07fbb971-6acb-48ce-9ed4-1789dfe5b3a0";
   $children = array();
   $children[] = $rdf->build_child('rdf:type', array('rdf:resource' => 'http://purl.org/dc/terms/Agent'));
-  $children[] = $rdf->build_child('foaf:name', null, "SharedCanvas: Python/rdflib");
+  $children[] = $rdf->build_child('foaf:name', null, "SharedCanvas: Islandora/rdflib");
   $children[] = $rdf->build_child('foaf:mbox', null, "info@islandora.ca");
   $children[] = $rdf->build_child('dc:format', null, 'application/rdf+xml');
   $rdf->addDescriptionNode($name, $children);
@@ -108,7 +113,7 @@ function get_manifest($doc_url, $doc_path_url) {
 }
 
 /**
- * Returns a NormalSequence document. 
+ * Returns a NormalSequence document.
  * We consider annotate single pages, so the document refrences a single canvas.
  * @param URL $doc_url
  * @return xml
@@ -172,7 +177,7 @@ function get_imageAnnotations($doc_url, $doc_path_url, $height, $width, $title) 
   $rdf = new IslandoraRdfBuilder();
   $rdf->root->setAttribute('xmlns:exif', "http://www.w3.org/2003/12/exif/ns#");
   $rdf->root->setAttribute('xmlns:cnt', "http://www.w3.org/2008/content#");
-  $rdf->root->setAttribute('xmlns:oac', "http://www.openannotation.org/ns/");
+  $rdf->root->setAttribute('xmlns:oa', "http://www.w3.org/ns/openannotation/core/");
   $option_uuid = generate_uuid();
   $first_resource = generate_uuid();
   $timestamp = date(DATE_W3C);
@@ -204,9 +209,9 @@ function get_imageAnnotations($doc_url, $doc_path_url, $height, $width, $title) 
   $name = "$first_resource";
   $children = array();
   $children[] = $rdf->build_child('rdf:type', array('rdf:resource' => 'http://dms.stanford.edu/ns/ImageAnnotation'));
-  $children[] = $rdf->build_child('rdf:type', array('rdf:resource' => 'http://www.openannotation.org/ns/Annotation'));
-  $children[] = $rdf->build_child('oac:hasBody', array('rdf:resource' => $option_uuid));
-  $children[] = $rdf->build_child('oac:hasTarget', array('rdf:resource' => "$doc_url/Canvas"));
+  $children[] = $rdf->build_child('rdf:type', array('rdf:resource' => 'http://www.w3.org/ns/openannotation/core/Annotation'));
+  $children[] = $rdf->build_child('oa:hasBody', array('rdf:resource' => $option_uuid));
+  $children[] = $rdf->build_child('oa:hasTarget', array('rdf:resource' => "$doc_url/Canvas"));
   $rdf->addDescriptionNode($name, $children);
 
   $name = "urn:uuid:e5c12519-e756-4442-a83d-556848c32714";
@@ -252,7 +257,7 @@ function get_annotationList($doc_url, $doc_path_url) {
   module_load_include('inc', 'emic_canvas', 'islandora_rdf_builder');
   $timestamp = date(DATE_W3C);
   $rdf = new IslandoraRdfBuilder();
-  $rdf->root->setAttribute('xmlns:oac', "http://www.openannotation.org/ns/");
+  $rdf->root->setAttribute('xmlns:oa', "http://www.w3.org/ns/openannotation/core/");
 
   $name = "$doc_url/AnnotationList";
   $children = array();
@@ -285,17 +290,22 @@ function get_annotationList($doc_url, $doc_path_url) {
  * Array has two values - height and width
  */
 function get_height_and_width($pid) {
-  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
-
-  $djatoka_prefix = variable_get('islandora_djatoka_path', 'http://localhost:8080/adore-djatoka') . '/resolver?url_ver=Z39.88-2004&rft_id=';
-  $fedora_prefix = variable_get('fedora_base_url', 'http:8080/fedora');
+  $height_width_arr = NULL;
+  $fedora_prefix = variable_get('islandora_base_url', 'http://localhost:8080/fedora');
+  $djatoka_prefix = variable_get('islandora_image_annotation_djatoka_path', 'http://localhost:8080/adore-djatoka') . '/resolver?url_ver=Z39.88-2004&rft_id=';
+ 
   $filename = $djatoka_prefix . "$fedora_prefix/objects/$pid/datastreams/JPEG/content&svc_id=info:lanl-repo/svc/getMetadata";
   $pageData = json_decode(file_get_contents($filename));
+  if (empty($pageData)) {
+    drupal_set_message(t('There was an error getting the image size.  Djatoka may need to be configured.'), 'error');
+  }
 
-  return array(
+  $height_width_arr = array(
     'height' => $pageData->height,
     'width' => $pageData->width
   );
+
+  return $height_width_arr;
 }
 
 /**
@@ -304,7 +314,7 @@ function get_height_and_width($pid) {
  * @param string $pid
  * @param string $stream
  */
-function emic_serve($pid, $stream) {
+function islandora_serve($pid, $stream) {
   global $base_url;
   $doc_url = "$base_url/fedora/repository/$pid";
   $doc_path_url = "$base_url/emic/serve/$pid";
@@ -336,11 +346,6 @@ function emic_serve($pid, $stream) {
  * @return uuid
  */
 function generate_uuid() {
-  return sprintf('%04x%04x-%04x-%04x-%04x-%04x%04x%04x',
-      mt_rand(0, 0xffff), mt_rand(0, 0xffff),
-      mt_rand(0, 0xffff),
-      mt_rand(0, 0x0fff) | 0x4000,
-      mt_rand(0, 0x3fff) | 0x8000,
-      mt_rand(0, 0xffff), mt_rand(0, 0xffff), mt_rand(0, 0xffff)
+  return sprintf('%04x%04x-%04x-%04x-%04x-%04x%04x%04x', mt_rand(0, 0xffff), mt_rand(0, 0xffff), mt_rand(0, 0xffff), mt_rand(0, 0x0fff) | 0x4000, mt_rand(0, 0x3fff) | 0x8000, mt_rand(0, 0xffff), mt_rand(0, 0xffff), mt_rand(0, 0xffff)
   );
 }
