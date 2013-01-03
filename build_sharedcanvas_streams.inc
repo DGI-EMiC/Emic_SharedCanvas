@@ -292,7 +292,7 @@ function get_annotationList($doc_url, $doc_path_url) {
 function get_height_and_width($pid) {
   $height_width_arr = NULL;
   $fedora_prefix = variable_get('islandora_base_url', 'http://localhost:8080/fedora');
-  $djatoka_prefix = variable_get('islandora_image_annotation_djatoka_path', 'http://localhost:8080/adore-djatoka') . '/resolver?url_ver=Z39.88-2004&rft_id=';
+  $djatoka_prefix = variable_get('islandora_djatoka_path', 'http://localhost:8080/adore-djatoka') . '/resolver?url_ver=Z39.88-2004&rft_id=';
  
   $filename = $djatoka_prefix . "$fedora_prefix/objects/$pid/datastreams/JPEG/content&svc_id=info:lanl-repo/svc/getMetadata";
   $pageData = json_decode(file_get_contents($filename));
