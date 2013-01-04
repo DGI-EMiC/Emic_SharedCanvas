@@ -7,42 +7,6 @@
  * @param string $pid
  *
  */
-function build_manifest($pid) {
-  module_load_include('inc', 'islandora_image_annotation', 'includes/islandora_image_annotation.utils');
-  $dsid = islandora_image_annotation_get_dsid_from_model($pid);
-  global $base_url;
-  //module_load_include('inc', 'islandora', 'api/fedora_item');
-  //$item = new Fedora_Item($pid);
-  $item = islandora_object_load($pid);
-
-  $title = $item->label;
-  $file_array = array();
-  $doc_url = "$base_url/islandora/object/$pid/datastream/$dsid/view/";
-  //xml datastreams used by Shared Canvas must be echoed though ajax.
-  $doc_path_url = "$base_url/emic/serve/$pid";
-  $dimensions = get_height_and_width($pid);
-
-  $height = $dimensions['height'];
-  $width = $dimensions['width'];
-  $file_array['Manifest'] = get_manifest($doc_url, $doc_path_url);
-  $file_array['ImageAnnotations'] = get_imageAnnotations($doc_url, $doc_path_url, $height, $width, $title);
-  $file_array['NormalSequence'] = get_normal_sequence($doc_url, $doc_path_url, $pid, $height, $width);
-  $file_array['AnnotationList'] = get_annotationList($doc_url, $doc_path_url);
-  $flat_pid = str_replace(':', '_', $pid);
-  $file_path = file_directory_path() . "/$flat_pid/manifest";
-  if (!is_dir($file_path)) {
-    mkdir($file_path, 0777, TRUE);
-  }
-  foreach ($file_array as $name => $content) {
-    //file_put_contents("$file_path/$name.xml", $content);
-    //$item->add_or_modify_by_reference("$base_url/$file_path/$name.xml", $name, $name, 'text/plain', FALSE, 'Modified by Islandora API');
-    $item["$name"]->content = $content;
-    //file_delete("$file_path/$name.xml");
-  }
-  rmdir($file_path);
-  rmdir(file_directory_path() . "/$flat_pid");
-  return "completed";
-}
 
 /**
  * returns basic manifest for unpopulated document - ready for test
@@ -290,21 +254,36 @@ function get_annotationList($doc_url, $doc_path_url) {
  * Array has two values - height and width
  */
 function get_height_and_width($pid) {
+  module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   $height_width_arr = NULL;
-  $fedora_prefix = variable_get('fedora_base_url', 'http://localhost:8080/fedora');
-  $djatoka_prefix = variable_get('islandora_djatoka_path', 'http://localhost:8080/adore-djatoka') . '/resolver?url_ver=Z39.88-2004&rft_id=';
- 
-  $filename = $djatoka_prefix . "$fedora_prefix/objects/$pid/datastreams/JPEG/content&svc_id=info:lanl-repo/svc/getMetadata";
-  $pageData = json_decode(file_get_contents($filename));
-  if (empty($pageData)) {
-    drupal_set_message(t('There was an error getting the image size.  Djatoka may need to be configured.'), 'error');
+  $item = new Fedora_Item($pid);
+  if (!array_key_exists('TECHMD', $item->datastreams)) {
+
+    $content = $item->get_datastream_dissemination('TECHMD');
+    $sxml = simplexml_load_string($content);
+    $sxml->registerXPathNamespace('fits', "http://hul.harvard.edu/ois/xml/ns/fits/fits_output");
+    $image_height = $sxml->xpath('//fits:imageHeight');
+    $image_height = (string) $image_height[0];
+    $image_width = $sxml->xpath('//fits:imageWidth');
+    $image_width = (string) $image_width[0];
+    $height_width_arr = array(
+      'height' => $image_height,
+      'width' => $image_width,
+    );
+    return $height_width_arr;
   }
-
+  global $base_url;
+  $filename = $base_url . "/fedora/repository/$pid/JPEG";
+  $flat_pid = str_replace(':', '_', $pid);
+  $storage_file = file_directory_path() . "/$flat_pid.jpg";
+  $image = file_get_contents($filename);
+  file_put_contents($storage_file, $image);
+  $dimensions = getimagesize($storage_file);
+  unlink($storage_file);
   $height_width_arr = array(
-    'height' => $pageData->height,
-    'width' => $pageData->width
+    'height' => $dimensions[1],
+    'width' => $dimensions[0],
   );
-
   return $height_width_arr;
 }
 
