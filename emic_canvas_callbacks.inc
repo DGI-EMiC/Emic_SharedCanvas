@@ -212,6 +212,7 @@ QUERY;
  * @return IslandoraRdfBuilder
  */
 function get_annotation_data($annotation_pid) {
+  global $base_url;
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   global $base_url;
 
@@ -219,7 +220,15 @@ function get_annotation_data($annotation_pid) {
   if (!$item->exists()) {
     return;
   }
+  $relationships = $item->get_rdf_relationships();
+  $target = $relationships['targets'][0];
+  $current = "$base_url/fedora/repository/$target/canvas";
   $annotation_xml = $item->get_datastream_dissemination('OAC');
+
+  $newString = '<oa:constrains rdf:resource="' . $base_url . '/fedora/repository/shared:399/Canvas">';
+  $annotation_xml = preg_replace('/<oa:constrains.+Canvas">/', $newString, $annotation_xml);
+//  <a rel="oa:constrains" href="http://137.149.200.49/fedora/repository/islandora:30736/Canvas"/>
+  //<oa:constrains rdf:resource="http://localhost/Development/fedora/repository/shared:399/Canvas">
   return $annotation_xml;
 }
 
@@ -340,6 +349,7 @@ function emic_canvas_update_annotation() {
 }
 
 function islandora_annotations_get_solr_terms() {
+  $terms = array();
   $solr = variable_get('islandora_solr_search_block_url', 'localhost:8080/solr');
   $url = "http://$solr/select?indent=on&version=2.2&q=rels.hasModel:islandora\:OACCModel&fl=anno_category_s&fq=&start=0&rows=10000&fl=PID&qt=standard&wt=json";
   $results = @json_decode(file_get_contents($url), TRUE);
@@ -348,6 +358,7 @@ function islandora_annotations_get_solr_terms() {
     foreach ($docs as $doc) {
       $terms[$doc['anno_category_s'][0]] = 1;
     }
+
     return array_keys($terms);
   }
 }

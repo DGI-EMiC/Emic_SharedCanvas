@@ -53,7 +53,6 @@ function pb_getList() {
 }
 
 function pb_getPaste(pid) {
-
   $.ajax({
     type:'GET',
     url: emic_canvas_params.islandora_get_annotation +pid,
