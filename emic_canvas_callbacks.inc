@@ -25,6 +25,7 @@ function islandora_canvas_setup($pid) {
     $rels = $item->get_rdf_relationships(ISLANDORA_RELS_EXT_URI);
     $pid = $rels['isEditionOf'][0];
   }
+  $categories = array();
   if ($dropdown) {
     $terms = taxonomy_get_tree($vid, 0, 1);
     $categories = array();
@@ -34,6 +35,9 @@ function islandora_canvas_setup($pid) {
   }
   else {
     $categories = islandora_annotations_get_solr_terms();
+  }
+  if(empty($categories)){
+    $categories['unclassified'];
   }
 
   $books = get_collection_from_pid($pid);
