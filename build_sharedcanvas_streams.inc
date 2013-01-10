@@ -256,7 +256,7 @@ function get_annotationList($doc_url, $doc_path_url) {
 function get_height_and_width($pid) {
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
   $item = new Fedora_Item($pid);
-  if (!array_key_exists('TECHMD', $item->datastreams)) {
+  if (array_key_exists('TECHMD', $item->datastreams)) {
 
     $content = $item->get_datastream_dissemination('TECHMD');
     $sxml = simplexml_load_string($content);
