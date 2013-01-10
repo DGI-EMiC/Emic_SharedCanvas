@@ -225,7 +225,7 @@ function get_annotation_data($annotation_pid) {
   $current = "$base_url/fedora/repository/$target/canvas";
   $annotation_xml = $item->get_datastream_dissemination('OAC');
 
-  $newString = '<oa:constrains rdf:resource="' . $base_url . '/fedora/repository/shared:399/Canvas">';
+  $newString = '<oa:constrains rdf:resource="' . $base_url . '/fedora/repository/' . $target .'/Canvas">';
   $annotation_xml = preg_replace('/<oa:constrains.+Canvas">/', $newString, $annotation_xml);
   //<a rel="oa:constrains" href="http://137.149.200.49/fedora/repository/islandora:30736/Canvas"/>
   //<oa:constrains rdf:resource="http://localhost/Development/fedora/repository/shared:399/Canvas">
