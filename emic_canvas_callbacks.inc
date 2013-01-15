@@ -36,7 +36,7 @@ function islandora_canvas_setup($pid) {
   else {
     $categories = islandora_annotations_get_solr_terms();
   }
-  if(empty($categories)){
+  if (empty($categories)) {
     $categories['unclassified'];
   }
 
@@ -152,21 +152,6 @@ function emic_shared_transform_annotationList($xml_in, $input_type) {
  * @global url $base_url
  * @param <type> $pid
  */
-function islandora_shared_get_annotation_pidsx($pid) {
-
-  $pid = str_replace(':', '\:', $pid);
-  $solr = variable_get('islandora_solr_search_block_url', 'http://localhost:8080/solr');
-
-  $url = "http://$solr/select?indent=on&version=2.2&q=constrains_canvas%3A$pid&fq=&start=0&rows=10&fl=annotation_urn&qt=standard&wt=json&explainOther=&hl.fl=";
-  $results = json_decode(file_get_contents($url), TRUE);
-  $candidates = $results['response']['docs'];
-  foreach ($candidates as $candidate) {
-    $urns[] = $candidate['annotation_urn'][0];
-  }
-  $json = json_encode($urns);
-  echo $json;
-}
-
 function islandora_shared_get_annotation_pids($pid) {
   module_load_include('inc', 'fedora_repository', 'ObjectHelper');
 
@@ -218,8 +203,6 @@ QUERY;
 function get_annotation_data($annotation_pid) {
   global $base_url;
   module_load_include('inc', 'fedora_repository', 'api/fedora_item');
-  global $base_url;
-
   $item = new Fedora_Item($annotation_pid);
   if (!$item->exists()) {
     return;
@@ -228,12 +211,17 @@ function get_annotation_data($annotation_pid) {
   $target = $relationships['targets'][0];
   $current = "$base_url/fedora/repository/$target/canvas";
   $annotation_xml = $item->get_datastream_dissemination('OAC');
+  $xml = simplexml_load_string($annotation_xml);
+  $constrainedBy = $base_url . '/fedora/repository/' . $target . '/Canvas';
+  $constraints = $xml->xpath("//oa:constrains");
 
-  $newString = '<oa:constrains rdf:resource="' . $base_url . '/fedora/repository/' . $target .'/Canvas">';
-  $annotation_xml = preg_replace('/<oa:constrains.+Canvas">/', $newString, $annotation_xml);
-  //<a rel="oa:constrains" href="http://137.149.200.49/fedora/repository/islandora:30736/Canvas"/>
-  //<oa:constrains rdf:resource="http://localhost/Development/fedora/repository/shared:399/Canvas">
-  return $annotation_xml;
+  // Make allowances for sites accessed by both ip and dns
+
+  foreach ($constraints as $constraint) {
+     $key = 'rdf:resource';
+     $constraint->attributes("http://www.w3.org/1999/02/22-rdf-syntax-ns#")->resource = $constrainedBy;
+  }
+  return $xml->saveXML();
 }
 
 /**
@@ -249,7 +237,7 @@ function islandora_shared_get_annotation($urn) {
   $results = emic_shared_transform_annotationList($xml, 'rdf');
   $results = preg_replace('/<\?xml.*?\?>/', '', $results);
   $results = preg_replace('/<!DOCTYPE.*?>/', '', $results);
-
+ 
   echo $results;
 }
 
