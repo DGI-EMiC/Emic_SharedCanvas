@@ -104,7 +104,7 @@ function islandora_add_annotation($pid) {
   if ($color) {
     $item->add_relationship('hasColor', $color, ISLANDORA_RELS_EXT_URI);
   }
-  $item->add_relationship('isAnnotationOf', $pid, FEDORA_RELS_EXT_URI);
+  $item->add_relationship('isAnnotationOf', $pid, ISLANDORA_RELS_EXT_URI);
   $item->add_relationship('isAnnotationType', $type, 'http://islandora.ca/ontology/relsext#', 1);
   $item->add_relationship('hasURN', $urn, ISLANDORA_RELS_EXT_URI, 1);
   $item->add_datastream_from_string($annotation_xml, 'OAC', 'OAC', 'text/plain', 'X');
